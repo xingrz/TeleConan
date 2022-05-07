@@ -30,7 +30,7 @@
             </template>
           </template>
           <template v-else-if="column.dataIndex == 'manga'">
-            <div v-for="(vol, i) in record.manga" :key="vol">
+            <div v-for="(vol, i) in record.manga" :key="vol" :class="$style.manga">
               <a-tag :color="getMangaColor(vol)">{{ vol }}</a-tag>
             </div>
           </template>
@@ -167,6 +167,14 @@ function getMangaColor(vol: string): string {
 .sp {
   :global(.ant-tag) {
     margin: 0;
+  }
+}
+
+.manga {
+  margin-bottom: 4px;
+
+  &:last-of-type {
+    margin-bottom: 0;
   }
 }
 
