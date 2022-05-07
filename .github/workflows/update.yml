@@ -39,7 +39,7 @@ jobs:
         run: |
           npm install --no-save teleconan-fetcher.tgz
           node node_modules/teleconan-fetcher
-          rm -rf node_modules
+          rm -rf node_modules teleconan-fetcher.tgz
 
       - name: Publish
         run: |
