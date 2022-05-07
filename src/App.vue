@@ -28,11 +28,9 @@
               <a-tag :color="getMangaColor(vol)">{{ vol }}</a-tag>
             </div>
           </template>
-          <template v-else-if="column.dataIndex == 'title_jp'">
-            <span v-html="highlight(record.title_jp)" />
-          </template>
-          <template v-else-if="column.dataIndex == 'title_cn'">
-            <span v-html="highlight(record.title_cn)" />
+          <template v-else-if="column.dataIndex == 'title'">
+            <div v-html="highlight(record.title_jp)" lang="ja" />
+            <div v-html="highlight(record.title_cn)" />
           </template>
         </template>
         <template #expandedRowRender="{ record }">
@@ -74,12 +72,8 @@ const columns = [
     width: '10em',
   },
   {
-    title: '日文标题',
-    dataIndex: 'title_jp',
-  },
-  {
-    title: '中文标题',
-    dataIndex: 'title_cn',
+    title: '标题',
+    dataIndex: 'title',
   },
 ];
 
