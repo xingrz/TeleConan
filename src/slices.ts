@@ -14,7 +14,8 @@ export function useSliceStore<T>() {
 }
 
 export async function loadEntry<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: string): Promise<boolean> {
-  const slice = await http.get(`/data/e.${name}.json`).json<UnwrapRef<DataSlice<T>>>();
+  const t = Math.round(Number(new Date()) / 1000 / 60 / 60);
+  const slice = await http.get(`/data/e.${name}.json?t=${t}`).json<UnwrapRef<DataSlice<T>>>();
   store.data = slice.data;
   store.next = slice.next;
   return !!store.next;
