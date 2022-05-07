@@ -22,7 +22,9 @@
             <span v-html="highlight(record.num_cn.join('<br />'))" />
           </template>
           <template v-else-if="column.dataIndex == 'manga'">
-            <span v-html="highlight(record.manga.join('<br />'))" />
+            <div v-for="(vol, i) in record.manga" :key="vol">
+              <a-tag :color="getMangaColor(vol)">{{ vol }}</a-tag>
+            </div>
           </template>
           <template v-else-if="column.dataIndex == 'title_jp'">
             <span v-html="highlight(record.title_jp)" />
@@ -104,6 +106,20 @@ const filtered = computed<Episode[]>(() => {
 const style = useCssModule();
 function highlight(text: string): string {
   return text.replaceAll(keyword.value, `<span class="${style.highlight}">${keyword.value}</span>`);
+}
+
+function getMangaColor(vol: string): string {
+  if (vol == '动画原创') {
+    return 'orange';
+  } else if (vol.startsWith('特别篇')) {
+    return 'red';
+  } else if (vol.startsWith('魔术快斗')) {
+    return 'purple';
+  } else if (vol.startsWith('警察学校篇')) {
+    return 'cyan';
+  } else {
+    return 'blue';
+  }
 }
 </script>
 
