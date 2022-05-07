@@ -3,8 +3,7 @@
     <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry" />
   </a-affix>
 
-  <a-table :columns="columns" :data-source="filtered" row-key="num_jp" :expand-row-by-click="true"
-    :class="$style.table">
+  <a-table :columns="columns" :data-source="filtered" row-key="num_jp" :class="$style.table">
     <template #bodyCell="{ column, record }">
       <template v-if="column.dataIndex == 'aired_at'">
         {{ record.aired_at }}
@@ -24,20 +23,34 @@
         </template>
       </template>
       <template v-else-if="column.dataIndex == 'manga'">
-        <div v-for="(vol, i) in record.manga" :key="vol" :class="$style.manga">
+        <div v-for="vol in record.manga" :key="vol" :class="$style.manga">
           <a-tag :color="getMangaColor(vol)">{{ vol }}</a-tag>
         </div>
       </template>
-      <template v-else-if="column.dataIndex == 'title'">
+      <template v-else-if="column.key == 'title'">
         <div v-html="highlight(record.title_jp)" lang="ja" />
         <div v-html="highlight(record.title_cn)" />
       </template>
-    </template>
-    <template #expandedRowRender="{ record }">
-      <h4>相关链接</h4>
-      <ul :class="$style.links">
-        <li><a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>资料：柯南百科</a></li>
-      </ul>
+      <template v-else-if="column.key == 'links'">
+        <a-dropdown placement="bottomRight">
+          <a class="ant-dropdown-link" @click.prevent>
+            链接
+            <down-outlined />
+          </a>
+          <template #overlay>
+            <a-menu>
+              <a-menu-item>
+                <a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>柯南百科</a>
+              </a-menu-item>
+              <template v-for="num in record.num_cn" :key="num">
+                <a-menu-item v-if="bilibili[num]">
+                  <a :href="bilibili[num].href" target="_blank" noreferer>哔哩哔哩：TV{{ num }}</a>
+                </a-menu-item>
+              </template>
+            </a-menu>
+          </template>
+        </a-dropdown>
+      </template>
     </template>
   </a-table>
 
@@ -50,9 +63,11 @@
 
 <script lang="ts" setup>
 import { computed, onMounted, ref, useCssModule } from 'vue';
+import { DownOutlined } from '@ant-design/icons-vue';
 
-import { useSliceStore, loadAll } from './slices';
+import { useSliceStore, loadAll, DataSlice } from './slices';
 import { Episode } from './episodes';
+import { Link } from './links';
 
 const columns = [
   {
@@ -79,13 +94,27 @@ const columns = [
   },
   {
     title: '标题',
-    dataIndex: 'title',
+    key: 'title',
   },
+  {
+    key: 'links',
+    width: '8em',
+  }
 ];
 
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
   await loadAll(episodes, 'episode-latest');
+});
+
+const bilibili = ref<Record<string, Link>>({});
+onMounted(async () => {
+  const links: DataSlice<Link> = { data: [], next: undefined };
+  await loadAll(links, 'bilibili-latest');
+  bilibili.value = links.data.reduce((acc, link) => {
+    acc[link.num] = link;
+    return acc;
+  }, {} as Record<string, Link>);
 });
 
 const keyword = ref('');
@@ -166,10 +195,6 @@ function getMangaColor(vol: string): string {
 
 .table {
   margin-top: 36px;
-
-  :global(tr.ant-table-row) {
-    cursor: pointer;
-  }
 }
 
 .sp {
@@ -189,10 +214,5 @@ function getMangaColor(vol: string): string {
 .highlight {
   color: red;
   font-weight: bold;
-}
-
-.links {
-  margin-bottom: 0;
-  padding-left: 1em;
 }
 </style>
