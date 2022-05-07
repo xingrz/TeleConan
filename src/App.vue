@@ -1,5 +1,7 @@
 <template>
-  <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry" />
+  <a-affix :offset-top="8">
+    <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry" />
+  </a-affix>
 
   <a-table :columns="columns" :data-source="filtered" row-key="num_jp" :expand-row-by-click="true"
     :class="$style.table">
@@ -152,15 +154,17 @@ function getMangaColor(vol: string): string {
   font-size: 18px;
   border: none;
   outline: none;
+  border-radius: 0;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+:global(.ant-affix) .entry {
   border-radius: 4px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.30);
+}
 
-  & {
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-  }
-
-  &:focus {
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
-  }
+.entry:focus {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.30);
 }
 
 .table {
