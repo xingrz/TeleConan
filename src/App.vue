@@ -107,7 +107,9 @@ const filtered = computed<Episode[]>(() => {
 
 const style = useCssModule();
 function highlight(text: string): string {
-  return text.replaceAll(keyword.value, `<span class="${style.highlight}">${keyword.value}</span>`);
+  return keyword.value
+    ? text.replaceAll(keyword.value, `<span class="${style.highlight}">${keyword.value}</span>`)
+    : text;
 }
 
 function getMangaColor(vol: string): string {
