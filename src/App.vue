@@ -16,10 +16,12 @@
             {{ record.aired_at }}
           </template>
           <template v-else-if="column.dataIndex == 'num_jp'">
-            <span v-html="highlight(String(record.num_jp))" />
+            <div :class="{ [$style.highlight]: String(record.num_jp) == keyword }">{{ record.num_jp }}</div>
           </template>
           <template v-else-if="column.dataIndex == 'num_cn'">
-            <span v-html="highlight(record.num_cn.join('<br />'))" />
+            <template v-for="num in record.num_cn" :key="num">
+              <div :class="{ [$style.highlight]: String(num) == keyword }">{{ num }}</div>
+            </template>
           </template>
           <template v-else-if="column.dataIndex == 'manga'">
             <div v-for="(vol, i) in record.manga" :key="vol">
