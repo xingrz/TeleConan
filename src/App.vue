@@ -1,6 +1,6 @@
 <template>
   <a-layout>
-    <a-layout-content :style="{ padding: '0 50px', marginTop: '64px' }">
+    <a-layout-content :style="{ padding: '0 50px', marginTop: '24px' }">
       <a-alert type="info" show-icon :class="$style.subtitle">
         <template #message>
           在找字幕编辑器吗？它已经被移到了 <b><a href="https://subtitle.xingrz.me/">subtitle.xingrz.me</a></b>。
