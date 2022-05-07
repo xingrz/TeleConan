@@ -97,7 +97,7 @@ const filtered = computed<Episode[]>(() => {
         item.num_cn.includes(parseInt(keyword.value));
     }).reverse();
   } else {
-    return [...episodes.data].reverse().slice(0, 5);
+    return [...episodes.data].reverse();
   }
 });
 
