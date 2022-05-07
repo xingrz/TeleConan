@@ -9,7 +9,8 @@
 
       <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry" />
 
-      <a-table :columns="columns" :data-source="filtered" :class="$style.table">
+      <a-table :columns="columns" :data-source="filtered" row-key="num_jp" :expand-row-by-click="true"
+        :class="$style.table">
         <template #bodyCell="{ column, record }">
           <template v-if="column.dataIndex == 'aired_at'">
             {{ record.aired_at }}
@@ -29,6 +30,12 @@
           <template v-else-if="column.dataIndex == 'title_cn'">
             <span v-html="highlight(record.title_cn)" />
           </template>
+        </template>
+        <template #expandedRowRender="{ record }">
+          <h4>相关链接</h4>
+          <ul :class="$style.links">
+            <li><a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>资料：柯南百科</a></li>
+          </ul>
         </template>
       </a-table>
     </a-layout-content>
@@ -129,10 +136,19 @@ function highlight(text: string): string {
 
 .table {
   margin-top: 36px;
+
+  :global(tr.ant-table-row) {
+    cursor: pointer;
+  }
 }
 
 .highlight {
   color: red;
   font-weight: bold;
+}
+
+.links {
+  margin-bottom: 0;
+  padding-left: 1em;
 }
 </style>
