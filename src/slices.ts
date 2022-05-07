@@ -1,4 +1,4 @@
-import { reactive, toRefs, UnwrapRef, UnwrapNestedRefs } from 'vue';
+import { reactive, UnwrapRef, UnwrapNestedRefs } from 'vue';
 import http from 'ky';
 
 export interface DataSlice<T> {
@@ -27,4 +27,11 @@ export async function loadSlice<T>(store: UnwrapNestedRefs<DataSlice<T>>): Promi
   store.data = [...slice.data, ...store.data];
   store.next = slice.next;
   return !!store.next;
+}
+
+export async function loadAll<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: string): Promise<void> {
+  let next = await loadEntry(store, name);
+  while (next) {
+    next = await loadSlice(store);
+  }
 }

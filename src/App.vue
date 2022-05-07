@@ -51,7 +51,7 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref, useCssModule } from 'vue';
 
-import { useSliceStore, loadEntry, loadSlice } from './slices';
+import { useSliceStore, loadAll } from './slices';
 import { Episode } from './episodes';
 
 const columns = [
@@ -85,10 +85,7 @@ const columns = [
 
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
-  let next = await loadEntry(episodes, 'episode-latest');
-  while (next) {
-    next = await loadSlice(episodes);
-  }
+  await loadAll(episodes, 'episode-latest');
 });
 
 const keyword = ref('');
