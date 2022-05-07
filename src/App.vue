@@ -1,5 +1,9 @@
 <template>
   <div :class="$style.main">
+    <v-alert type="info" variant="outlined" :class="$style.subtitle">
+      在找字幕编辑器吗？它已经被移到了 <b><a href="https://subtitle.xingrz.me/">subtitle.xingrz.me</a></b>。
+    </v-alert>
+
     <input type="text" v-model="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry"
       class="elevation-4" />
 
@@ -65,6 +69,15 @@ function highlight(text: string): string {
 <style lang="scss" module>
 .main {
   margin: 50px 50px;
+}
+
+.subtitle {
+  margin-bottom: 50px;
+
+  a,
+  a:visited {
+    color: inherit;
+  }
 }
 
 .entry {
