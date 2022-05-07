@@ -17,6 +17,12 @@
           </template>
           <template v-else-if="column.dataIndex == 'num_jp'">
             <div :class="{ [$style.highlight]: String(record.num_jp) == keyword }">{{ record.num_jp }}</div>
+            <div v-if="record.num_cn.length > 1" :class="$style.sp">
+              <a-tag color="orange" v-if="record.num_cn.length == 2">1HSP</a-tag>
+              <a-tag color="orange" v-else-if="record.num_cn.length == 3">1.5HSP</a-tag>
+              <a-tag color="red" v-else-if="record.num_cn.length == 4">2HSP</a-tag>
+              <a-tag color="purple" v-else-if="record.num_cn.length == 5">2.5HSP</a-tag>
+            </div>
           </template>
           <template v-else-if="column.dataIndex == 'num_cn'">
             <template v-for="num in record.num_cn" :key="num">
@@ -60,11 +66,13 @@ const columns = [
     title: '官方集数',
     dataIndex: 'num_jp',
     width: '8em',
+    align: 'center',
   },
   {
     title: '拆分集数',
     dataIndex: 'num_cn',
     width: '8em',
+    align: 'center',
   },
   {
     title: '对应漫画',
@@ -153,6 +161,12 @@ function getMangaColor(vol: string): string {
 
   :global(tr.ant-table-row) {
     cursor: pointer;
+  }
+}
+
+.sp {
+  :global(.ant-tag) {
+    margin: 0;
   }
 }
 
