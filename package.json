@@ -9,12 +9,11 @@
   "author": "XiNGRZ <hi@xingrz.me>",
   "license": "GPL-3.0",
   "dependencies": {
+    "ant-design-vue": "^3.2.3",
     "ky": "^0.30.0",
-    "vue": "^3.2.33",
-    "vuetify": "^3.0.0-beta.1"
+    "vue": "^3.2.33"
   },
   "devDependencies": {
-    "@mdi/js": "^6.6.96",
     "@types/node": "^17.0.31",
     "@vitejs/plugin-vue": "^2.3.2",
     "@vue/compiler-sfc": "^3.2.33",

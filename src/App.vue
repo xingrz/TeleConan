@@ -1,35 +1,38 @@
 <template>
-  <div :class="$style.main">
-    <v-alert type="info" variant="outlined" :class="$style.subtitle">
-      在找字幕编辑器吗？它已经被移到了 <b><a href="https://subtitle.xingrz.me/">subtitle.xingrz.me</a></b>。
-    </v-alert>
+  <a-layout>
+    <a-layout-content :style="{ padding: '0 50px', marginTop: '64px' }">
+      <a-alert type="info" show-icon :class="$style.subtitle">
+        <template #message>
+          在找字幕编辑器吗？它已经被移到了 <b><a href="https://subtitle.xingrz.me/">subtitle.xingrz.me</a></b>。
+        </template>
+      </a-alert>
 
-    <input type="text" v-model="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry"
-      class="elevation-4" />
+      <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry" />
 
-    <v-table :style="{ marginTop: '50px' }">
-      <thead>
-        <tr>
-          <th class="text-left" :style="{ width: '10em' }">播出日</th>
-          <th class="text-left" :style="{ width: '8em' }">官方集数</th>
-          <th class="text-left" :style="{ width: '8em' }">拆分集数</th>
-          <th class="text-left" :style="{ width: '10em' }">对应漫画</th>
-          <th class="text-left">日文标题</th>
-          <th class="text-left">中文标题</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="item in filtered" :key="item.num_jp">
-          <td>{{ item.aired_at }}</td>
-          <td v-html="highlight(String(item.num_jp))" />
-          <td v-html="highlight(item.num_cn.join('<br />'))" />
-          <td v-html="highlight(item.manga.join('<br />'))" />
-          <td v-html="highlight(item.title_jp)" />
-          <td v-html="highlight(item.title_cn)" />
-        </tr>
-      </tbody>
-    </v-table>
-  </div>
+      <a-table :columns="columns" :data-source="filtered" :class="$style.table">
+        <template #bodyCell="{ column, record }">
+          <template v-if="column.dataIndex == 'aired_at'">
+            {{ record.aired_at }}
+          </template>
+          <template v-else-if="column.dataIndex == 'num_jp'">
+            <span v-html="highlight(String(record.num_jp))" />
+          </template>
+          <template v-else-if="column.dataIndex == 'num_cn'">
+            <span v-html="highlight(record.num_cn.join('<br />'))" />
+          </template>
+          <template v-else-if="column.dataIndex == 'manga'">
+            <span v-html="highlight(record.manga.join('<br />'))" />
+          </template>
+          <template v-else-if="column.dataIndex == 'title_jp'">
+            <span v-html="highlight(record.title_jp)" />
+          </template>
+          <template v-else-if="column.dataIndex == 'title_cn'">
+            <span v-html="highlight(record.title_cn)" />
+          </template>
+        </template>
+      </a-table>
+    </a-layout-content>
+  </a-layout>
 </template>
 
 <script lang="ts" setup>
@@ -37,6 +40,37 @@ import { computed, onMounted, ref, useCssModule } from 'vue';
 
 import { useSliceStore, loadEntry, loadSlice } from './slices';
 import { Episode } from './episodes';
+
+const columns = [
+  {
+    title: '播出日',
+    dataIndex: 'aired_at',
+    width: '10em',
+  },
+  {
+    title: '官方集数',
+    dataIndex: 'num_jp',
+    width: '8em',
+  },
+  {
+    title: '拆分集数',
+    dataIndex: 'num_cn',
+    width: '8em',
+  },
+  {
+    title: '对应漫画',
+    dataIndex: 'manga',
+    width: '10em',
+  },
+  {
+    title: '日文标题',
+    dataIndex: 'title_jp',
+  },
+  {
+    title: '中文标题',
+    dataIndex: 'title_cn',
+  },
+];
 
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
@@ -50,10 +84,10 @@ const keyword = ref('');
 const filtered = computed<Episode[]>(() => {
   if (keyword.value) {
     return episodes.data.filter(item => {
-      return item.title_cn.includes(keyword.value) ||
-        item.title_jp.includes(keyword.value) ||
-        String(item.num_cn) == keyword.value ||
-        String(item.num_jp) == keyword.value;
+      return item.title_jp.includes(keyword.value) ||
+        item.title_cn.includes(keyword.value) ||
+        item.num_jp == parseInt(keyword.value) ||
+        item.num_cn.includes(parseInt(keyword.value));
     }).reverse();
   } else {
     return [...episodes.data].reverse().slice(0, 5);
@@ -67,17 +101,12 @@ function highlight(text: string): string {
 </script>
 
 <style lang="scss" module>
-.main {
-  margin: 50px 50px;
+:global(body) {
+  background: #f0f2f5;
 }
 
 .subtitle {
-  margin-bottom: 50px;
-
-  a,
-  a:visited {
-    color: inherit;
-  }
+  margin-bottom: 24px;
 }
 
 .entry {
@@ -88,6 +117,18 @@ function highlight(text: string): string {
   border: none;
   outline: none;
   border-radius: 4px;
+
+  & {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  &:focus {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.table {
+  margin-top: 36px;
 }
 
 .highlight {
