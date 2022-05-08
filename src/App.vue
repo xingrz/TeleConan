@@ -40,11 +40,15 @@
           <template #overlay>
             <a-menu>
               <a-menu-item>
-                <a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>柯南百科</a>
+                <a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>
+                  柯南百科
+                </a>
               </a-menu-item>
               <template v-for="num in record.num_cn" :key="num">
                 <a-menu-item v-if="bilibili[num]">
-                  <a :href="bilibili[num].href" target="_blank" noreferer>哔哩哔哩：TV{{ num }}</a>
+                  <a :href="bilibili[num].href" target="_blank" noreferer :title="bilibili[num].title">
+                    哔哩哔哩：TV{{ num }}
+                  </a>
                 </a-menu-item>
               </template>
             </a-menu>
