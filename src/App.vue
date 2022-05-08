@@ -59,6 +59,16 @@
       在找字幕编辑器吗？它已经被移到了 <b><a href="https://subtitle.xingrz.me/">subtitle.xingrz.me</a></b>。
     </template>
   </a-alert>
+
+  <section :class="$style.copyright">
+    <p>本页面的数据主要来源<a
+        href="https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%E5%8B%95%E7%95%AB%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8"
+        target="_blank">维基百科</a>，遵循 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"
+        noreferer>CC BY-SA 3.0</a> 提供。
+    </p>
+    <p>本站源代码托管于 <a href="https://github.com/xingrz/TeleConan" target="_blank">GitHub</a>，遵循 GPL-3.0 发布。</p>
+  </section>
+
 </template>
 
 <script lang="ts" setup>
@@ -214,5 +224,15 @@ function getMangaColor(vol: string): string {
 .highlight {
   color: red;
   font-weight: bold;
+}
+
+.copyright {
+  margin-top: 36px;
+  color: #999;
+  font-size: 12px;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 </style>
