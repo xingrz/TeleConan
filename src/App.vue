@@ -41,12 +41,14 @@
             <a-menu>
               <a-menu-item>
                 <a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>
+                  <file-text-outlined /> &nbsp;
                   柯南百科
                 </a>
               </a-menu-item>
               <template v-for="num in record.num_cn" :key="num">
                 <a-menu-item v-if="bilibili[num]">
                   <a :href="bilibili[num].href" target="_blank" noreferer :title="bilibili[num].title">
+                    <play-square-outlined /> &nbsp;
                     哔哩哔哩：TV{{ num }}
                   </a>
                 </a-menu-item>
@@ -77,7 +79,7 @@
 
 <script lang="ts" setup>
 import { computed, onMounted, ref, useCssModule } from 'vue';
-import { DownOutlined } from '@ant-design/icons-vue';
+import { DownOutlined, FileTextOutlined, PlaySquareOutlined } from '@ant-design/icons-vue';
 
 import { useSliceStore, loadAll, DataSlice } from './slices';
 import { Episode } from './episodes';
