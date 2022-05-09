@@ -11,10 +11,7 @@
       <template v-else-if="column.dataIndex == 'num_jp'">
         <div :class="{ [$style.highlight]: String(record.num_jp) == keyword }">{{ record.num_jp }}</div>
         <div v-if="record.num_cn.length > 1" :class="$style.sp">
-          <a-tag color="orange" v-if="record.num_cn.length == 2">1HSP</a-tag>
-          <a-tag color="orange" v-else-if="record.num_cn.length == 3">1.5HSP</a-tag>
-          <a-tag color="red" v-else-if="record.num_cn.length == 4">2HSP</a-tag>
-          <a-tag color="purple" v-else-if="record.num_cn.length == 5">2.5HSP</a-tag>
+          <sp-tag :episode="record" />
         </div>
       </template>
       <template v-else-if="column.dataIndex == 'num_cn'">
@@ -23,13 +20,11 @@
         </template>
       </template>
       <template v-else-if="column.dataIndex == 'manga'">
-        <div v-for="vol in record.manga" :key="vol" :class="$style.manga">
-          <a-tag :color="getMangaColor(vol)">{{ vol }}</a-tag>
-        </div>
+        <manga-tag :episode="record" />
       </template>
       <template v-else-if="column.key == 'title'">
-        <div v-html="highlight(record.title_jp)" lang="ja" />
-        <div v-html="highlight(record.title_cn)" />
+        <highlight-text :text="record.title_jp" :highlight="keyword" lang="ja" />
+        <highlight-text :text="record.title_cn" :highlight="keyword" />
       </template>
       <template v-else-if="column.key == 'links'">
         <a-dropdown placement="bottomRight">
@@ -77,8 +72,8 @@
   <section :class="$style.copyright">
     <p>本页面的数据主要来源<a
         href="https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%E5%8B%95%E7%95%AB%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8"
-        target="_blank">维基百科</a>，遵循 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"
-        noreferer>CC BY-SA 3.0</a> 提供。
+        target="_blank" noreferer>维基百科</a>，遵循 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh"
+        target="_blank" noreferer>CC BY-SA 3.0</a> 提供。
     </p>
     <p>本站源代码托管于 <a href="https://github.com/xingrz/TeleConan" target="_blank">GitHub</a>，遵循 GPL-3.0 发布。</p>
   </section>
@@ -86,8 +81,12 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, onMounted, ref, useCssModule } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { DownOutlined, FileTextOutlined, PlaySquareOutlined } from '@ant-design/icons-vue';
+
+import SpTag from '@/components/SpTag.vue';
+import MangaTag from '@/components/MangaTag.vue';
+import HighlightText from '@/components/HighlightText.vue';
 
 import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
 
@@ -165,27 +164,6 @@ const filtered = computed<Episode[]>(() => {
     return [...episodes.data].reverse();
   }
 });
-
-const style = useCssModule();
-function highlight(text: string): string {
-  return keyword.value
-    ? text.replaceAll(keyword.value, `<span class="${style.highlight}">${keyword.value}</span>`)
-    : text;
-}
-
-function getMangaColor(vol: string): string {
-  if (vol == '动画原创') {
-    return 'orange';
-  } else if (vol.startsWith('特别篇')) {
-    return 'red';
-  } else if (vol.startsWith('魔术快斗')) {
-    return 'purple';
-  } else if (vol.startsWith('警察学校篇')) {
-    return 'cyan';
-  } else {
-    return 'blue';
-  }
-}
 </script>
 
 <style lang="scss" module>
@@ -235,14 +213,6 @@ function getMangaColor(vol: string): string {
 .sp {
   :global(.ant-tag) {
     margin: 0;
-  }
-}
-
-.manga {
-  margin-bottom: 4px;
-
-  &:last-of-type {
-    margin-bottom: 0;
   }
 }
 
