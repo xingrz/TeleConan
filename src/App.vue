@@ -37,17 +37,18 @@
               <link-menu-item :icon="FileTextOutlined" :href="`https://www.conanpedia.com/TV${record.num_jp}`">
                 柯南百科
               </link-menu-item>
-              <template v-for="num in record.num_cn" :key="num">
-                <link-menu-item v-if="bilibili[num]" :icon="PlaySquareOutlined" :href="bilibili[num].href"
-                  :title="bilibili[num].title">
-                  哔哩哔哩：TV{{ num }}
-                </link-menu-item>
-              </template>
-              <template v-for="num in record.num_cn" :key="num">
-                <link-menu-item v-if="qq[num]" :icon="PlaySquareOutlined" :href="qq[num].href" :title="qq[num].title">
-                  腾讯视频：TV{{ num }}
-                </link-menu-item>
-              </template>
+              <external-links :icon="PlaySquareOutlined" name="哔哩哔哩" :episode="record.num_cn" :links="bilibili"
+                key-suffix="bilibili">
+                <template v-slot="{ episode }">
+                  第 {{ episode }} 集
+                </template>
+              </external-links>
+              <external-links :icon="PlaySquareOutlined" name="腾讯视频" :episode="record.num_cn" :links="qq"
+                key-suffix="qq">
+                <template v-slot="{ episode }">
+                  第 {{ episode }} 集
+                </template>
+              </external-links>
             </a-menu>
           </template>
         </a-dropdown>
@@ -80,6 +81,7 @@ import SpTag from '@/components/SpTag.vue';
 import MangaTag from '@/components/MangaTag.vue';
 import HighlightText from '@/components/HighlightText.vue';
 import LinkMenuItem from '@/components/LinkMenuItem.vue';
+import ExternalLinks from '@/components/ExternalLinks.vue';
 
 import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
 import useStats from '@/composables/useStats';
@@ -131,24 +133,24 @@ onMounted(async () => {
   await fillSliceStore(episodes, 'episode-latest');
 });
 
-const bilibili = ref<Record<string, Link>>({});
+const bilibili = ref<Record<number, Link>>({});
 onMounted(async () => {
   const links: DataSlice<Link> = { data: [], next: undefined };
   await fillSliceStore(links, 'bilibili-latest');
   bilibili.value = links.data.reduce((acc, link) => {
     acc[link.num] = link;
     return acc;
-  }, {} as Record<string, Link>);
+  }, {} as Record<number, Link>);
 });
 
-const qq = ref<Record<string, Link>>({});
+const qq = ref<Record<number, Link>>({});
 onMounted(async () => {
   const links: DataSlice<Link> = { data: [], next: undefined };
   await fillSliceStore(links, 'qq-latest');
   qq.value = links.data.reduce((acc, link) => {
     acc[link.num] = link;
     return acc;
-  }, {} as Record<string, Link>);
+  }, {} as Record<number, Link>);
 });
 
 const keyword = ref('');
