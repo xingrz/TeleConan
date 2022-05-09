@@ -53,6 +53,14 @@
                   </a>
                 </a-menu-item>
               </template>
+              <template v-for="num in record.num_cn" :key="num">
+                <a-menu-item v-if="qq[num]">
+                  <a :href="qq[num].href" target="_blank" noreferer :title="qq[num].title">
+                    <play-square-outlined /> &nbsp;
+                    腾讯视频：TV{{ num }}
+                  </a>
+                </a-menu-item>
+              </template>
             </a-menu>
           </template>
         </a-dropdown>
@@ -128,6 +136,16 @@ onMounted(async () => {
   const links: DataSlice<Link> = { data: [], next: undefined };
   await loadAll(links, 'bilibili-latest');
   bilibili.value = links.data.reduce((acc, link) => {
+    acc[link.num] = link;
+    return acc;
+  }, {} as Record<string, Link>);
+});
+
+const qq = ref<Record<string, Link>>({});
+onMounted(async () => {
+  const links: DataSlice<Link> = { data: [], next: undefined };
+  await loadAll(links, 'qq-latest');
+  qq.value = links.data.reduce((acc, link) => {
     acc[link.num] = link;
     return acc;
   }, {} as Record<string, Link>);
