@@ -45,7 +45,12 @@ jobs:
         run: |
           git config user.name "Teleconan Fetcher"
           git config user.email "xingrz@users.noreply.github.com"
-          git add data
-          git commit -m "Nightly data update ${{ steps.now.outputs.time }}" || true
-          git pull --rebase
-          git push
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit"
+          else
+            echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\"}" > data/stats.json
+            git add data
+            git commit -m "Nightly data update ${{ steps.now.outputs.time }}"
+            git pull --rebase
+            git push
+          fi
