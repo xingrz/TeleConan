@@ -34,27 +34,19 @@
           </a>
           <template #overlay>
             <a-menu>
-              <a-menu-item>
-                <a :href="`https://www.conanpedia.com/TV${record.num_jp}`" target="_blank" noreferer>
-                  <file-text-outlined /> &nbsp;
-                  柯南百科
-                </a>
-              </a-menu-item>
+              <link-menu-item :icon="FileTextOutlined" :href="`https://www.conanpedia.com/TV${record.num_jp}`">
+                柯南百科
+              </link-menu-item>
               <template v-for="num in record.num_cn" :key="num">
-                <a-menu-item v-if="bilibili[num]">
-                  <a :href="bilibili[num].href" target="_blank" noreferer :title="bilibili[num].title">
-                    <play-square-outlined /> &nbsp;
-                    哔哩哔哩：TV{{ num }}
-                  </a>
-                </a-menu-item>
+                <link-menu-item v-if="bilibili[num]" :icon="PlaySquareOutlined" :href="bilibili[num].href"
+                  :title="bilibili[num].title">
+                  哔哩哔哩：TV{{ num }}
+                </link-menu-item>
               </template>
               <template v-for="num in record.num_cn" :key="num">
-                <a-menu-item v-if="qq[num]">
-                  <a :href="qq[num].href" target="_blank" noreferer :title="qq[num].title">
-                    <play-square-outlined /> &nbsp;
-                    腾讯视频：TV{{ num }}
-                  </a>
-                </a-menu-item>
+                <link-menu-item v-if="qq[num]" :icon="PlaySquareOutlined" :href="qq[num].href" :title="qq[num].title">
+                  腾讯视频：TV{{ num }}
+                </link-menu-item>
               </template>
             </a-menu>
           </template>
@@ -87,6 +79,7 @@ import { DownOutlined, FileTextOutlined, PlaySquareOutlined } from '@ant-design/
 import SpTag from '@/components/SpTag.vue';
 import MangaTag from '@/components/MangaTag.vue';
 import HighlightText from '@/components/HighlightText.vue';
+import LinkMenuItem from '@/components/LinkMenuItem.vue';
 
 import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
 import useStats from '@/composables/useStats';
