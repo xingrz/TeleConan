@@ -13,7 +13,7 @@ export function useSliceStore<T>() {
   });
 }
 
-export async function loadEntry<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: string): Promise<boolean> {
+async function loadEntry<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: string): Promise<boolean> {
   const t = Math.round(Number(new Date()) / 1000 / 60 / 60);
   const slice = await http.get(`/data/e.${name}.json?t=${t}`).json<UnwrapRef<DataSlice<T>>>();
   store.data = slice.data;
@@ -21,7 +21,7 @@ export async function loadEntry<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: 
   return !!store.next;
 }
 
-export async function loadSlice<T>(store: UnwrapNestedRefs<DataSlice<T>>): Promise<boolean> {
+async function loadSlice<T>(store: UnwrapNestedRefs<DataSlice<T>>): Promise<boolean> {
   if (!store.next) return false;
   const slice = await http.get(`/data/s.${store.next}.json`).json<UnwrapRef<DataSlice<T>>>();
   store.data = [...slice.data, ...store.data];
@@ -29,7 +29,7 @@ export async function loadSlice<T>(store: UnwrapNestedRefs<DataSlice<T>>): Promi
   return !!store.next;
 }
 
-export async function loadAll<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: string): Promise<void> {
+export async function fillSliceStore<T>(store: UnwrapNestedRefs<DataSlice<T>>, name: string): Promise<void> {
   let next = await loadEntry(store, name);
   while (next) {
     next = await loadSlice(store);

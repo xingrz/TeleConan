@@ -89,9 +89,10 @@
 import { computed, onMounted, ref, useCssModule } from 'vue';
 import { DownOutlined, FileTextOutlined, PlaySquareOutlined } from '@ant-design/icons-vue';
 
-import { useSliceStore, loadAll, DataSlice } from './slices';
-import { Episode } from './episodes';
-import { Link } from './links';
+import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
+
+import { Episode } from '@/types/episode';
+import { Link } from '@/types/link';
 
 const columns = [
   {
@@ -128,13 +129,13 @@ const columns = [
 
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
-  await loadAll(episodes, 'episode-latest');
+  await fillSliceStore(episodes, 'episode-latest');
 });
 
 const bilibili = ref<Record<string, Link>>({});
 onMounted(async () => {
   const links: DataSlice<Link> = { data: [], next: undefined };
-  await loadAll(links, 'bilibili-latest');
+  await fillSliceStore(links, 'bilibili-latest');
   bilibili.value = links.data.reduce((acc, link) => {
     acc[link.num] = link;
     return acc;
@@ -144,7 +145,7 @@ onMounted(async () => {
 const qq = ref<Record<string, Link>>({});
 onMounted(async () => {
   const links: DataSlice<Link> = { data: [], next: undefined };
-  await loadAll(links, 'qq-latest');
+  await fillSliceStore(links, 'qq-latest');
   qq.value = links.data.reduce((acc, link) => {
     acc[link.num] = link;
     return acc;
