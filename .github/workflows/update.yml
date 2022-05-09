@@ -45,12 +45,12 @@ jobs:
         run: |
           git config user.name "Teleconan Fetcher"
           git config user.email "xingrz@users.noreply.github.com"
-          if [[ -z "$(git status --porcelain)" ]]; then
+          if [[ -z "$(git status --porcelain)" ]] && [[ "${{ github.event_name }}" != "workflow_dispatch" ]]; then
             echo "No changes to commit"
           else
-            echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\"}" > data/stats.json
+            echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\",\"workflow_run\":\"${{ github.run_id }}\"}" > data/stats.json
             git add data
-            git commit -m "Nightly data update ${{ steps.now.outputs.time }}"
+            git commit -m "Auto data update ${{ steps.now.outputs.time }}"
             git pull --rebase
             git push
           fi

@@ -70,14 +70,14 @@
   </a-alert>
 
   <section :class="$style.copyright">
-    <p>本页面的数据主要来源<a
-        href="https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97%E5%8B%95%E7%95%AB%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8"
-        target="_blank" noreferer>维基百科</a>，遵循 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh"
-        target="_blank" noreferer>CC BY-SA 3.0</a> 提供。
+    <p>本页面的数据主要来源<a :href="WIKI_URL" target="_blank" noreferer>维基百科</a>，遵循 <a :href="BY_SA_URL" target="_blank"
+        noreferer>CC BY-SA 3.0</a> 提供。
     </p>
-    <p>本站源代码托管于 <a href="https://github.com/xingrz/TeleConan" target="_blank">GitHub</a>，遵循 GPL-3.0 发布。</p>
+    <p>本站源代码托管于 <a :href="REPO_URL" target="_blank">GitHub</a>，遵循 <a :href="`${REPO_URL}/blob/master/LICENSE`"
+        target="_blank">GPL-3.0</a> 发布。</p>
+    <p v-if="stats.updated_at" :style="{ marginTop: '8px' }">数据更新于 <a
+        :href="`${REPO_URL}/actions/runs/${stats.workflow_run}`" target="_blank">{{ stats.updated_at }}</a>。</p>
   </section>
-
 </template>
 
 <script lang="ts" setup>
@@ -89,9 +89,14 @@ import MangaTag from '@/components/MangaTag.vue';
 import HighlightText from '@/components/HighlightText.vue';
 
 import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
+import useStats from '@/composables/useStats';
 
 import { Episode } from '@/types/episode';
 import { Link } from '@/types/link';
+
+const REPO_URL = 'https://github.com/xingrz/TeleConan';
+const WIKI_URL = `https://zh.wikipedia.org/wiki/${encodeURIComponent('名偵探柯南動畫集數列表')}`;
+const BY_SA_URL = 'https://creativecommons.org/licenses/by-sa/3.0/deed.zh';
 
 const columns = [
   {
@@ -125,6 +130,8 @@ const columns = [
     width: '8em',
   }
 ];
+
+const stats = useStats();
 
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
@@ -228,6 +235,11 @@ const filtered = computed<Episode[]>(() => {
 
   p {
     margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
   }
 }
 </style>
