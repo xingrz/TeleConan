@@ -1,6 +1,7 @@
 <template>
   <a-affix :offset-top="8">
-    <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry" />
+    <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry"
+      @blur="() => updateHistory(keyword)" @press-enter="() => updateHistory(keyword)" />
   </a-affix>
 
   <a-table :columns="columns" :data-source="filtered" row-key="num_jp" :class="$style.table">
@@ -85,6 +86,7 @@ import ExternalLinks from '@/components/ExternalLinks.vue';
 
 import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
 import useStats from '@/composables/useStats';
+import { useHistory, updateHistory } from '@/composables/history';
 
 import { Episode } from '@/types/episode';
 import { Link } from '@/types/link';
@@ -154,6 +156,8 @@ onMounted(async () => {
 });
 
 const keyword = ref('');
+useHistory(keyword);
+
 const filtered = computed<Episode[]>(() => {
   if (keyword.value) {
     return episodes.data.filter(item => {
