@@ -85,6 +85,7 @@ import LinkMenuItem from '@/components/LinkMenuItem.vue';
 import ExternalLinks from '@/components/ExternalLinks.vue';
 
 import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
+import { fillSliceDict, useSliceDict } from './composables/sliceDict';
 import useStats from '@/composables/useStats';
 import { useHistory, updateHistory } from '@/composables/history';
 
@@ -135,24 +136,18 @@ onMounted(async () => {
   await fillSliceStore(episodes, 'episode-latest');
 });
 
-const bilibili = ref<Record<number, Link>>({});
+const bilibili = useSliceDict<number, Link>();
 onMounted(async () => {
-  const links: DataSlice<Link> = { data: [], next: undefined };
+  const links = useSliceStore<Link>();
   await fillSliceStore(links, 'bilibili-latest');
-  bilibili.value = links.data.reduce((acc, link) => {
-    acc[link.num] = link;
-    return acc;
-  }, {} as Record<number, Link>);
+  fillSliceDict(bilibili, links, 'num');
 });
 
-const qq = ref<Record<number, Link>>({});
+const qq = useSliceDict<number, Link>();
 onMounted(async () => {
-  const links: DataSlice<Link> = { data: [], next: undefined };
+  const links = useSliceStore<Link>();
   await fillSliceStore(links, 'qq-latest');
-  qq.value = links.data.reduce((acc, link) => {
-    acc[link.num] = link;
-    return acc;
-  }, {} as Record<number, Link>);
+  fillSliceDict(qq, links, 'num');
 });
 
 const keyword = ref('');
