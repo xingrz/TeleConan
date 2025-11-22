@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, useCssModule } from 'vue';
+import { useCssModule } from 'vue';
 
 const props = defineProps<{
   text: string;

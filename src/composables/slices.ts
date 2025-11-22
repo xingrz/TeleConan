@@ -1,4 +1,10 @@
-import { reactive, UnwrapRef, UnwrapNestedRefs } from 'vue';
+import {
+  computed,
+  reactive,
+  type Ref,
+  type UnwrapNestedRefs,
+  type UnwrapRef,
+} from 'vue';
 import http from 'ky';
 
 export interface DataSlice<T> {
@@ -34,4 +40,11 @@ export async function fillSliceStore<T>(store: UnwrapNestedRefs<DataSlice<T>>, n
   while (next) {
     next = await loadSlice(store);
   }
+}
+
+export function useSliceDict<K extends string | number, T>(store: UnwrapNestedRefs<DataSlice<T>>, key: keyof T): Readonly<Ref<UnwrapRef<Record<K, T>>>> {
+  return computed(() => store.data.reduce((acc, cur) => {
+    (acc as Record<K, T>)[(cur as any)[key] as K] = cur as T;
+    return acc;
+  }, {} as UnwrapRef<Record<K, T>>));
 }

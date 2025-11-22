@@ -84,13 +84,12 @@ import HighlightText from '@/components/HighlightText.vue';
 import LinkMenuItem from '@/components/LinkMenuItem.vue';
 import ExternalLinks from '@/components/ExternalLinks.vue';
 
-import { useSliceStore, fillSliceStore, DataSlice } from '@/composables/slices';
-import { fillSliceDict, useSliceDict } from './composables/sliceDict';
+import { useSliceStore, fillSliceStore, useSliceDict } from '@/composables/slices';
 import useStats from '@/composables/useStats';
 import { useHistory, updateHistory } from '@/composables/history';
 
-import { Episode } from '@/types/episode';
-import { Link } from '@/types/link';
+import type { Episode } from '@/types/episode';
+import type { Link } from '@/types/link';
 
 const REPO_URL = 'https://github.com/xingrz/TeleConan';
 const WIKI_URL = `https://zh.wikipedia.org/wiki/${encodeURIComponent('名偵探柯南動畫集數列表')}`;
@@ -136,18 +135,16 @@ onMounted(async () => {
   await fillSliceStore(episodes, 'episode-latest');
 });
 
-const bilibili = useSliceDict<number, Link>();
+const bilibiliLinks = useSliceStore<Link>();
+const bilibili = useSliceDict<number, Link>(bilibiliLinks, 'num');
 onMounted(async () => {
-  const links = useSliceStore<Link>();
-  await fillSliceStore(links, 'bilibili-latest');
-  fillSliceDict(bilibili, links, 'num');
+  await fillSliceStore(bilibiliLinks, 'bilibili-latest');
 });
 
-const qq = useSliceDict<number, Link>();
+const qqLinks = useSliceStore<Link>();
+const qq = useSliceDict<number, Link>(qqLinks, 'num');
 onMounted(async () => {
-  const links = useSliceStore<Link>();
-  await fillSliceStore(links, 'qq-latest');
-  fillSliceDict(qq, links, 'num');
+  await fillSliceStore(qqLinks, 'qq-latest');
 });
 
 const keyword = ref('');

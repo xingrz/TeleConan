@@ -1,6 +1,6 @@
 <template>
   <template v-if="episodes.length == 1">
-    <link-menu-item :icon="icon" :href="props.links[episodes[0]].href" :title="props.links[episodes[0]].title"
+    <link-menu-item :icon="icon" :href="props.links[episodes[0]!]!.href" :title="props.links[episodes[0]!]!.title"
       :key="props.keySuffix">
       {{ name }}
     </link-menu-item>
@@ -12,7 +12,7 @@
         {{ name }}
       </template>
       <template v-for="num in episodes" :key="`${props.keySuffix}-${num}`">
-        <link-menu-item :href="props.links[num].href" :title="props.links[num].title">
+        <link-menu-item :href="props.links[num]!.href" :title="props.links[num]!.title">
           <slot :episode="num" :link="props.links[num]" />
         </link-menu-item>
       </template>
@@ -21,12 +21,11 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, FunctionalComponent } from 'vue';
+import { computed, type FunctionalComponent } from 'vue';
 
 import LinkMenuItem from './LinkMenuItem.vue';
 
-import { Link } from '@/types/link';
-import { computed } from '@vue/reactivity';
+import type { Link } from '@/types/link';
 
 const props = defineProps<{
   keySuffix: string;

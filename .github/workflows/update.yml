@@ -2,9 +2,9 @@ name: Data update
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   schedule:
-    - cron: "0 16 * * *"
+    - cron: '0 16 * * *'
   workflow_dispatch:
 
 jobs:
@@ -15,18 +15,20 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
           fetch-depth: 0
 
-      - uses: gerred/actions/current-time@master
+      - name: Get current time
+        uses: gerred/actions/current-time@master
         id: now
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v6
         with:
-          node-version: '16'
+          node-version: '24'
 
       - name: Prepare fetcher
         uses: dsaltares/fetch-gh-release-asset@master

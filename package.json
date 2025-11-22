@@ -2,6 +2,7 @@
   "name": "teleconan",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 8080",
     "build": "vite build"
@@ -9,18 +10,18 @@
   "author": "XiNGRZ <hi@xingrz.me>",
   "license": "GPL-3.0",
   "dependencies": {
-    "ant-design-vue": "^3.2.3",
-    "ky": "^0.30.0",
-    "luxon": "^2.4.0",
-    "vue": "^3.2.33"
+    "ant-design-vue": "^4.2.6",
+    "ky": "^1.14.0",
+    "luxon": "^3.7.2",
+    "vue": "^3.5.24"
   },
   "devDependencies": {
-    "@types/luxon": "^2.3.2",
-    "@types/node": "^17.0.31",
-    "@vitejs/plugin-vue": "^2.3.2",
-    "@vue/compiler-sfc": "^3.2.33",
-    "sass": "^1.51.0",
-    "typescript": "^4.6.4",
-    "vite": "^2.9.8"
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vue/tsconfig": "^0.8.1",
+    "sass": "^1.94.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
   }
 }

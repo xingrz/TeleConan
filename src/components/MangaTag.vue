@@ -5,9 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps } from 'vue';
-
-import { Episode } from '@/types/episode';
+import type { Episode } from '@/types/episode';
 
 const props = defineProps<{
   episode: Episode;

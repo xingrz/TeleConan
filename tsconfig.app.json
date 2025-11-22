@@ -1,0 +1,25 @@
+{
+  "extends": "@vue/tsconfig",
+  "compilerOptions": {
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "vite/client",
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+  ],
+  "exclude": [
+    "node_modules",
+    "vite.config.ts",
+  ],
+}

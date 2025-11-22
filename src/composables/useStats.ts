@@ -1,4 +1,4 @@
-import { onMounted, Ref, ref } from 'vue';
+import { onMounted, ref, type Ref } from 'vue';
 import http from 'ky';
 import { DateTime } from 'luxon';
 

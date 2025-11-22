@@ -1,4 +1,4 @@
-import { onMounted, Ref } from "vue";
+import { onMounted, type Ref } from 'vue';
 
 export function updateHistory(keyword: string): void {
   history.pushState({}, '', keyword ? `/?q=${keyword}` : '/');

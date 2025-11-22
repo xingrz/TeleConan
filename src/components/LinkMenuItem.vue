@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, FunctionalComponent } from 'vue';
+import type { FunctionalComponent } from 'vue';
 
 const props = defineProps<{
   icon?: FunctionalComponent;
