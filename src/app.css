@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", "SF Pro Display", -apple-system, "Noto Sans SC", sans-serif;
+
+  --color-surface: #faf5f5;
+  --color-surface-elevated: #ffffff;
+  --color-text-primary: #1c1917;
+  --color-text-secondary: #78716c;
+  --color-text-tertiary: #a8a29e;
+  --color-border: rgba(0, 0, 0, 0.06);
+  --color-accent: #dc2626;
+  --color-accent-hover: #b91c1c;
+  --color-accent-subtle: rgba(220, 38, 38, 0.08);
+}
+
+.dark {
+  --color-surface: #0c0a09;
+  --color-surface-elevated: #1c1917;
+  --color-text-primary: #fafaf9;
+  --color-text-secondary: #a8a29e;
+  --color-text-tertiary: #57534e;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-accent: #f87171;
+  --color-accent-hover: #fca5a5;
+  --color-accent-subtle: rgba(248, 113, 113, 0.15);
+}

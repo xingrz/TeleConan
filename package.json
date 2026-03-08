@@ -11,19 +11,19 @@
   "author": "XiNGRZ <hi@xingrz.me>",
   "license": "GPL-3.0",
   "dependencies": {
-    "ant-design-vue": "^4.2.6",
     "ky": "^1.14.0",
     "luxon": "^3.7.2",
     "vue": "^3.5.24"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
     "@types/js-yaml": "^4.0.9",
     "@types/luxon": "^3.7.1",
     "@types/node": "^24.10.1",
     "@vitejs/plugin-vue": "^6.0.2",
     "@vue/tsconfig": "^0.8.1",
     "js-yaml": "^4.1.1",
-    "sass": "^1.94.2",
+    "tailwindcss": "^4.2.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.4"

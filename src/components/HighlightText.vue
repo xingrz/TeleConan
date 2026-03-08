@@ -1,26 +1,18 @@
 <template>
-  <div v-html="highlight(props.text)" />
+  <div v-html="highlighted" />
 </template>
 
 <script lang="ts" setup>
-import { useCssModule } from 'vue';
+import { computed } from 'vue';
 
 const props = defineProps<{
   text: string;
   highlight?: string;
 }>();
 
-const style = useCssModule();
-function highlight(text: string): string {
+const highlighted = computed(() => {
   return props.highlight
-    ? text.replaceAll(props.highlight, `<span class="${style.highlight}">${props.highlight}</span>`)
-    : text;
-}
+    ? props.text.replaceAll(props.highlight, `<span class="text-accent font-bold">${props.highlight}</span>`)
+    : props.text;
+});
 </script>
-
-<style lang="scss" module>
-.highlight {
-  color: red;
-  font-weight: bold;
-}
-</style>
