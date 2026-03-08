@@ -1,0 +1,9322 @@
+- num: 1
+  title_jp: ジェットコースター殺人事件
+  title_cn: 云霄飞车杀人事件
+  aired_at: 1996-01-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.1
+- num: 2
+  title_jp: 社長令嬢誘拐事件
+  title_cn: 董事长千金绑架事件
+  aired_at: 1996-01-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.1
+- num: 3
+  title_jp: アイドル密室殺人事件
+  title_cn: 偶像密室杀人事件
+  aired_at: 1996-01-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.1
+- num: 4
+  title_jp: 大都会暗号マップ事件
+  title_cn: 大都会暗号地图事件
+  aired_at: 1996-01-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.4
+- num: 5
+  title_jp: 新幹線大爆破事件
+  title_cn: 新干线大爆破事件
+  aired_at: 1996-02-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.4
+- num: 6
+  title_jp: バレンタイン殺人事件
+  title_cn: 情人节杀人事件
+  aired_at: 1996-02-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 7
+  title_jp: 月いちプレゼント脅迫事件
+  title_cn: 每月一件礼物恐吓事件
+  aired_at: 1996-02-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.3
+- num: 8
+  title_jp: 美術館オーナー殺人事件
+  title_cn: 美术馆杀人事件
+  aired_at: 1996-02-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.4
+- num: 9
+  title_jp: 天下一夜祭殺人事件
+  title_cn: “天下一”夜祭杀人事件
+  aired_at: 1996-03-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.6
+    - kind: manga
+      ref: Vol.7
+- num: 10
+  title_jp: プロサッカー選手脅迫事件
+  title_cn: 足球选手恐吓事件
+  aired_at: 1996-03-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.7
+    - kind: manga
+      ref: Vol.8
+- num: 11
+  title_jp: ピアノソナタ『月光』殺人事件
+  title_cn: 钢琴奏鸣曲《月光》杀人事件
+  aired_at: 1996-04-08
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.7
+- num: 12
+  title_jp: 歩美ちゃん誘拐事件
+  title_cn: 步美被绑架事件
+  aired_at: 1996-04-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.9
+- num: 13
+  title_jp: 奇妙な人捜し殺人事件
+  title_cn: 奇怪的寻亲杀人事件
+  aired_at: 1996-04-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.2
+    - kind: original
+- num: 14
+  title_jp: 謎のメッセージ狙撃事件
+  title_cn: 谜之讯息狙击事件
+  aired_at: 1996-04-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 15
+  title_jp: 消えた死体殺人事件
+  title_cn: 消失的尸体杀人事件
+  aired_at: 1996-05-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.6
+- num: 16
+  title_jp: 骨董品コレクター殺人事件
+  title_cn: 古董收藏家杀人事件
+  aired_at: 1996-05-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.6
+- num: 17
+  title_jp: デパートジャック事件
+  title_cn: 百货公司挟持事件
+  aired_at: 1996-05-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 18
+  title_jp: 6月の花嫁殺人事件
+  title_cn: 六月新娘杀人事件
+  aired_at: 1996-06-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.8
+- num: 19
+  title_jp: エレベーター殺人事件
+  title_cn: 电梯杀人事件
+  aired_at: 1996-06-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 20
+  title_jp: 幽霊屋敷殺人事件
+  title_cn: 鬼屋杀人事件
+  aired_at: 1996-06-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.2
+- num: 21
+  title_jp: TVドラマロケ殺人事件
+  title_cn: 电视剧外景队杀人事件
+  aired_at: 1996-06-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 22
+  title_jp: 豪華客船連続殺人事件（前編）
+  title_cn: 豪华客轮连续杀人事件（上集）
+  aired_at: 1996-07-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.3
+- num: 23
+  title_jp: 豪華客船連続殺人事件（後編）
+  title_cn: 豪华客轮连续杀人事件（下集）
+  aired_at: 1996-07-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.3
+- num: 24
+  title_jp: 謎の美女記憶喪失事件
+  title_cn: 谜之美少女失忆事件
+  aired_at: 1996-07-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 25
+  title_jp: 偽りの身代金誘拐事件
+  title_cn: 虚假赎金绑架事件
+  aired_at: 1996-07-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 26
+  title_jp: 愛犬ジョン殺人事件
+  title_cn: 爱犬约翰杀人事件
+  aired_at: 1996-07-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 27
+  title_jp: 小五郎の同窓会殺人事件（前編）
+  title_cn: 小五郎同学会杀人事件（上集）
+  aired_at: 1996-08-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.9
+- num: 28
+  title_jp: 小五郎の同窓会殺人事件（後編）
+  title_cn: 小五郎同学会杀人事件（下集）
+  aired_at: 1996-08-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.9
+- num: 29
+  title_jp: コンピューター殺人事件
+  title_cn: 电脑杀人事件
+  aired_at: 1996-08-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 30
+  title_jp: アリバイ証言殺人事件
+  title_cn: 不在场证明杀人事件
+  aired_at: 1996-08-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 31
+  title_jp: テレビ局殺人事件
+  title_cn: 电视台杀人事件
+  aired_at: 1996-09-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.11
+- num: 32
+  title_jp: コーヒーショップ殺人事件
+  title_cn: 咖啡店杀人事件
+  aired_at: 1996-09-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.11
+- num: 33
+  title_jp: 探偵団サバイバル事件
+  title_cn: 侦探团求生事件
+  aired_at: 1996-10-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 34
+  title_jp: 山荘包帯男殺人事件（前編）
+  title_cn: 山庄绷带怪人杀人事件（上集）
+  aired_at: 1996-10-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.5
+- num: 35
+  title_jp: 山荘包帯男殺人事件（後編）
+  title_cn: 山庄绷带怪人杀人事件（下集）
+  aired_at: 1996-10-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.5
+- num: 36
+  title_jp: 月曜夜7時30分殺人事件
+  title_cn: 周一晚上七点半杀人事件
+  aired_at: 1996-11-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 37
+  title_jp: サボテンの花殺人事件
+  title_cn: 仙人掌花杀人事件
+  aired_at: 1996-11-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 38
+  title_jp: 赤鬼村火祭殺人事件
+  title_cn: 赤鬼村火祭杀人事件
+  aired_at: 1996-11-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.2
+- num: 39
+  title_jp: 資産家令嬢殺人事件（前編）
+  title_cn: 企业家千金杀人事件（上集）
+  aired_at: 1996-11-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.9
+    - kind: manga
+      ref: Vol.10
+- num: 40
+  title_jp: 資産家令嬢殺人事件（後編）
+  title_cn: 企业家千金杀人事件（下集）
+  aired_at: 1996-12-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.9
+    - kind: manga
+      ref: Vol.10
+- num: 41
+  title_jp: 優勝旗切り裂き事件
+  title_cn: 优胜锦旗被割事件
+  aired_at: 1996-12-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 42
+  title_jp: カラオケボックス殺人事件
+  title_cn: 卡拉OK杀人事件
+  aired_at: 1996-12-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.5
+- num: 43
+  title_jp: 江戸川コナン誘拐事件
+  title_cn: 江户川柯南诱拐事件
+  aired_at: 1997-01-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.5
+    - kind: manga
+      ref: Vol.6
+- num: 44
+  title_jp: 堀田三兄弟殺人事件
+  title_cn: 堀田三兄妹杀人事件
+  aired_at: 1997-01-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 45
+  title_jp: 顔パック殺人事件
+  title_cn: 敷面膜杀人事件
+  aired_at: 1997-01-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 46
+  title_jp: 雪山山荘殺人事件
+  title_cn: 雪山山庄杀人事件
+  aired_at: 1997-02-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.10
+    - kind: manga
+      ref: Vol.11
+- num: 47
+  title_jp: スポーツクラブ殺人事件
+  title_cn: 体育俱乐部杀人事件
+  aired_at: 1997-02-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 48
+  title_jp: 外交官殺人事件（前編）
+  title_cn: 外交官杀人事件（上集）
+  aired_at: 1997-02-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.10
+- num: 49
+  title_jp: 外交官殺人事件（後編）
+  title_cn: 外交官杀人事件（下集）
+  aired_at: 1997-02-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.10
+- num: 50
+  title_jp: 図書館殺人事件
+  title_cn: 图书馆杀人事件
+  aired_at: 1997-03-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.10
+- num: 51
+  title_jp: ゴルフ練習場殺人事件
+  title_cn: 高尔夫练习场杀人事件
+  aired_at: 1997-03-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 52
+  title_jp: 霧天狗伝説殺人事件
+  title_cn: 雾天狗传说杀人事件
+  aired_at: 1997-03-17
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.11
+- num: 53
+  title_jp: 謎の凶器殺人事件
+  title_cn: 谜之凶器杀人事件
+  aired_at: 1997-04-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 54
+  title_jp: ゲーム会社殺人事件
+  title_cn: 电玩公司杀人事件
+  aired_at: 1997-04-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.12
+- num: 55
+  title_jp: 列車トリック殺人事件
+  title_cn: 列车诡计杀人事件
+  aired_at: 1997-04-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 56
+  title_jp: おじゃマンボウ殺人事件
+  title_cn: 清洁公司杀人事件
+  aired_at: 1997-04-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 57
+  title_jp: ホームズ・フリーク殺人事件（前編）
+  title_cn: 福尔摩斯迷杀人事件（上集）
+  aired_at: 1997-05-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.12
+    - kind: manga
+      ref: Vol.13
+- num: 58
+  title_jp: ホームズ・フリーク殺人事件（後編）
+  title_cn: 福尔摩斯迷杀人事件（下集）
+  aired_at: 1997-05-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.12
+    - kind: manga
+      ref: Vol.13
+- num: 59
+  title_jp: 初めてのお使い殺人事件
+  title_cn: 第一次跑腿杀人事件
+  aired_at: 1997-05-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 60
+  title_jp: イラストレーター殺人事件
+  title_cn: 插画画家杀人事件
+  aired_at: 1997-05-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.13
+- num: 61
+  title_jp: 幽霊船殺人事件（前編）
+  title_cn: 幽灵船杀人事件（上集）
+  aired_at: 1997-06-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 62
+  title_jp: 幽霊船殺人事件（後編）
+  title_cn: 幽灵船杀人事件（下集）
+  aired_at: 1997-06-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 63
+  title_jp: 大怪獣ゴメラ殺人事件
+  title_cn: 大怪兽哥梅拉杀人事件
+  aired_at: 1997-06-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.13
+- num: 64
+  title_jp: 第3の指紋殺人事件
+  title_cn: 第三个指纹杀人事件
+  aired_at: 1997-06-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 65
+  title_jp: カニとクジラ誘拐事件
+  title_cn: 螃蟹与鲸鱼绑架事件
+  aired_at: 1997-06-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 66
+  title_jp: 暗闇の道殺人事件
+  title_cn: 夜路杀人事件
+  aired_at: 1997-07-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 67
+  title_jp: 舞台女優殺人事件
+  title_cn: 舞台女演员杀人事件
+  aired_at: 1997-07-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 68
+  title_jp: 闇の男爵殺人事件（事件篇）
+  title_cn: 暗夜男爵杀人事件（事件篇）
+  aired_at: 1997-07-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.8
+- num: 69
+  title_jp: 闇の男爵殺人事件（疑惑篇）
+  title_cn: 暗夜男爵杀人事件（疑惑篇）
+  aired_at: 1997-07-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.8
+- num: 70
+  title_jp: 闇の男爵殺人事件（解決篇）
+  title_cn: 暗夜男爵杀人事件（解决篇）
+  aired_at: 1997-08-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.8
+- num: 71
+  title_jp: ストーカー殺人事件
+  title_cn: 米花之狼杀人事件
+  aired_at: 1997-08-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 72
+  title_jp: 三つ子別荘殺人事件
+  title_cn: 三胞胎别墅杀人事件
+  aired_at: 1997-08-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.13
+- num: 73
+  title_jp: 少年探偵団遭難事件
+  title_cn: 少年侦探团遇难事件
+  aired_at: 1997-08-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 74
+  title_jp: 死神陣内殺人事件
+  title_cn: 死神阵内杀人事件
+  aired_at: 1997-09-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 75
+  title_jp: 金融会社社長殺人事件
+  title_cn: 金融公司社长杀人事件
+  aired_at: 1997-09-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.15
+- num: 76
+  title_jp: コナンVS怪盗キッド
+  title_cn: 柯南VS怪盗基德
+  aired_at: 1997-09-22
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.16
+- num: 77
+  title_jp: 名家連続変死事件（前編）
+  title_cn: 名门连续惨死事件（上集）
+  aired_at: 1997-10-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.15
+    - kind: manga
+      ref: Vol.16
+- num: 78
+  title_jp: 名家連続変死事件（後編）
+  title_cn: 名门连续惨死事件（下集）
+  aired_at: 1997-10-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.15
+    - kind: manga
+      ref: Vol.16
+- num: 79
+  title_jp: 銀行強盗殺人事件
+  title_cn: 银行强盗杀人事件
+  aired_at: 1997-11-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 80
+  title_jp: 放浪画家殺人事件
+  title_cn: 流浪画家杀人事件
+  aired_at: 1997-11-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 81
+  title_jp: 人気アーティスト誘拐事件（前編）
+  title_cn: 当红艺人绑架事件（上集）
+  aired_at: 1997-11-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.15
+- num: 82
+  title_jp: 人気アーティスト誘拐事件（後編）
+  title_cn: 当红艺人绑架事件（下集）
+  aired_at: 1997-11-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.15
+- num: 83
+  title_jp: 総合病院殺人事件
+  title_cn: 综合医院杀人事件
+  aired_at: 1997-12-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 84
+  title_jp: スキーロッジ殺人事件（前編）
+  title_cn: 滑雪别墅杀人事件（上集）
+  aired_at: 1997-12-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.14
+    - kind: manga
+      ref: Vol.15
+- num: 85
+  title_jp: スキーロッジ殺人事件（後編）
+  title_cn: 滑雪别墅杀人事件（下集）
+  aired_at: 1997-12-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.14
+    - kind: manga
+      ref: Vol.15
+- num: 86
+  title_jp: 誘拐現場特定事件
+  title_cn: 绑架现场确定事件
+  aired_at: 1998-01-12
+  duration: 30
+  sources:
+    - kind: 特别篇
+      ref: Vol.1
+- num: 87
+  title_jp: 鶴の恩返し殺人事件
+  title_cn: 白鹤报恩杀人事件
+  aired_at: 1998-01-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 88
+  title_jp: ドラキュラ荘殺人事件（前編）
+  title_cn: 德休拉别墅杀人事件（上集）
+  aired_at: 1998-01-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 89
+  title_jp: ドラキュラ荘殺人事件（後編）
+  title_cn: 德休拉别墅杀人事件（下集）
+  aired_at: 1998-02-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 90
+  title_jp: 花の香り殺人事件
+  title_cn: 花香杀人事件
+  aired_at: 1998-02-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 91
+  title_jp: 強盗犯人入院事件
+  title_cn: 抢劫犯住院事件
+  aired_at: 1998-02-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+- num: 92
+  title_jp: 恐怖のトラヴァース殺人事件（前編）
+  title_cn: 恐怖登山杀人事件（上集）
+  aired_at: 1998-02-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 93
+  title_jp: 恐怖のトラヴァース殺人事件（後編）
+  title_cn: 恐怖登山杀人事件（下集）
+  aired_at: 1998-03-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 94
+  title_jp: 雪女伝説殺人事件
+  title_cn: 雪女传说杀人事件
+  aired_at: 1998-03-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 95
+  title_jp: 小五郎のデート殺人事件
+  title_cn: 小五郎约会杀人事件
+  aired_at: 1998-03-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 96
+  title_jp: 追いつめられた名探偵！ 連続2大殺人事件
+  title_cn: |-
+    走投无路的名侦探！
+    连续两大杀人事件
+  aired_at: 1998-03-23
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.14
+- num: 97
+  title_jp: 別れのワイン殺人事件
+  title_cn: 离别美酒杀人事件
+  aired_at: 1998-04-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 98
+  title_jp: 名陶芸家殺人事件（前編）
+  title_cn: 名陶艺家杀人事件（上集）
+  aired_at: 1998-04-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.16
+    - kind: manga
+      ref: Vol.17
+- num: 99
+  title_jp: 名陶芸家殺人事件（後編）
+  title_cn: 名陶艺家杀人事件（下集）
+  aired_at: 1998-04-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.16
+    - kind: manga
+      ref: Vol.17
+- num: 100
+  title_jp: 初恋の人想い出事件（前編）
+  title_cn: 初恋情人回忆事件（上集）
+  aired_at: 1998-05-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.18
+- num: 101
+  title_jp: 初恋の人想い出事件（後編）
+  title_cn: 初恋情人回忆事件（下集）
+  aired_at: 1998-05-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.18
+- num: 102
+  title_jp: 時代劇俳優殺人事件（前編）
+  title_cn: 时代剧演员杀人事件（上集）
+  aired_at: 1998-05-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+    - kind: manga
+      ref: Vol.18
+- num: 103
+  title_jp: 時代劇俳優殺人事件（後編）
+  title_cn: 时代剧演员杀人事件（下集）
+  aired_at: 1998-06-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+    - kind: manga
+      ref: Vol.18
+- num: 104
+  title_jp: 盗賊団謎の洋館事件（前編）
+  title_cn: 盗贼团谜之别墅事件（上集）
+  aired_at: 1998-06-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+- num: 105
+  title_jp: 盗賊団謎の洋館事件（後編）
+  title_cn: 盗贼团谜之别墅事件（下集）
+  aired_at: 1998-06-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+- num: 106
+  title_jp: スクープ写真殺人事件
+  title_cn: 独家照片杀人事件
+  aired_at: 1998-06-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 107
+  title_jp: モグラ星人謎の事件（前編）
+  title_cn: 鼹鼠星人谜之事件（上集）
+  aired_at: 1998-06-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 108
+  title_jp: モグラ星人謎の事件（後編）
+  title_cn: 鼹鼠星人谜之事件（下集）
+  aired_at: 1998-07-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 109
+  title_jp: 探偵団大追跡事件
+  title_cn: 侦探队大追踪事件
+  aired_at: 1998-07-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 110
+  title_jp: 料理教室殺人事件（前編）
+  title_cn: 烹饪教室杀人事件（上集）
+  aired_at: 1998-07-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 111
+  title_jp: 料理教室殺人事件（後編）
+  title_cn: 烹饪教室杀人事件（下集）
+  aired_at: 1998-08-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 112
+  title_jp: 帝丹小7不思議事件
+  title_cn: 帝丹小学七大不可思议事件
+  aired_at: 1998-08-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.16
+- num: 113
+  title_jp: 白い砂浜殺人事件
+  title_cn: 白色沙滩杀人事件
+  aired_at: 1998-08-17
+  duration: 30
+  sources:
+    - kind: 特别篇
+      ref: Vol.1
+- num: 114
+  title_jp: スキューバダイビング殺人事件（前編）
+  title_cn: 有氧潜水杀人事件（上集）
+  aired_at: 1998-08-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+- num: 115
+  title_jp: スキューバダイビング殺人事件（後編）
+  title_cn: 有氧潜水杀人事件（下集）
+  aired_at: 1998-08-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.17
+- num: 116
+  title_jp: ミステリー作家失踪事件（前編）
+  title_cn: 推理作家失踪事件（上集）
+  aired_at: 1998-09-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.19
+- num: 117
+  title_jp: ミステリー作家失踪事件（後編）
+  title_cn: 推理作家失踪事件（下集）
+  aired_at: 1998-09-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.19
+- num: 118
+  title_jp: 浪花の連続殺人事件
+  title_cn: 浪花连续杀人事件
+  aired_at: 1998-09-21
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.19
+- num: 119
+  title_jp: 仮面ヤイバー殺人事件
+  title_cn: 假面超人杀人事件
+  aired_at: 1998-10-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 120
+  title_jp: ハニーカクテル殺人事件
+  title_cn: 蜂蜜鸡尾酒杀人事件
+  aired_at: 1998-10-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 121
+  title_jp: バスルーム密室事件（前編）
+  title_cn: 浴室密室事件（上集）
+  aired_at: 1998-10-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+- num: 122
+  title_jp: バスルーム密室事件（後編）
+  title_cn: 浴室密室事件（下集）
+  aired_at: 1998-11-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+- num: 123
+  title_jp: お天気お姉さん誘拐事件
+  title_cn: 天气预报小姐绑架事件
+  aired_at: 1998-11-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 124
+  title_jp: 謎の狙撃者殺人事件（前編）
+  title_cn: 谜之狙击者杀人事件（上集）
+  aired_at: 1998-11-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 125
+  title_jp: 謎の狙撃者殺人事件（後編）
+  title_cn: 谜之狙击者杀人事件（下集）
+  aired_at: 1998-11-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 126
+  title_jp: 旅芝居一座殺人事件（前編）
+  title_cn: 旅行戏团杀人事件（上集）
+  aired_at: 1998-11-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 127
+  title_jp: 旅芝居一座殺人事件（後編）
+  title_cn: 旅行戏团杀人事件（下集）
+  aired_at: 1998-12-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 128
+  title_jp: 黒の組織10億円強奪事件
+  title_cn: 黑暗组织十亿元抢劫事件
+  aired_at: 1998-12-14
+  duration: 30
+  sources:
+    - kind: original
+    - kind: manga
+      ref: Vol.2
+- num: 129
+  title_jp: 黒の組織から来た女 大学教授殺人事件
+  title_cn: 来自黑暗组织的女子 大学教授杀人事件
+  aired_at: 1999-01-04
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.18
+    - kind: manga
+      ref: Vol.19
+- num: 130
+  title_jp: 競技場無差別脅迫事件（前編）
+  title_cn: 竞技场无差别胁迫事件（上集）
+  aired_at: 1999-01-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.19
+    - kind: manga
+      ref: Vol.20
+- num: 131
+  title_jp: 競技場無差別脅迫事件（後編）
+  title_cn: 竞技场无差别胁迫事件（下集）
+  aired_at: 1999-01-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.19
+    - kind: manga
+      ref: Vol.20
+- num: 132
+  title_jp: 奇術愛好家殺人事件（事件篇）
+  title_cn: 魔术爱好者杀人事件（事件篇）
+  aired_at: 1999-01-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+- num: 133
+  title_jp: 奇術愛好家殺人事件（疑惑篇）
+  title_cn: 魔术爱好者杀人事件（疑惑篇）
+  aired_at: 1999-02-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+- num: 134
+  title_jp: 奇術愛好家殺人事件（解決篇）
+  title_cn: 魔术爱好者杀人事件（解决篇）
+  aired_at: 1999-02-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+- num: 135
+  title_jp: 消えた凶器捜索事件
+  title_cn: 消失的凶器搜查事件
+  aired_at: 1999-02-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 136
+  title_jp: 青の古城探索事件（前編）
+  title_cn: 蓝色古堡探索事件（上集）
+  aired_at: 1999-02-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+    - kind: manga
+      ref: Vol.21
+- num: 137
+  title_jp: 青の古城探索事件（後編）
+  title_cn: 蓝色古堡探索事件（下集）
+  aired_at: 1999-03-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.20
+    - kind: manga
+      ref: Vol.21
+- num: 138
+  title_jp: 最後の上映殺人事件（前編）
+  title_cn: 最终上映杀人事件（上集）
+  aired_at: 1999-03-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.23
+- num: 139
+  title_jp: 最後の上映殺人事件（後編）
+  title_cn: 最终上映杀人事件（下集）
+  aired_at: 1999-03-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.23
+- num: 140
+  title_jp: SOS! 歩美からのメッセージ
+  title_cn: SOS！来自步美的讯息
+  aired_at: 1999-04-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 141
+  title_jp: 結婚前夜の密室事件（前編）
+  title_cn: 结婚前夜密室事件（上集）
+  aired_at: 1999-04-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.21
+    - kind: manga
+      ref: Vol.22
+- num: 142
+  title_jp: 結婚前夜の密室事件（後編）
+  title_cn: 结婚前夜密室事件（下集）
+  aired_at: 1999-04-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.21
+    - kind: manga
+      ref: Vol.22
+- num: 143
+  title_jp: 疑惑の天体観測
+  title_cn: 疑惑的天体观测
+  aired_at: 1999-05-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 144
+  title_jp: 上野発北斗星3号（前編）
+  title_cn: 上野出发的北斗星三号（上集）
+  aired_at: 1999-05-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.22
+- num: 145
+  title_jp: 上野発北斗星3号（後編）
+  title_cn: 上野出发的北斗星三号（下集）
+  aired_at: 1999-05-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.22
+- num: 146
+  title_jp: 本庁の刑事恋物語（前編）
+  title_cn: 总局刑警恋爱物语（上集）
+  aired_at: 1999-05-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.21
+- num: 147
+  title_jp: 本庁の刑事恋物語（後編）
+  title_cn: 总局刑警恋爱物语（下集）
+  aired_at: 1999-05-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.21
+- num: 148
+  title_jp: 路面電車急停止事件
+  title_cn: 有轨电车急刹车事件
+  aired_at: 1999-06-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 149
+  title_jp: 遊園地バンジー事件
+  title_cn: 游乐园高空弹跳事件
+  aired_at: 1999-06-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 150
+  title_jp: 自動車爆発事件の真相（前編）
+  title_cn: 汽车爆炸事件的真相（上集）
+  aired_at: 1999-06-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 151
+  title_jp: 自動車爆発事件の真相（後編）
+  title_cn: 汽车爆炸事件的真相（下集）
+  aired_at: 1999-07-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 152
+  title_jp: 謎の老人失踪事件
+  title_cn: 谜之老人失踪事件
+  aired_at: 1999-07-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 153
+  title_jp: 園子のアブない夏物語（前編）
+  title_cn: 园子的危险夏日物语（上集）
+  aired_at: 1999-07-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.22
+- num: 154
+  title_jp: 園子のアブない夏物語（後編）
+  title_cn: 园子的危险夏日物语（下集）
+  aired_at: 1999-07-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.22
+- num: 155
+  title_jp: 水中の鍵密室事件
+  title_cn: 水中钥密室事件
+  aired_at: 1999-08-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 156
+  title_jp: 本庁の刑事恋物語2（前編）
+  title_cn: 总局刑警恋爱物语2（上集）
+  aired_at: 1999-08-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.23
+    - kind: manga
+      ref: Vol.24
+- num: 157
+  title_jp: 本庁の刑事恋物語2（後編）
+  title_cn: 总局刑警恋爱物语2（下集）
+  aired_at: 1999-08-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.23
+    - kind: manga
+      ref: Vol.24
+- num: 158
+  title_jp: 沈黙の環状線
+  title_cn: 沉默的环状线
+  aired_at: 1999-08-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 159
+  title_jp: 怪奇五重塔伝説（前編）
+  title_cn: 诡异的五重塔传说（上集）
+  aired_at: 1999-09-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 160
+  title_jp: 怪奇五重塔伝説（後編）
+  title_cn: 诡异的五重塔传说（下集）
+  aired_at: 1999-09-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 161
+  title_jp: 流水亭に流れる殺意
+  title_cn: 流水亭流淌的杀机
+  aired_at: 1999-09-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 162
+  title_jp: 空飛ぶ密室 工藤新一最初の事件
+  title_cn: 飞天密室 工藤新一最初的事件
+  aired_at: 1999-09-27
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.21
+- num: 163
+  title_jp: 月と星と太陽の秘密（前編）
+  title_cn: 月亮、星星、太阳的秘密（上集）
+  aired_at: 1999-10-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.12
+- num: 164
+  title_jp: 月と星と太陽の秘密（後編）
+  title_cn: 月亮、星星、太阳的秘密（下集）
+  aired_at: 1999-10-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.12
+- num: 165
+  title_jp: 少年探偵団消失事件
+  title_cn: 少年侦探团消失事件
+  aired_at: 1999-10-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 166
+  title_jp: 鳥取クモ屋敷の怪（事件編）
+  title_cn: 鸟取蜘蛛屋之怪（事件篇）
+  aired_at: 1999-11-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 167
+  title_jp: 鳥取クモ屋敷の怪（疑惑編）
+  title_cn: 鸟取蜘蛛屋之怪（疑惑篇）
+  aired_at: 1999-11-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 168
+  title_jp: 鳥取クモ屋敷の怪（解決編）
+  title_cn: 鸟取蜘蛛屋之怪（解决篇）
+  aired_at: 1999-11-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 169
+  title_jp: ビーナスのキッス
+  title_cn: 维纳斯之吻
+  aired_at: 1999-11-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 170
+  title_jp: 暗闇の中の死角（前編）
+  title_cn: 黑暗中的死角（上集）
+  aired_at: 1999-11-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.24
+- num: 171
+  title_jp: 暗闇の中の死角（後編）
+  title_cn: 黑暗中的死角（下集）
+  aired_at: 1999-12-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.24
+- num: 172
+  title_jp: よみがえる死の伝言（前編）
+  title_cn: 复活的死亡讯息（上集）
+  aired_at: 1999-12-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 173
+  title_jp: よみがえる死の伝言（後編）
+  title_cn: 复活的死亡讯息（下集）
+  aired_at: 1999-12-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 174
+  title_jp: 二十年目の殺意 シンフォニー号連続殺人事件
+  title_cn: 第二十年的杀机 交响乐号连续杀人事件
+  aired_at: 2000-01-03
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.23
+- num: 175
+  title_jp: 四回殺された男
+  title_cn: 惨遭四次杀害的男子
+  aired_at: 2000-01-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 176
+  title_jp: 黒の組織との再会（灰原編）
+  title_cn: 与黑暗组织的再会（灰原篇）
+  aired_at: 2000-01-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.24
+- num: 177
+  title_jp: 黒の組織との再会（コナン編）
+  title_cn: 与黑暗组织的再会（柯南篇）
+  aired_at: 2000-01-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.24
+- num: 178
+  title_jp: 黒の組織との再会（解決編）
+  title_cn: 与黑暗组织的再会（解决篇）
+  aired_at: 2000-01-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.24
+- num: 179
+  title_jp: 喫茶店トラック乱入事件
+  title_cn: 咖啡店卡车直冲事件
+  aired_at: 2000-02-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 180
+  title_jp: 赤い殺意の夜想曲（前編）
+  title_cn: 红色杀机夜想曲（上集）
+  aired_at: 2000-02-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 181
+  title_jp: 赤い殺意の夜想曲（後編）
+  title_cn: 红色杀机夜想曲（下集）
+  aired_at: 2000-02-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 182
+  title_jp: 大捜索9つのドア
+  title_cn: 九道门大搜索
+  aired_at: 2000-02-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 183
+  title_jp: 危険なレシピ
+  title_cn: 危险的食谱
+  aired_at: 2000-03-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 184
+  title_jp: 呪いの仮面は冷たく笑う
+  title_cn: 诅咒假面在冷笑
+  aired_at: 2000-03-13
+  duration: 60
+  sources:
+    - kind: original
+- num: 185
+  title_jp: 殺された名探偵（前編）
+  title_cn: 遇害的名侦探（上集）
+  aired_at: 2000-04-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 186
+  title_jp: 殺された名探偵（後編）
+  title_cn: 遇害的名侦探（下集）
+  aired_at: 2000-04-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 187
+  title_jp: 闇に響く謎の銃声
+  title_cn: 黑暗中的谜之枪声
+  aired_at: 2000-04-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 188
+  title_jp: 命がけの復活 洞窟の探偵団
+  title_cn: 生死一瞬间 洞窟中的侦探团
+  aired_at: 2000-05-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 189
+  title_jp: 命がけの復活 負傷した名探偵
+  title_cn: 生死一瞬间 负伤的名侦探
+  aired_at: 2000-05-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.25
+- num: 190
+  title_jp: 命がけの復活 第三の選択
+  title_cn: |-
+    生死一瞬间
+    第三个选择
+  aired_at: 2000-05-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.26
+- num: 191
+  title_jp: 命がけの復活 黒衣の騎士
+  title_cn: 生死一瞬间 黑衣骑士
+  aired_at: 2000-05-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.26
+- num: 192
+  title_jp: 命がけの復活 帰ってきた新一…
+  title_cn: |-
+    生死一瞬间
+    归来的新一…
+  aired_at: 2000-05-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.26
+- num: 193
+  title_jp: 命がけの復活 約束の場所
+  title_cn: 生死一瞬间 约定的地点
+  aired_at: 2000-06-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.26
+- num: 194
+  title_jp: 意味深なオルゴール（前編）
+  title_cn: 意味深长的音乐盒（上集）
+  aired_at: 2000-06-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.26
+- num: 195
+  title_jp: 意味深なオルゴール（後編）
+  title_cn: 意味深长的音乐盒（下集）
+  aired_at: 2000-06-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.26
+- num: 196
+  title_jp: 見えない凶器 蘭の初推理
+  title_cn: 看不见的凶器 小兰的首次推理
+  aired_at: 2000-06-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 197
+  title_jp: スーパーカーの罠（前編）
+  title_cn: 超级跑车的陷阱（上集）
+  aired_at: 2000-07-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 198
+  title_jp: スーパーカーの罠（後編）
+  title_cn: 超级跑车的陷阱（下集）
+  aired_at: 2000-07-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 199
+  title_jp: 容疑者・毛利小五郎（前編）
+  title_cn: 嫌疑人 · 毛利小五郎（上集）
+  aired_at: 2000-07-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+- num: 200
+  title_jp: 容疑者・毛利小五郎（後編）
+  title_cn: 嫌疑人 · 毛利小五郎（下集）
+  aired_at: 2000-07-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+- num: 201
+  title_jp: 10人目の乗客（前編）
+  title_cn: 第十位乘客（上集）
+  aired_at: 2000-07-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 202
+  title_jp: 10人目の乗客（後編）
+  title_cn: 第十位乘客（下集）
+  aired_at: 2000-08-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 203
+  title_jp: 黒いイカロスの翼（前編）
+  title_cn: 黑色伊卡洛斯之翼（上集）
+  aired_at: 2000-08-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 204
+  title_jp: 黒いイカロスの翼（後編）
+  title_cn: 黑色伊卡洛斯之翼（下集）
+  aired_at: 2000-08-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 205
+  title_jp: 本庁の刑事恋物語3（前編）
+  title_cn: 总局刑警恋爱物语3（上集）
+  aired_at: 2000-08-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+- num: 206
+  title_jp: 本庁の刑事恋物語3（後編）
+  title_cn: 总局刑警恋爱物语3（下集）
+  aired_at: 2000-09-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+- num: 207
+  title_jp: 見事すぎた名推理
+  title_cn: 无与伦比的名推理
+  aired_at: 2000-09-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 208
+  title_jp: 迷宮への入口 巨大神像の怒り
+  title_cn: 通往迷宫的入口 巨大神像的愤怒
+  aired_at: 2000-10-09
+  duration: 60
+  sources:
+    - kind: original
+- num: 209
+  title_jp: 龍神山転落事件
+  title_cn: 龙神山坠崖事件
+  aired_at: 2000-10-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 210
+  title_jp: 五彩伝説の水御殿（前編）
+  title_cn: 五彩传说的水中豪宅（上集）
+  aired_at: 2000-10-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 211
+  title_jp: 五彩伝説の水御殿（後編）
+  title_cn: 五彩传说的水中豪宅（下集）
+  aired_at: 2000-10-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 212
+  title_jp: きのこと熊と探偵団（前編）
+  title_cn: 蘑菇、熊与侦探队（上集）
+  aired_at: 2000-11-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+    - kind: manga
+      ref: Vol.28
+- num: 213
+  title_jp: きのこと熊と探偵団（後編）
+  title_cn: 蘑菇、熊与侦探队（下集）
+  aired_at: 2000-11-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+    - kind: manga
+      ref: Vol.28
+- num: 214
+  title_jp: レトロルームの謎事件
+  title_cn: 怀旧客房之谜事件
+  aired_at: 2000-11-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 215
+  title_jp: ベイ・オブ・ザ・リベンジ（前編）
+  title_cn: 复仇海湾（上集）
+  aired_at: 2000-11-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 216
+  title_jp: ベイ・オブ・ザ・リベンジ（後編）
+  title_cn: 复仇海湾（下集）
+  aired_at: 2000-12-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 217
+  title_jp: 封印された目暮の秘密（前編）
+  title_cn: 目暮尘封的秘密（上集）
+  aired_at: 2000-12-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+    - kind: manga
+      ref: Vol.29
+- num: 218
+  title_jp: 封印された目暮の秘密（後編）
+  title_cn: 目暮尘封的秘密（下集）
+  aired_at: 2000-12-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+    - kind: manga
+      ref: Vol.29
+- num: 219
+  title_jp: 集められた名探偵! 工藤新一VS怪盗キッド
+  title_cn: 名侦探齐聚一堂！ 工藤新一VS怪盗基德
+  aired_at: 2001-01-08
+  duration: 120
+  sources:
+    - kind: 魔术快斗
+      ref: Vol.4
+    - kind: manga
+      ref: Vol.30
+- num: 220
+  title_jp: 偽りだらけの依頼人（前編）
+  title_cn: 满口谎言的委托人（上集）
+  aired_at: 2001-01-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+- num: 221
+  title_jp: 偽りだらけの依頼人（後編）
+  title_cn: 满口谎言的委托人（下集）
+  aired_at: 2001-01-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+- num: 222
+  title_jp: そして人魚はいなくなった（事件編）
+  title_cn: 人鱼失踪记（事件篇）
+  aired_at: 2001-01-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+- num: 223
+  title_jp: そして人魚はいなくなった（推理編）
+  title_cn: 人鱼失踪记（推理篇）
+  aired_at: 2001-02-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+- num: 224
+  title_jp: そして人魚はいなくなった（解決編）
+  title_cn: 人鱼失踪记（解决篇）
+  aired_at: 2001-02-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.28
+- num: 225
+  title_jp: 商売繁盛のヒミツ
+  title_cn: 生意兴隆的秘密
+  aired_at: 2001-02-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 226
+  title_jp: バトルゲームの罠（前編）
+  title_cn: 格斗游戏的陷阱（上集）
+  aired_at: 2001-02-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+- num: 227
+  title_jp: バトルゲームの罠（後編）
+  title_cn: 格斗游戏的陷阱（下集）
+  aired_at: 2001-03-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.27
+- num: 228
+  title_jp: 殺意の陶芸教室（前編）
+  title_cn: 暗藏杀机的陶艺教室（上集）
+  aired_at: 2001-03-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.30
+    - kind: manga
+      ref: Vol.31
+- num: 229
+  title_jp: 殺意の陶芸教室（後編）
+  title_cn: 暗藏杀机的陶艺教室（下集）
+  aired_at: 2001-03-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.30
+    - kind: manga
+      ref: Vol.31
+- num: 230
+  title_jp: 謎めいた乗客（前編）
+  title_cn: 神秘乘客（上集）
+  aired_at: 2001-04-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.29
+- num: 231
+  title_jp: 謎めいた乗客（後編）
+  title_cn: 神秘乘客（下集）
+  aired_at: 2001-04-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.29
+- num: 232
+  title_jp: マンション転落事件
+  title_cn: 公寓坠落事件
+  aired_at: 2001-05-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 233
+  title_jp: 消えなかった証拠（前編）
+  title_cn: 未消失的证据（上集）
+  aired_at: 2001-05-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.29
+- num: 234
+  title_jp: 消えなかった証拠（後編）
+  title_cn: 未消失的证据（下集）
+  aired_at: 2001-05-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.29
+- num: 235
+  title_jp: 密室のワインセラー
+  title_cn: 地下酒窖密室
+  aired_at: 2001-05-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 236
+  title_jp: 南紀白浜ミステリーツアー（前編）
+  title_cn: 南纪白滨推理之旅（上集）
+  aired_at: 2001-06-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 237
+  title_jp: 南紀白浜ミステリーツアー（後編）
+  title_cn: 南纪白滨推理之旅（下集）
+  aired_at: 2001-06-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 238
+  title_jp: 大阪“3つのK”事件（前編）
+  title_cn: 大阪“3K”事件（上集）
+  aired_at: 2001-06-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.29
+- num: 239
+  title_jp: 大阪“3つのK”事件（後編）
+  title_cn: 大阪“3K”事件（下集）
+  aired_at: 2001-06-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.29
+- num: 240
+  title_jp: 新幹線護送事件（前編）
+  title_cn: 新干线护送事件（上集）
+  aired_at: 2001-07-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.30
+- num: 241
+  title_jp: 新幹線護送事件（後編）
+  title_cn: 新干线护送事件（下集）
+  aired_at: 2001-07-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.30
+- num: 242
+  title_jp: 元太少年の災難
+  title_cn: 少年元太的灾难
+  aired_at: 2001-07-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.30
+- num: 243
+  title_jp: 毛利小五郎のニセ者（前編）
+  title_cn: 毛利小五郎的冒充者（上集）
+  aired_at: 2001-07-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.31
+- num: 244
+  title_jp: 毛利小五郎のニセ者（後編）
+  title_cn: 毛利小五郎的冒充者（下集）
+  aired_at: 2001-07-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.31
+- num: 245
+  title_jp: ヒマワリ館の銃声
+  title_cn: 向日葵馆的枪声
+  aired_at: 2001-08-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 246
+  title_jp: 網にかかった謎（前編）
+  title_cn: 网中谜（上集）
+  aired_at: 2001-08-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.31
+- num: 247
+  title_jp: 網にかかった謎（後編）
+  title_cn: 网中谜（下集）
+  aired_at: 2001-08-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.31
+- num: 248
+  title_jp: 癒しの森のアリバイ
+  title_cn: 疗养森林的不在场证明
+  aired_at: 2001-08-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 249
+  title_jp: アイドル達の秘密（前編）
+  title_cn: 偶像们的秘密（上集）
+  aired_at: 2001-09-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.32
+- num: 250
+  title_jp: アイドル達の秘密（後編）
+  title_cn: 偶像们的秘密（下集）
+  aired_at: 2001-09-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.32
+- num: 251
+  title_jp: OK牧場の悲劇
+  title_cn: OK牧场的悲剧
+  aired_at: 2001-09-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 252
+  title_jp: 絵の中の誘拐犯
+  title_cn: 画中的绑架犯
+  aired_at: 2001-10-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 253
+  title_jp: 本庁の刑事恋物語4（前編）
+  title_cn: 总局刑警恋爱物语4（上集）
+  aired_at: 2001-10-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.32
+    - kind: manga
+      ref: Vol.33
+- num: 254
+  title_jp: 本庁の刑事恋物語4（後編）
+  title_cn: 总局刑警恋爱物语4（下集）
+  aired_at: 2001-10-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.32
+    - kind: manga
+      ref: Vol.33
+- num: 255
+  title_jp: 松江玉造連句14番勝負（前編）
+  title_cn: 松江玉造连句大战14回合（上集）
+  aired_at: 2001-10-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 256
+  title_jp: 松江玉造連句14番勝負（後編）
+  title_cn: 松江玉造连句大战14回合（下集）
+  aired_at: 2001-11-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 257
+  title_jp: 世にも奇妙な天罰
+  title_cn: 世界奇妙天谴
+  aired_at: 2001-11-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 258
+  title_jp: シカゴから来た男（前編）
+  title_cn: 来自芝加哥的男子（上集）
+  aired_at: 2001-11-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.32
+- num: 259
+  title_jp: シカゴから来た男（後編）
+  title_cn: 来自芝加哥的男子（下集）
+  aired_at: 2001-11-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.32
+- num: 260
+  title_jp: 揺れるレストラン
+  title_cn: 摇晃的餐厅
+  aired_at: 2001-12-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 261
+  title_jp: 雪の夜の恐怖伝説（前編）
+  title_cn: 雪夜的恐怖传说（上集）
+  aired_at: 2001-12-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 262
+  title_jp: 雪の夜の恐怖伝説（後編）
+  title_cn: 雪夜的恐怖传说（下集）
+  aired_at: 2001-12-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 263
+  title_jp: 大阪ダブルミステリー 浪花剣士と太閤の城
+  title_cn: 大阪双重谜案 浪花剑客与太阁之城
+  aired_at: 2002-01-07
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.31
+    - kind: manga
+      ref: Vol.32
+- num: 264
+  title_jp: 法廷の対決 妃VS小五郎（前編）
+  title_cn: 法庭的对决 妃VS小五郎（上集）
+  aired_at: 2002-01-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 265
+  title_jp: 法廷の対決 妃VS小五郎（後編）
+  title_cn: 法庭的对决 妃VS小五郎（下集）
+  aired_at: 2002-01-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 266
+  title_jp: バレンタインの真実（事件編）
+  title_cn: 情人节的真相（事件篇）
+  aired_at: 2002-01-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+- num: 267
+  title_jp: バレンタインの真実（推理編）
+  title_cn: 情人节的真相（推理篇）
+  aired_at: 2002-02-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+- num: 268
+  title_jp: バレンタインの真実（解決編）
+  title_cn: 情人节的真相（解决篇）
+  aired_at: 2002-02-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+- num: 269
+  title_jp: 犯罪の忘れ形見（前編）
+  title_cn: 犯罪的遗物（上集）
+  aired_at: 2002-02-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+- num: 270
+  title_jp: 犯罪の忘れ形見（後編）
+  title_cn: 犯罪的遗物（下集）
+  aired_at: 2002-03-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+- num: 271
+  title_jp: 隠して急いで省略（前編）
+  title_cn: 隐藏并匆忙省略（上集）
+  aired_at: 2002-03-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+    - kind: manga
+      ref: Vol.34
+- num: 272
+  title_jp: 隠して急いで省略（後編）
+  title_cn: 隐藏并匆忙省略（下集）
+  aired_at: 2002-03-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.33
+    - kind: manga
+      ref: Vol.34
+- num: 273
+  title_jp: クイズ婆さん失踪事件
+  title_cn: 猜谜婆婆失踪事件
+  aired_at: 2002-04-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 274
+  title_jp: 幽霊屋敷の真実（前編）
+  title_cn: 幽灵鬼屋的真相（上集）
+  aired_at: 2002-04-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+- num: 275
+  title_jp: 幽霊屋敷の真実（後編）
+  title_cn: 幽灵鬼屋的真相（下集）
+  aired_at: 2002-04-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+- num: 276
+  title_jp: 警察手帳紛失事件
+  title_cn: 警察手册遗失事件
+  aired_at: 2002-05-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 277
+  title_jp: 英語教師VS西の名探偵（前編）
+  title_cn: 英语教师VS关西名侦探（上集）
+  aired_at: 2002-05-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+- num: 278
+  title_jp: 英語教師VS西の名探偵（後編）
+  title_cn: 英语教师VS关西名侦探（下集）
+  aired_at: 2002-05-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+- num: 279
+  title_jp: 迷宮のフーリガン（前編）
+  title_cn: 疯狂足球的迷案（上集）
+  aired_at: 2002-05-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+- num: 280
+  title_jp: 迷宮のフーリガン（後編）
+  title_cn: 疯狂足球的迷案（下集）
+  aired_at: 2002-06-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+- num: 281
+  title_jp: 小さな目撃者たち
+  title_cn: 小小的目击者们
+  aired_at: 2002-06-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 282
+  title_jp: 水流るる石庭の怪（前編）
+  title_cn: 水流石庭的古怪（上集）
+  aired_at: 2002-06-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 283
+  title_jp: 水流るる石庭の怪（後編）
+  title_cn: 水流石庭的古怪（下集）
+  aired_at: 2002-06-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 284
+  title_jp: 中華街 雨のデジャビュ（前編）
+  title_cn: 中华街 雨中的似曾相识（上集）
+  aired_at: 2002-07-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+- num: 285
+  title_jp: 中華街 雨のデジャビュ（後編）
+  title_cn: 中华街 雨中的似曾相识（下集）
+  aired_at: 2002-07-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+- num: 286
+  title_jp: 工藤新一NYの事件（事件編）
+  title_cn: 工藤新一的纽约事件（事件篇）
+  aired_at: 2002-07-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+    - kind: manga
+      ref: Vol.35
+- num: 287
+  title_jp: 工藤新一NYの事件（推理編）
+  title_cn: 工藤新一的纽约事件（推理篇）
+  aired_at: 2002-07-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+    - kind: manga
+      ref: Vol.35
+- num: 288
+  title_jp: 工藤新一NYの事件（解決編）
+  title_cn: 工藤新一的纽约事件（解决篇）
+  aired_at: 2002-07-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.34
+    - kind: manga
+      ref: Vol.35
+- num: 289
+  title_jp: 迷いの森の光彦（前編）
+  title_cn: 光彦森林迷失记（上集）
+  aired_at: 2002-08-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+- num: 290
+  title_jp: 迷いの森の光彦（後編）
+  title_cn: 光彦森林迷失记（下集）
+  aired_at: 2002-08-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+- num: 291
+  title_jp: 孤島の姫と龍宮城（事件編）
+  title_cn: 孤岛公主与龙宫城（事件篇）
+  aired_at: 2002-08-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+    - kind: manga
+      ref: Vol.36
+- num: 292
+  title_jp: 孤島の姫と龍宮城（追求編）
+  title_cn: 孤岛公主与龙宫城（探索篇）
+  aired_at: 2002-08-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+    - kind: manga
+      ref: Vol.36
+- num: 293
+  title_jp: 孤島の姫と龍宮城（解決編）
+  title_cn: 孤岛公主与龙宫城（解决篇）
+  aired_at: 2002-09-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.35
+    - kind: manga
+      ref: Vol.36
+- num: 294
+  title_jp: 愛と決断のスマッシュ（前編）
+  title_cn: 爱与决断的扣球（上集）
+  aired_at: 2002-09-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 295
+  title_jp: 愛と決断のスマッシュ（後編）
+  title_cn: 爱与决断的扣球（下集）
+  aired_at: 2002-09-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 296
+  title_jp: 屋形船 釣りショック
+  title_cn: 屋形船 夺命海钓
+  aired_at: 2002-10-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 297
+  title_jp: 法廷の対決II 妃VS九条（前編）
+  title_cn: 法庭的对决Ⅱ 妃VS九条（上集）
+  aired_at: 2002-10-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 298
+  title_jp: 法廷の対決II 妃VS九条（後編）
+  title_cn: 法庭的对决Ⅱ 妃VS九条（下集）
+  aired_at: 2002-10-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 299
+  title_jp: 友情と殺意の関門海峡（前編）
+  title_cn: 关门海峡的友情与杀机（上集）
+  aired_at: 2002-11-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 300
+  title_jp: 友情と殺意の関門海峡（後編）
+  title_cn: 关门海峡的友情与杀机（下集）
+  aired_at: 2002-11-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 301
+  title_jp: 悪意と聖者の行進（前編）
+  title_cn: 恶意与圣者的游行（上集）
+  aired_at: 2002-11-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.36
+- num: 302
+  title_jp: 悪意と聖者の行進（後編）
+  title_cn: 恶意与圣者的游行（下集）
+  aired_at: 2002-12-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.36
+- num: 303
+  title_jp: 戻ってきた被害者
+  title_cn: 归来的被害者
+  aired_at: 2002-12-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 304
+  title_jp: 揺れる警視庁 1200万人の人質
+  title_cn: 震撼的警政厅 1200万人质
+  aired_at: 2003-01-06
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.36
+    - kind: manga
+      ref: Vol.37
+- num: 305
+  title_jp: 見えない容疑者（前編）
+  title_cn: 看不见的嫌疑人（上集）
+  aired_at: 2003-01-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+- num: 306
+  title_jp: 見えない容疑者（後編）
+  title_cn: 看不见的嫌疑人（下集）
+  aired_at: 2003-01-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+- num: 307
+  title_jp: 残された声なき証言（前編）
+  title_cn: 遗留的无声证言（上集）
+  aired_at: 2003-01-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+- num: 308
+  title_jp: 残された声なき証言（後編）
+  title_cn: 遗留的无声证言（下集）
+  aired_at: 2003-02-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+- num: 309
+  title_jp: 黒の組織との接触（交渉編）
+  title_cn: 与黑色组织的接触（交涉篇）
+  aired_at: 2003-02-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+    - kind: manga
+      ref: Vol.38
+- num: 310
+  title_jp: 黒の組織との接触（追跡編）
+  title_cn: 与黑色组织的接触（追缉篇）
+  aired_at: 2003-02-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+    - kind: manga
+      ref: Vol.38
+- num: 311
+  title_jp: 黒の組織との接触（決死編）
+  title_cn: 与黑色组织的接触（决死篇）
+  aired_at: 2003-02-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.37
+    - kind: manga
+      ref: Vol.38
+- num: 312
+  title_jp: 夕日に染まった雛人形（前編）
+  title_cn: 夕阳染红的女儿节娃娃（上集）
+  aired_at: 2003-03-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.38
+- num: 313
+  title_jp: 夕日に染まった雛人形（後編）
+  title_cn: 夕阳染红的女儿节娃娃（下集）
+  aired_at: 2003-03-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.38
+- num: 314
+  title_jp: 壊れた柵の展望台
+  title_cn: 扶手毁损的瞭望台
+  aired_at: 2003-03-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 315
+  title_jp: 陽のあたる場所
+  title_cn: 阳光照耀的地方
+  aired_at: 2003-04-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 316
+  title_jp: 汚れた覆面ヒーロー（前編）
+  title_cn: 被玷污的假面英雄（上集）
+  aired_at: 2003-04-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.38
+- num: 317
+  title_jp: 汚れた覆面ヒーロー（後編）
+  title_cn: 被玷污的假面英雄（下集）
+  aired_at: 2003-04-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.38
+- num: 318
+  title_jp: 幸運のシガーケース（前編）
+  title_cn: 幸运的雪茄盒（上集）
+  aired_at: 2003-05-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 319
+  title_jp: 幸運のシガーケース（後編）
+  title_cn: 幸运的雪茄盒（下集）
+  aired_at: 2003-05-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 320
+  title_jp: 忍法アリバイ工作の術
+  title_cn: 忍法制造不在场证明之术
+  aired_at: 2003-05-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 321
+  title_jp: 消えた誘拐逃走車（前編）
+  title_cn: 消失的绑架逃逸车（上集）
+  aired_at: 2003-05-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 322
+  title_jp: 消えた誘拐逃走車（後編）
+  title_cn: 消失的绑架逃逸车（下集）
+  aired_at: 2003-06-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 323
+  title_jp: 服部平次絶体絶命!（前編）
+  title_cn: 服部平次走投无路！（上集）
+  aired_at: 2003-06-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.38
+- num: 324
+  title_jp: 服部平次絶体絶命!（後編）
+  title_cn: 服部平次走投无路！（下集）
+  aired_at: 2003-06-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.38
+- num: 325
+  title_jp: 炎の中に赤い馬（事件編）
+  title_cn: 火焰中的赤兔马（事件篇）
+  aired_at: 2003-06-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 326
+  title_jp: 炎の中に赤い馬（捜査編）
+  title_cn: 火焰中的赤兔马（搜查篇）
+  aired_at: 2003-06-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 327
+  title_jp: 炎の中に赤い馬（解決編）
+  title_cn: 火焰中的赤兔马（解决篇）
+  aired_at: 2003-07-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 328
+  title_jp: バースデーワインの謎
+  title_cn: 生日葡萄酒之谜
+  aired_at: 2003-07-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 329
+  title_jp: お金で買えない友情（前編）
+  title_cn: 用钱买不到的友情（上集）
+  aired_at: 2003-07-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 330
+  title_jp: お金で買えない友情（後編）
+  title_cn: 用钱买不到的友情（下集）
+  aired_at: 2003-08-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 331
+  title_jp: 疑惑の辛口カレー（前編）
+  title_cn: 疑惑的辣味咖喱（上集）
+  aired_at: 2003-08-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+- num: 332
+  title_jp: 疑惑の辛口カレー（後編）
+  title_cn: 疑惑的辣味咖喱（下集）
+  aired_at: 2003-08-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+- num: 333
+  title_jp: 似た者プリンセス（前編）
+  title_cn: 相似的两位公主（上集）
+  aired_at: 2003-08-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+    - kind: manga
+      ref: Vol.41
+- num: 334
+  title_jp: 似た者プリンセス（後編）
+  title_cn: 相似的两位公主（下集）
+  aired_at: 2003-09-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+    - kind: manga
+      ref: Vol.41
+- num: 335
+  title_jp: 東都現像所の秘密（前編）
+  title_cn: 东都现像所的秘密（上集）
+  aired_at: 2003-09-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.41
+- num: 336
+  title_jp: 東都現像所の秘密（後編）
+  title_cn: 东都现像所的秘密（下集）
+  aired_at: 2003-09-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.41
+- num: 337
+  title_jp: 転落事件の裏事情
+  title_cn: 坠落事件的内幕
+  aired_at: 2003-10-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 338
+  title_jp: 4台のポルシェ（前編）
+  title_cn: 四台保时捷（上集）
+  aired_at: 2003-10-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.41
+- num: 339
+  title_jp: 4台のポルシェ（後編）
+  title_cn: 四台保时捷（下集）
+  aired_at: 2003-10-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.41
+- num: 340
+  title_jp: トイレに隠した秘密（前編）
+  title_cn: 厕所中隐藏的秘密（上集）
+  aired_at: 2003-11-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.41
+    - kind: manga
+      ref: Vol.42
+- num: 341
+  title_jp: トイレに隠した秘密（後編）
+  title_cn: 厕所中隐藏的秘密（下集）
+  aired_at: 2003-11-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.41
+    - kind: manga
+      ref: Vol.42
+- num: 342
+  title_jp: ハウステンボスの花嫁
+  title_cn: 豪斯登堡的新娘
+  aired_at: 2003-11-17
+  duration: 60
+  sources:
+    - kind: original
+- num: 343
+  title_jp: コンビニの落とし穴（前編）
+  title_cn: 便利商店的陷阱（上集）
+  aired_at: 2003-12-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.42
+- num: 344
+  title_jp: コンビニの落とし穴（後編）
+  title_cn: 便利商店的陷阱（下集）
+  aired_at: 2003-12-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.42
+- num: 345
+  title_jp: 黒の組織と真っ向勝負 満月の夜の二元ミステリー
+  title_cn: 与黑暗组织直面对决 满月之夜的双重谜案
+  aired_at: 2004-01-05
+  duration: 150
+  sources:
+    - kind: manga
+      ref: Vol.42
+- num: 346
+  title_jp: お尻のマークを探せ（前編）
+  title_cn: 找寻臀部上的记号（上集）
+  aired_at: 2004-01-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.42
+    - kind: manga
+      ref: Vol.43
+- num: 347
+  title_jp: お尻のマークを探せ（後編）
+  title_cn: 找寻臀部上的记号（下集）
+  aired_at: 2004-01-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.42
+    - kind: manga
+      ref: Vol.43
+- num: 348
+  title_jp: 愛と幽霊と地球遺産（前編）
+  title_cn: 爱、幽灵、地球遗产（上集）
+  aired_at: 2004-01-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 349
+  title_jp: 愛と幽霊と地球遺産（後編）
+  title_cn: 爱、幽灵、地球遗产（下集）
+  aired_at: 2004-02-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 350
+  title_jp: 忘れられた携帯電話（前編）
+  title_cn: 被遗忘的移动电话（上集）
+  aired_at: 2004-02-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.43
+- num: 351
+  title_jp: 忘れられた携帯電話（後編）
+  title_cn: 被遗忘的移动电话（下集）
+  aired_at: 2004-02-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.43
+- num: 352
+  title_jp: フィッシング大会の悲劇（前編）
+  title_cn: 钓鱼大赛的悲剧（上集）
+  aired_at: 2004-02-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 353
+  title_jp: フィッシング大会の悲劇（後編）
+  title_cn: 钓鱼大赛的悲剧（下集）
+  aired_at: 2004-03-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 354
+  title_jp: 小さな依頼者（前編）
+  title_cn: 小小的委托人（上集）
+  aired_at: 2004-03-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 355
+  title_jp: 小さな依頼者（後編）
+  title_cn: 小小的委托人（下集）
+  aired_at: 2004-03-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.39
+- num: 356
+  title_jp: 怪盗キッドの驚異空中歩行
+  title_cn: 怪盗基德令人惊异的空中漫步
+  aired_at: 2004-04-12
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.44
+- num: 357
+  title_jp: 恋人は春のまぼろし
+  title_cn: 恋人是春天的幻影
+  aired_at: 2004-04-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 358
+  title_jp: 本庁の刑事恋物語5（前編）
+  title_cn: 总局刑警恋爱物语5（上集）
+  aired_at: 2004-05-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+- num: 359
+  title_jp: 本庁の刑事恋物語5（後編）
+  title_cn: 总局刑警恋爱物语5（下集）
+  aired_at: 2004-05-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+- num: 360
+  title_jp: 不思議な春のかぶと虫
+  title_cn: 不可思议的春天甲虫
+  aired_at: 2004-05-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 361
+  title_jp: 帝丹高校学校怪談（前編）
+  title_cn: 帝丹高中校园怪谈（上集）
+  aired_at: 2004-05-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.44
+    - kind: manga
+      ref: Vol.45
+- num: 362
+  title_jp: 帝丹高校学校怪談（後編）
+  title_cn: 帝丹高中校园怪谈（下集）
+  aired_at: 2004-05-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.44
+    - kind: manga
+      ref: Vol.45
+- num: 363
+  title_jp: 都会のカラス
+  title_cn: 都市里的乌鸦
+  aired_at: 2004-06-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 364
+  title_jp: シンクロにシティ事件（前編）
+  title_cn: 共时性杀人事件（上集）
+  aired_at: 2004-06-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 365
+  title_jp: シンクロにシティ事件（後編）
+  title_cn: 共时性杀人事件（下集）
+  aired_at: 2004-06-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 366
+  title_jp: 丸見え埠頭の惨劇（前編）
+  title_cn: 众目睽睽下的码头惨剧（上集）
+  aired_at: 2004-07-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.45
+- num: 367
+  title_jp: 丸見え埠頭の惨劇（後編）
+  title_cn: 众目睽睽下的码头惨剧（下集）
+  aired_at: 2004-07-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.45
+- num: 368
+  title_jp: 魔女の棲むお菓子の家
+  title_cn: 魔女栖息的糕点屋
+  aired_at: 2004-07-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 369
+  title_jp: ツイてる男のサスペンス
+  title_cn: 幸运儿疑案
+  aired_at: 2004-08-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 370
+  title_jp: 逃げ回るゲームソフト
+  title_cn: 逃亡的游戏软件
+  aired_at: 2004-08-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 371
+  title_jp: 物言わぬ航路（前編）
+  title_cn: 无言的航线（上集）
+  aired_at: 2004-08-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.45
+- num: 372
+  title_jp: 物言わぬ航路（後編）
+  title_cn: 无言的航线（下集）
+  aired_at: 2004-08-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.45
+- num: 373
+  title_jp: 猛毒蜘蛛の罠
+  title_cn: 剧毒蜘蛛的陷阱
+  aired_at: 2004-09-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 374
+  title_jp: 星と煙草の暗号（前編）
+  title_cn: 星星与香烟的暗号（上集）
+  aired_at: 2004-10-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.45
+    - kind: manga
+      ref: Vol.46
+- num: 375
+  title_jp: 星と煙草の暗号（後編）
+  title_cn: 星星与香烟的暗号（下集）
+  aired_at: 2004-10-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.45
+    - kind: manga
+      ref: Vol.46
+- num: 376
+  title_jp: タイムリミットは15時!
+  title_cn: 期限是15时！
+  aired_at: 2004-11-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 377
+  title_jp: 桃太郎謎解きツアー（前編）
+  title_cn: 桃太郎解谜之旅（上集）
+  aired_at: 2004-11-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 378
+  title_jp: 桃太郎謎解きツアー（後編）
+  title_cn: 桃太郎解谜之旅（下集）
+  aired_at: 2004-11-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 379
+  title_jp: 秘湯雪闇振袖事件（前編）
+  title_cn: 温泉雪夜长袖和服事件（上集）
+  aired_at: 2004-11-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 380
+  title_jp: 秘湯雪闇振袖事件（後編）
+  title_cn: 温泉雪夜长袖和服事件（下集）
+  aired_at: 2004-11-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 381
+  title_jp: どっちの推理ショー（前編）
+  title_cn: 谁的推理秀（上集）
+  aired_at: 2004-12-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.43
+- num: 382
+  title_jp: どっちの推理ショー（後編）
+  title_cn: 谁的推理秀（下集）
+  aired_at: 2004-12-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.43
+- num: 383
+  title_jp: 甲子園の奇跡! 見えない悪魔に負けず嫌い
+  title_cn: 甲子园的奇迹！ 决不能输给无形的恶魔
+  aired_at: 2004-12-20
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.43
+    - kind: manga
+      ref: Vol.44
+- num: 384
+  title_jp: 標的は毛利小五郎
+  title_cn: 目标是毛利小五郎
+  aired_at: 2005-01-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 385
+  title_jp: ストラディバリウスの不協和音 前奏曲
+  title_cn: 斯特拉迪瓦里小提琴的不和协音（前奏曲）
+  aired_at: 2005-01-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+- num: 386
+  title_jp: ストラディバリウスの不協和音 間奏曲
+  title_cn: 斯特拉迪瓦里小提琴的不和协音（间奏曲）
+  aired_at: 2005-01-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+- num: 387
+  title_jp: ストラディバリウスの不協和音 後奏曲
+  title_cn: 斯特拉迪瓦里小提琴的不和协音（终曲）
+  aired_at: 2005-02-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+- num: 388
+  title_jp: 薩摩に酔う小五郎（前編）
+  title_cn: 醉倒在萨摩的小五郎（上集）
+  aired_at: 2005-02-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 389
+  title_jp: 薩摩に酔う小五郎（後編）
+  title_cn: 醉倒在萨摩的小五郎（下集）
+  aired_at: 2005-02-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 390
+  title_jp: 本庁の刑事恋物語6（前編）
+  title_cn: 总局刑警恋爱物语6（上集）
+  aired_at: 2005-02-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.44
+- num: 391
+  title_jp: 本庁の刑事恋物語6（後編）
+  title_cn: 总局刑警恋爱物语6（下集）
+  aired_at: 2005-03-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.44
+- num: 392
+  title_jp: 謎めく身長差20cm
+  title_cn: 神秘的20cm身高差
+  aired_at: 2005-03-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 393
+  title_jp: 誘拐…らしい事件
+  title_cn: 疑似绑架案件
+  aired_at: 2005-03-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 394
+  title_jp: 奇抜な屋敷の大冒険（封印編）
+  title_cn: 诡异宅院大冒险（封印篇）
+  aired_at: 2005-04-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+- num: 395
+  title_jp: 奇抜な屋敷の大冒険（絡繰編）
+  title_cn: 诡异宅院大冒险（机关篇）
+  aired_at: 2005-04-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+- num: 396
+  title_jp: 奇抜な屋敷の大冒険（解決編）
+  title_cn: 诡异宅院大冒险（解决篇）
+  aired_at: 2005-05-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+- num: 397
+  title_jp: 辛く苦く甘い汁
+  title_cn: 辛辣苦涩的甜美果汁
+  aired_at: 2005-05-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 398
+  title_jp: 奇妙な一家の依頼（前編）
+  title_cn: 奇妙一家的委托（上集）
+  aired_at: 2005-05-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+    - kind: manga
+      ref: Vol.47
+- num: 399
+  title_jp: 奇妙な一家の依頼（後編）
+  title_cn: 奇妙一家的委托（下集）
+  aired_at: 2005-05-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.46
+    - kind: manga
+      ref: Vol.47
+- num: 400
+  title_jp: 疑惑を持った蘭
+  title_cn: 心存疑惑的小兰
+  aired_at: 2005-05-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.47
+    - kind: original
+- num: 401
+  title_jp: 宝石強盗現行犯（前編）
+  title_cn: 珠宝强盗现行犯（上集）
+  aired_at: 2005-06-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.47
+- num: 402
+  title_jp: 宝石強盗現行犯（後編）
+  title_cn: 珠宝强盗现行犯（下集）
+  aired_at: 2005-06-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.47
+- num: 403
+  title_jp: 不思議な天使の館（前編）
+  title_cn: 不可思议的天使之馆（上集）
+  aired_at: 2005-06-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 404
+  title_jp: 不思議な天使の館（後編）
+  title_cn: 不可思议的天使之馆（下集）
+  aired_at: 2005-06-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 405
+  title_jp: 救急車を呼びに行った男
+  title_cn: 去叫救护车的男子
+  aired_at: 2005-07-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 406
+  title_jp: コナン平次の推理マジック（仕掛編）
+  title_cn: 柯南平次的推理魔术（机关篇）
+  aired_at: 2005-07-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.47
+- num: 407
+  title_jp: コナン平次の推理マジック（館編）
+  title_cn: 柯南平次的推理魔术（宅第篇）
+  aired_at: 2005-07-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.47
+- num: 408
+  title_jp: コナン平次の推理マジック（解決編）
+  title_cn: 柯南平次的推理魔术（解决篇）
+  aired_at: 2005-08-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.47
+- num: 409
+  title_jp: 同時進行舞台と誘拐（前編）
+  title_cn: 舞台剧和绑架案同步进行（上集）
+  aired_at: 2005-08-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 410
+  title_jp: 同時進行舞台と誘拐（後編）
+  title_cn: 舞台剧和绑架案同步进行（下集）
+  aired_at: 2005-08-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 411
+  title_jp: 神社鳥居ビックリ暗号（前編）
+  title_cn: 神社鸟居惊人暗号（上集）
+  aired_at: 2005-08-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.48
+- num: 412
+  title_jp: 神社鳥居ビックリ暗号（後編）
+  title_cn: 神社鸟居惊人暗号（下集）
+  aired_at: 2005-08-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.48
+- num: 413
+  title_jp: 完全半分犯罪の謎
+  title_cn: 二分之一的完美犯罪之谜
+  aired_at: 2005-09-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 414
+  title_jp: 青い鳥を追う探偵団
+  title_cn: 追踪青鸟的侦探团
+  aired_at: 2005-09-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 415
+  title_jp: 仏滅に出る悪霊（事件編）
+  title_cn: 佛灭日出现的恶灵（事件篇）
+  aired_at: 2005-10-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.48
+- num: 416
+  title_jp: 仏滅に出る悪霊（疑惑編）
+  title_cn: 佛灭日出现的恶灵（疑惑篇）
+  aired_at: 2005-10-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.48
+- num: 417
+  title_jp: 仏滅に出る悪霊（解決編）
+  title_cn: 佛灭日出现的恶灵（解决篇）
+  aired_at: 2005-10-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.48
+- num: 418
+  title_jp: 米花町グルニエの家
+  title_cn: 米花町阁楼之家
+  aired_at: 2005-10-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 419
+  title_jp: 八岐大蛇の剣（前編）
+  title_cn: 八岐大蛇之剑（上集）
+  aired_at: 2005-11-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 420
+  title_jp: 八岐大蛇の剣（後編）
+  title_cn: 八岐大蛇之剑（下集）
+  aired_at: 2005-11-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 421
+  title_jp: イチョウ色の初恋（前編）
+  title_cn: 银杏色的初恋（上集）
+  aired_at: 2005-11-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+- num: 422
+  title_jp: イチョウ色の初恋（後編）
+  title_cn: 银杏色的初恋（下集）
+  aired_at: 2005-11-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.40
+- num: 423
+  title_jp: 探偵団と青虫4兄弟
+  title_cn: 侦探团与毛毛虫四兄弟
+  aired_at: 2005-12-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 424
+  title_jp: ピエロからの写真メール
+  title_cn: 小丑传来的相片邮件
+  aired_at: 2005-12-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 425
+  title_jp: ブラックインパクト! 組織の手が届く瞬間
+  title_cn: 黑色冲击！ 组织之手逼近的瞬间
+  aired_at: 2006-01-09
+  duration: 150
+  sources:
+    - kind: manga
+      ref: Vol.48
+    - kind: manga
+      ref: Vol.49
+- num: 426
+  title_jp: 蘭へのラブレター
+  title_cn: 给小兰的情书
+  aired_at: 2006-01-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 427
+  title_jp: 超秘密の通学路（前編）
+  title_cn: 超秘密的上学路（上集）
+  aired_at: 2006-01-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.49
+- num: 428
+  title_jp: 超秘密の通学路（後編）
+  title_cn: 超秘密的上学路（下集）
+  aired_at: 2006-01-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.49
+- num: 429
+  title_jp: もう戻れない二人（前編）
+  title_cn: 再也回不去的两人（上集）
+  aired_at: 2006-02-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.49
+- num: 430
+  title_jp: もう戻れない二人（後編）
+  title_cn: 再也回不去的两人（下集）
+  aired_at: 2006-02-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.49
+- num: 431
+  title_jp: 本庁の刑事恋物語7（前編）
+  title_cn: 总局刑警恋爱物语7（上集）
+  aired_at: 2006-02-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.50
+- num: 432
+  title_jp: 本庁の刑事恋物語7（後編）
+  title_cn: 总局刑警恋爱物语7（下集）
+  aired_at: 2006-02-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.50
+- num: 433
+  title_jp: コナン変な子
+  title_cn: 柯南怪小孩
+  aired_at: 2006-03-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 434
+  title_jp: 名犬クールのお手柄
+  title_cn: 名犬克尔立大功
+  aired_at: 2006-04-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 435
+  title_jp: 探偵団に注目取材（前編）
+  title_cn: 侦探团特别专访（上集）
+  aired_at: 2006-04-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.50
+- num: 436
+  title_jp: 探偵団に注目取材（後編）
+  title_cn: 侦探团特别专访（下集）
+  aired_at: 2006-04-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.50
+- num: 437
+  title_jp: 上戸彩と新一 4年前の約束
+  title_cn: 上户彩与新一 四年前的约定
+  aired_at: 2006-05-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 438
+  title_jp: お魚メールの追跡
+  title_cn: 钓鱼邮件追查记
+  aired_at: 2006-05-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.51
+- num: 439
+  title_jp: そして誰もいなくなればいい
+  title_cn: 然后最好无人生还
+  aired_at: 2006-05-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 440
+  title_jp: 極限のカースタント
+  title_cn: 极限飞车特技
+  aired_at: 2006-05-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 441
+  title_jp: 最期のアーン
+  title_cn: 通向死亡的“啊”
+  aired_at: 2006-06-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 442
+  title_jp: 鉄骨に阻まれた男
+  title_cn: 被钢筋阻挡的男子
+  aired_at: 2006-06-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 443
+  title_jp: ため息潮干狩り（前編）
+  title_cn: 叹息拾潮（上集）
+  aired_at: 2006-06-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.51
+- num: 444
+  title_jp: ため息潮干狩り（後編）
+  title_cn: 叹息拾潮（下集）
+  aired_at: 2006-07-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.51
+- num: 445
+  title_jp: ロシアンブルーの秘密
+  title_cn: 俄罗斯蓝猫的秘密
+  aired_at: 2006-07-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.51
+- num: 446
+  title_jp: 封印された洋窓（前編）
+  title_cn: 被封死的欧式窗（上集）
+  aired_at: 2006-07-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.51
+- num: 447
+  title_jp: 封印された洋窓（後編）
+  title_cn: 被封死的欧式窗（下集）
+  aired_at: 2006-07-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.51
+- num: 448
+  title_jp: 目黒の秋刀魚事件
+  title_cn: 目黑的秋刀鱼事件
+  aired_at: 2006-08-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 449
+  title_jp: 本庁の刑事恋物語 偽りのウエディング
+  title_cn: 总局刑警恋爱物语 虚假的结婚典礼
+  aired_at: 2006-08-21
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.52
+- num: 450
+  title_jp: トリックVSマジック（前編）
+  title_cn: 诡计VS魔术（上集）
+  aired_at: 2006-08-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 451
+  title_jp: トリックVSマジック（後編）
+  title_cn: 诡计VS魔术（下集）
+  aired_at: 2006-09-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 452
+  title_jp: こんぴら座の怪人
+  title_cn: 金毗罗剧场魅影
+  aired_at: 2006-09-11
+  duration: 60
+  sources:
+    - kind: original
+- num: 453
+  title_jp: 因縁と友情の試写会
+  title_cn: 因缘与友情的试映会
+  aired_at: 2006-10-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.52
+- num: 454
+  title_jp: ひっくり返った結末（前編）
+  title_cn: 颠倒的结局（上集）
+  aired_at: 2006-10-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.52
+- num: 455
+  title_jp: ひっくり返った結末（後編）
+  title_cn: 颠倒的结局（下集）
+  aired_at: 2006-11-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.52
+- num: 456
+  title_jp: 俺が愛したミステリー
+  title_cn: 我心所爱的推理
+  aired_at: 2006-11-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 457
+  title_jp: 園子の赤いハンカチ（前編）
+  title_cn: 园子的红色手帕（上集）
+  aired_at: 2006-11-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.52
+- num: 458
+  title_jp: 園子の赤いハンカチ（後編）
+  title_cn: 园子的红色手帕（下集）
+  aired_at: 2006-11-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.52
+- num: 459
+  title_jp: 怪人ガチガチ規則男
+  title_cn: 怪人 循规蹈矩的男子
+  aired_at: 2006-12-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 460
+  title_jp: 1年B組大作戦!
+  title_cn: 1年B班大作战！
+  aired_at: 2007-01-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+- num: 461
+  title_jp: 消えた1ページ
+  title_cn: 消失的一页
+  aired_at: 2007-01-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 462
+  title_jp: 黒の組織の影 幼い目撃者
+  title_cn: 黑暗组织之影 小小目击者
+  aired_at: 2007-01-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+    - kind: manga
+      ref: Vol.54
+- num: 463
+  title_jp: 黒の組織の影 奇妙な照明
+  title_cn: 黑暗组织之影 奇妙的照明
+  aired_at: 2007-02-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+    - kind: manga
+      ref: Vol.54
+- num: 464
+  title_jp: 黒の組織の影 謎の高額報酬
+  title_cn: 黑暗组织之影 神秘的高额报酬
+  aired_at: 2007-02-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+    - kind: manga
+      ref: Vol.54
+- num: 465
+  title_jp: 黒の組織の影 真珠の流れ星
+  title_cn: 黑暗组织之影 珍珠流星
+  aired_at: 2007-02-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+    - kind: manga
+      ref: Vol.54
+- num: 466
+  title_jp: 割れない雪だるま（前編）
+  title_cn: 打不破的雪人（上集）
+  aired_at: 2007-02-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.54
+- num: 467
+  title_jp: 割れない雪だるま（後編）
+  title_cn: 打不破的雪人（下集）
+  aired_at: 2007-03-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.54
+- num: 468
+  title_jp: 池のほとりの怪事件
+  title_cn: 池塘边的离奇事件
+  aired_at: 2007-03-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 469
+  title_jp: 怪盗キッドと四名画（前編）
+  title_cn: 怪盗基德与四幅名画（上集）
+  aired_at: 2007-04-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+- num: 470
+  title_jp: 怪盗キッドと四名画（後編）
+  title_cn: 怪盗基德与四幅名画（下集）
+  aired_at: 2007-04-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.53
+- num: 471
+  title_jp: レンタカー制御不能!
+  title_cn: 失控的租赁汽车
+  aired_at: 2007-05-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 472
+  title_jp: 工藤新一少年の冒険（前編）
+  title_cn: 工藤新一少年冒险（上集）
+  aired_at: 2007-05-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.55
+- num: 473
+  title_jp: 工藤新一少年の冒険（後編）
+  title_cn: 工藤新一少年冒险（下集）
+  aired_at: 2007-05-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.55
+- num: 474
+  title_jp: 妃英理弁護士の恋
+  title_cn: 妃英理律师之恋
+  aired_at: 2007-06-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.55
+- num: 475
+  title_jp: 悪運グランプリ
+  title_cn: 恶运大奖
+  aired_at: 2007-06-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 476
+  title_jp: 元太の必殺シュート（前編）
+  title_cn: 元太的必杀球（上集）
+  aired_at: 2007-06-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.55
+- num: 477
+  title_jp: 元太の必殺シュート（後編）
+  title_cn: 元太的必杀球（下集）
+  aired_at: 2007-07-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.55
+- num: 478
+  title_jp: リアル30ミニッツ
+  title_cn: 真实的30分钟
+  aired_at: 2007-07-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 479
+  title_jp: 服部平次との3日間
+  title_cn: 与服部平次共度的3天
+  aired_at: 2007-07-16
+  duration: 120
+  sources:
+    - kind: manga
+      ref: Vol.54
+    - kind: manga
+      ref: Vol.55
+- num: 480
+  title_jp: 黄色い不在証明
+  title_cn: 黄色的不在场证明
+  aired_at: 2007-07-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 481
+  title_jp: 山姥の刃物（前編）
+  title_cn: 山妖婆婆的利刃（上集）
+  aired_at: 2007-07-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 482
+  title_jp: 山姥の刃物（後編）
+  title_cn: 山妖婆婆的利刃（下集）
+  aired_at: 2007-08-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 483
+  title_jp: 消えたお巡りさん
+  title_cn: 消失的警察先生
+  aired_at: 2007-08-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 484
+  title_jp: 黒い写真の行方（前編）
+  title_cn: 黑色相片的下落（上集）
+  aired_at: 2007-08-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 485
+  title_jp: 黒い写真の行方（後編）
+  title_cn: 黑色相片的下落（下集）
+  aired_at: 2007-08-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 486
+  title_jp: 右から左へ招き猫
+  title_cn: 从右向左的招财猫
+  aired_at: 2007-09-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 487
+  title_jp: 本庁の刑事恋物語8 左手の薬指
+  title_cn: 总局刑警恋爱物语8左手的无名指
+  aired_at: 2007-10-15
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 488
+  title_jp: テレビ局の悪魔
+  title_cn: 电视台的恶魔
+  aired_at: 2007-10-22
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.57
+- num: 489
+  title_jp: 法廷の対決III 目撃者は検察官
+  title_cn: 法庭的对决Ⅲ检察官是目击者
+  aired_at: 2007-11-26
+  duration: 60
+  sources:
+    - kind: original
+- num: 490
+  title_jp: 服部平次VS工藤新一 ゲレンデの推理対決!
+  title_cn: 服部平次VS工藤新一滑雪场的推理对决
+  aired_at: 2007-12-03
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.50
+    - kind: manga
+      ref: Vol.51
+- num: 491
+  title_jp: 赤と黒のクラッシュ 発端
+  title_cn: 红与黑的碰撞（开端）
+  aired_at: 2008-01-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 492
+  title_jp: 赤と黒のクラッシュ 血縁
+  title_cn: 红与黑的碰撞（血缘）
+  aired_at: 2008-01-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.56
+- num: 493
+  title_jp: 赤と黒のクラッシュ 絶叫
+  title_cn: 红与黑的碰撞（惨叫）
+  aired_at: 2008-01-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.57
+- num: 494
+  title_jp: 赤と黒のクラッシュ 冥土
+  title_cn: 红与黑的碰撞（冥土）
+  aired_at: 2008-02-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.57
+- num: 495
+  title_jp: 赤と黒のクラッシュ 昏睡
+  title_cn: 红与黑的碰撞（昏睡）
+  aired_at: 2008-02-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.57
+    - kind: manga
+      ref: Vol.58
+- num: 496
+  title_jp: 赤と黒のクラッシュ 侵入
+  title_cn: 红与黑的碰撞（侵入）
+  aired_at: 2008-02-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.57
+    - kind: manga
+      ref: Vol.58
+- num: 497
+  title_jp: 赤と黒のクラッシュ 覚醒
+  title_cn: 红与黑的碰撞（觉醒）
+  aired_at: 2008-02-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+- num: 498
+  title_jp: 赤と黒のクラッシュ 攪乱
+  title_cn: 红与黑的碰撞（搅乱）
+  aired_at: 2008-03-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+- num: 499
+  title_jp: 赤と黒のクラッシュ 偽装
+  title_cn: 红与黑的碰撞（伪装）
+  aired_at: 2008-03-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+- num: 500
+  title_jp: 赤と黒のクラッシュ 遺言
+  title_cn: 红与黑的碰撞（遗言）
+  aired_at: 2008-03-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+- num: 501
+  title_jp: 赤と黒のクラッシュ 嫌疑
+  title_cn: 红与黑的碰撞（嫌疑）
+  aired_at: 2008-04-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+- num: 502
+  title_jp: 赤と黒のクラッシュ 潔白
+  title_cn: 红与黑的碰撞（清白）
+  aired_at: 2008-04-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+    - kind: manga
+      ref: Vol.59
+- num: 503
+  title_jp: 赤と黒のクラッシュ 決死
+  title_cn: 红与黑的碰撞（决死）
+  aired_at: 2008-05-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+    - kind: manga
+      ref: Vol.59
+- num: 504
+  title_jp: 赤と黒のクラッシュ 殉職
+  title_cn: 红与黑的碰撞（殉职）
+  aired_at: 2008-05-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.58
+    - kind: manga
+      ref: Vol.59
+- num: 505
+  title_jp: 弁護士妃英理の証言（前編）
+  title_cn: 律师妃英理的证词（上集）
+  aired_at: 2008-06-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.59
+- num: 506
+  title_jp: 弁護士妃英理の証言（後編）
+  title_cn: 律师妃英理的证词（下集）
+  aired_at: 2008-06-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.59
+- num: 507
+  title_jp: カラオケボックスの死角（前編）
+  title_cn: 卡拉OK包厢的死角（上集）
+  aired_at: 2008-06-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.59
+    - kind: manga
+      ref: Vol.60
+- num: 508
+  title_jp: カラオケボックスの死角（後編）
+  title_cn: 卡拉OK包厢的死角（下集）
+  aired_at: 2008-07-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.59
+    - kind: manga
+      ref: Vol.60
+- num: 509
+  title_jp: 赤白黄色と探偵団
+  title_cn: 红白黄色和侦探团
+  aired_at: 2008-07-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.60
+- num: 510
+  title_jp: コナンVSW暗号ミステリー
+  title_cn: 柯南VS双重暗号之谜
+  aired_at: 2008-07-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.60
+- num: 511
+  title_jp: 推理対決! 新一VS沖矢昴
+  title_cn: 推理对决！新一VS冲矢昴
+  aired_at: 2008-08-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.61
+- num: 512
+  title_jp: 砕けたホロスコープ
+  title_cn: 破碎的占星天宫图
+  aired_at: 2008-08-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 513
+  title_jp: 殺意はコーヒーの香り（前編）
+  title_cn: 产生杀意的咖啡香（上集）
+  aired_at: 2008-09-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.60
+- num: 514
+  title_jp: 殺意はコーヒーの香り（後編）
+  title_cn: 产生杀意的咖啡香（下集）
+  aired_at: 2008-09-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.60
+- num: 515
+  title_jp: 怪盗キッドの瞬間移動魔術
+  title_cn: 怪盗基德的瞬间移动魔术
+  aired_at: 2008-10-20
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.61
+- num: 516
+  title_jp: 風林火山 迷宮の鎧武者
+  title_cn: 风林火山 迷宫的铠甲武士
+  aired_at: 2008-11-03
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.59
+- num: 517
+  title_jp: 風林火山 陰と雷光の決着
+  title_cn: 风林火山 阴影与雷光的对决
+  aired_at: 2008-11-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.59
+- num: 518
+  title_jp: 明治維新ミステリーツアー（探索編）
+  title_cn: 明治维新神秘之旅（探索篇）
+  aired_at: 2008-12-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 519
+  title_jp: 明治維新ミステリーツアー（解読編）
+  title_cn: 明治维新神秘之旅（解读篇）
+  aired_at: 2008-12-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 520
+  title_jp: ワインレッドの告発
+  title_cn: 红酒的告发
+  aired_at: 2008-12-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 521
+  title_jp: 殺人犯、工藤新一
+  title_cn: 杀人犯，工藤新一
+  aired_at: 2009-01-19
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.62
+- num: 522
+  title_jp: 新一の正体に蘭の涙
+  title_cn: 新一的真实身份和小兰的眼泪
+  aired_at: 2009-01-26
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.62
+- num: 523
+  title_jp: 本当に聞きたいコト
+  title_cn: 真正想知道的事
+  aired_at: 2009-02-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.62
+    - kind: manga
+      ref: Vol.63
+- num: 524
+  title_jp: 憎しみの青い火花（前編）
+  title_cn: 憎恨的蓝色火花（上集）
+  aired_at: 2009-02-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.61
+- num: 525
+  title_jp: 憎しみの青い火花（後編）
+  title_cn: 憎恨的蓝色火花（下集）
+  aired_at: 2009-02-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.61
+- num: 526
+  title_jp: 真犯人からの届け物
+  title_cn: 真凶送来的包裹
+  aired_at: 2009-02-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.61
+    - kind: manga
+      ref: Vol.62
+- num: 527
+  title_jp: 仮面劇に秘めた悪意
+  title_cn: 面具下隐藏的恶意
+  aired_at: 2009-03-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 528
+  title_jp: 柔よく謎を制す（前編）
+  title_cn: 以柔克谜（上集）
+  aired_at: 2009-03-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.62
+- num: 529
+  title_jp: 柔よく謎を制す（後編）
+  title_cn: 以柔克谜（下集）
+  aired_at: 2009-03-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.62
+- num: 530
+  title_jp: 都市伝説の正体（前編）
+  title_cn: 都市传说的真相（上集）
+  aired_at: 2009-04-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.60
+- num: 531
+  title_jp: 都市伝説の正体（後編）
+  title_cn: 都市传说的真相（下集）
+  aired_at: 2009-04-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.60
+- num: 532
+  title_jp: 初恋の傷跡
+  title_cn: 初恋的伤痕
+  aired_at: 2009-05-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.64
+- num: 533
+  title_jp: 過去を呼ぶ傷跡
+  title_cn: 唤起过去的伤痕
+  aired_at: 2009-05-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.64
+- num: 534
+  title_jp: 新たな傷跡と口笛の男
+  title_cn: 新伤痕和吹口哨的男子
+  aired_at: 2009-05-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.64
+- num: 535
+  title_jp: 古き傷跡と刑事の魂
+  title_cn: 旧伤痕和刑警之魂
+  aired_at: 2009-05-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.64
+- num: 536
+  title_jp: 消えた名画の秘密
+  title_cn: 消失名画的秘密
+  aired_at: 2009-05-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 537
+  title_jp: 怪盗キッドVS最強金庫（前編）
+  title_cn: 怪盗基德VS最强金库（上集）
+  aired_at: 2009-06-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+- num: 538
+  title_jp: 怪盗キッドVS最強金庫（後編）
+  title_cn: 怪盗基德VS最强金库（下集）
+  aired_at: 2009-06-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+- num: 539
+  title_jp: 愚か者への遺産
+  title_cn: 给愚者的遗产
+  aired_at: 2009-07-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 540
+  title_jp: 毛利小五郎探偵廃業の日（前編）
+  title_cn: 毛利小五郎侦探歇业之日（上集）
+  aired_at: 2009-07-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 541
+  title_jp: 毛利小五郎探偵廃業の日（後編）
+  title_cn: 毛利小五郎侦探歇业之日（下集）
+  aired_at: 2009-07-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 542
+  title_jp: 魚が消える一角岩（前編）
+  title_cn: 鱼儿消失的一角岩（上集）
+  aired_at: 2009-07-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.64
+- num: 543
+  title_jp: 魚が消える一角岩（後編）
+  title_cn: 鱼儿消失的一角岩（下集）
+  aired_at: 2009-08-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.64
+- num: 544
+  title_jp: 不協和音を奏でる手
+  title_cn: 弹奏不和谐之音的手
+  aired_at: 2009-08-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 545
+  title_jp: 霧にむせぶ魔女（前編）
+  title_cn: 雾中惨叫的魔女（上集）
+  aired_at: 2009-09-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.63
+- num: 546
+  title_jp: 霧にむせぶ魔女（後編）
+  title_cn: 雾中惨叫的魔女（下集）
+  aired_at: 2009-09-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.63
+- num: 547
+  title_jp: 犯人との二日間（一日目）
+  title_cn: 和绑架犯在一起的两天（第一天）
+  aired_at: 2009-09-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 548
+  title_jp: 犯人との二日間（二日目）
+  title_cn: 和绑架犯在一起的两天（第二天）
+  aired_at: 2009-09-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 549
+  title_jp: 回転寿司ミステリー（前編）
+  title_cn: 回转寿司之谜（上集）
+  aired_at: 2009-10-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.63
+- num: 550
+  title_jp: 回転寿司ミステリー（後編）
+  title_cn: 回转寿司之谜（下集）
+  aired_at: 2009-10-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.63
+- num: 551
+  title_jp: 犯人は元太の父ちゃん（前編）
+  title_cn: 凶手是元太的父亲（上集）
+  aired_at: 2009-10-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.63
+- num: 552
+  title_jp: 犯人は元太の父ちゃん（後編）
+  title_cn: 凶手是元太的父亲（下集）
+  aired_at: 2009-10-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.63
+- num: 553
+  title_jp: ザ・取調室
+  title_cn: THE侦讯室
+  aired_at: 2009-10-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 554
+  title_jp: こうのとりミステリーツアー（蘭捜索編）
+  title_cn: 鹳的探索之旅（小兰搜索篇）
+  aired_at: 2009-11-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 555
+  title_jp: こうのとりミステリーツアー（陽菜追跡編）
+  title_cn: 鹳的探索之旅（追踪阳菜篇）
+  aired_at: 2009-11-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 556
+  title_jp: 恐怖の交差点
+  title_cn: 恐怖的十字路口
+  aired_at: 2009-11-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 557
+  title_jp: 危険な二人連れ
+  title_cn: 危险的二人组
+  aired_at: 2009-11-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+- num: 558
+  title_jp: 死亡の館、赤い壁（三顧の礼）
+  title_cn: 死亡之馆 赤壁（三顾之礼）
+  aired_at: 2009-12-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+    - kind: manga
+      ref: Vol.66
+- num: 559
+  title_jp: 死亡の館、赤い壁（掌中の物）
+  title_cn: 死亡之馆 赤壁（掌中之物）
+  aired_at: 2009-12-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+    - kind: manga
+      ref: Vol.66
+- num: 560
+  title_jp: 死亡の館、赤い壁（死せる孔明）
+  title_cn: 死亡之馆 赤壁（逝者孔明）
+  aired_at: 2009-12-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+    - kind: manga
+      ref: Vol.66
+- num: 561
+  title_jp: 死亡の館、赤い壁（空城の計）
+  title_cn: 死亡之馆 赤壁（空城计）
+  aired_at: 2009-12-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+    - kind: manga
+      ref: Vol.66
+- num: 562
+  title_jp: 虹色の誘拐
+  title_cn: 彩虹色的绑架
+  aired_at: 2010-01-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 563
+  title_jp: 探偵団VS強盗団 騒然
+  title_cn: 侦探团VS抢匪团（骚动）
+  aired_at: 2010-01-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+- num: 564
+  title_jp: 探偵団VS強盗団 沈黙
+  title_cn: 侦探团VS抢匪团（沉默）
+  aired_at: 2010-01-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.65
+- num: 565
+  title_jp: 見てない目撃者
+  title_cn: 看不见的目击者
+  aired_at: 2010-02-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 566
+  title_jp: 相棒はサンタさん
+  title_cn: 搭档是圣诞老人
+  aired_at: 2010-02-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 567
+  title_jp: 露天風呂に降る殺意
+  title_cn: 露天温泉从天而降的杀意
+  aired_at: 2010-03-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 568
+  title_jp: 白鳥警部、桜の思い出（前編）
+  title_cn: 白鸟警官 樱花的回忆（上集）
+  aired_at: 2010-03-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.66
+- num: 569
+  title_jp: 白鳥警部、桜の思い出（後編）
+  title_cn: 白鸟警官 樱花的回忆（下集）
+  aired_at: 2010-03-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.66
+- num: 570
+  title_jp: 立証確率ゼロの犯罪
+  title_cn: 证实几率为零的犯罪
+  aired_at: 2010-03-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 571
+  title_jp: もののけ倉でお宝バトル（前編）
+  title_cn: 妖怪仓库的寻宝战争（上集）
+  aired_at: 2010-05-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.66
+- num: 572
+  title_jp: もののけ倉でお宝バトル（後編）
+  title_cn: 妖怪仓库的寻宝战争（下集）
+  aired_at: 2010-05-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.66
+- num: 573
+  title_jp: 恥ずかしいお守りの行方（前編）
+  title_cn: 令人害羞的护身符的下落（上集）
+  aired_at: 2010-05-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.66
+- num: 574
+  title_jp: 恥ずかしいお守りの行方（後編）
+  title_cn: 令人害羞的护身符的下落（下集）
+  aired_at: 2010-05-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.66
+- num: 575
+  title_jp: 黒きドレスのアリバイ（前編）
+  title_cn: 黑色洋装的不在场证明（上集）
+  aired_at: 2010-05-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 576
+  title_jp: 黒きドレスのアリバイ（後編）
+  title_cn: 黑色洋装的不在场证明（下集）
+  aired_at: 2010-06-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 577
+  title_jp: ホタルが灯した真実
+  title_cn: 萤火虫照亮的真相
+  aired_at: 2010-06-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 578
+  title_jp: 危機呼ぶ赤い前兆
+  title_cn: 引发危机的红色前兆
+  aired_at: 2010-06-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 579
+  title_jp: 黒き13の暗示
+  title_cn: 黑色13的暗示
+  aired_at: 2010-07-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 580
+  title_jp: 迫る黒の刻限
+  title_cn: 步步逼近的黑色期限
+  aired_at: 2010-07-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 581
+  title_jp: 赤く揺れる照準
+  title_cn: 摇曳的红色目标
+  aired_at: 2010-07-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 582
+  title_jp: ゾンビが死んだ夜
+  title_cn: 僵尸死亡之夜
+  aired_at: 2010-07-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 583
+  title_jp: 小林先生の恋
+  title_cn: 小林老师的恋情
+  aired_at: 2010-08-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+- num: 584
+  title_jp: 白鳥警部の失恋
+  title_cn: 白鸟警官的失恋
+  aired_at: 2010-08-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.67
+    - kind: manga
+      ref: Vol.68
+- num: 585
+  title_jp: 時を超える桜の恋
+  title_cn: 超越时空的樱花之恋
+  aired_at: 2010-08-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 586
+  title_jp: 闇に消えた麒麟の角
+  title_cn: 消失于黑暗中的麒麟角
+  aired_at: 2010-09-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 587
+  title_jp: キッドVS四神探偵団
+  title_cn: 基德VS四神侦探团
+  aired_at: 2010-09-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 588
+  title_jp: 屋上農園の罠
+  title_cn: 屋顶农园的陷阱
+  aired_at: 2010-09-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 589
+  title_jp: 最悪な誕生日（前編）
+  title_cn: 最糟糕的生日（上集）
+  aired_at: 2010-09-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 590
+  title_jp: 最悪な誕生日（後編）
+  title_cn: 最糟糕的生日（下集）
+  aired_at: 2010-10-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 591
+  title_jp: 水族館のある家
+  title_cn: 拥有水族馆的家
+  aired_at: 2010-10-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 592
+  title_jp: 猿と熊手のトリ物帖（前編）
+  title_cn: 猴子与熊手的追捕令（上集）
+  aired_at: 2010-10-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 593
+  title_jp: 猿と熊手のトリ物帖（後編）
+  title_cn: 猴子与熊手的追捕令（下集）
+  aired_at: 2010-10-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.68
+- num: 594
+  title_jp: 広島宮島七不思議ツアー（宮島編）
+  title_cn: 广岛宫岛的七大不可思议之旅（宫岛篇）
+  aired_at: 2010-11-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 595
+  title_jp: 広島宮島七不思議ツアー（広島編）
+  title_cn: 广岛宫岛的七大不可思议之旅（广岛篇）
+  aired_at: 2010-11-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 596
+  title_jp: 転落のアリバイ
+  title_cn: 坠楼的不在场证明
+  aired_at: 2010-11-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 597
+  title_jp: 湯煙密室のシナリオ（前編）
+  title_cn: 蒸气密室的剧本（上集）
+  aired_at: 2010-11-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+- num: 598
+  title_jp: 湯煙密室のシナリオ（後編）
+  title_cn: 蒸气密室的剧本（下集）
+  aired_at: 2010-12-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+- num: 599
+  title_jp: セイギノミカタ
+  title_cn: 正义的使者
+  aired_at: 2010-12-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 600
+  title_jp: 河童が見た夢（前編）
+  title_cn: 河童之梦（上集）
+  aired_at: 2010-12-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+- num: 601
+  title_jp: 河童が見た夢（後編）
+  title_cn: 河童之梦（下集）
+  aired_at: 2010-12-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+- num: 602
+  title_jp: テニスコートに潜む悪魔
+  title_cn: 隐藏在网球场的恶魔
+  aired_at: 2011-01-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 603
+  title_jp: 降霊会W密室事件（第一の密室）
+  title_cn: 降灵会W密室事件（第一个密室）
+  aired_at: 2011-01-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 604
+  title_jp: 降霊会W密室事件（第二の密室）
+  title_cn: 降灵会W密室事件（第二个密室）
+  aired_at: 2011-02-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 605
+  title_jp: 降霊会W密室事件（密室開放）
+  title_cn: 降灵会W密室事件（密室开放）
+  aired_at: 2011-02-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 606
+  title_jp: 法廷の対決IV 裁判員小林澄子（前編）
+  title_cn: 法庭的对决Ⅳ 陪审员小林澄子（上集）
+  aired_at: 2011-02-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 607
+  title_jp: 法廷の対決IV 裁判員小林澄子（後編）
+  title_cn: 法庭的对决Ⅳ 陪审员小林澄子（下集）
+  aired_at: 2011-02-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 608
+  title_jp: 裏切りのホワイトデー（前編）
+  title_cn: 背叛的白色情人节（上集）
+  aired_at: 2011-03-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+- num: 609
+  title_jp: 裏切りのホワイトデー（後編）
+  title_cn: 背叛的白色情人节（下集）
+  aired_at: 2011-03-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+- num: 610
+  title_jp: 被害者はクドウシンイチ
+  title_cn: 被害者是Kudou Shinichi
+  aired_at: 2011-04-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.70
+- num: 611
+  title_jp: 犬伏城炎の魔犬（鬼火の章）
+  title_cn: 犬伏城 炎之魔犬（鬼火之章）
+  aired_at: 2011-04-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.70
+- num: 612
+  title_jp: 犬伏城炎の魔犬（足跡の章）
+  title_cn: 犬伏城 炎之魔犬（足迹之章）
+  aired_at: 2011-04-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.70
+- num: 613
+  title_jp: 犬伏城炎の魔犬（姫の章）
+  title_cn: 犬伏城 炎之魔犬（公主之章）
+  aired_at: 2011-04-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.70
+- num: 614
+  title_jp: 日記が奏でる秘密（前編）
+  title_cn: 日记奏出的秘密（上集）
+  aired_at: 2011-05-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+    - kind: manga
+      ref: Vol.70
+- num: 615
+  title_jp: 日記が奏でる秘密（後編）
+  title_cn: 日记奏出的秘密（下集）
+  aired_at: 2011-05-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.69
+    - kind: manga
+      ref: Vol.70
+- num: 616
+  title_jp: ホームズの黙示録（名探偵の弟子）
+  title_cn: 福尔摩斯默示录（名侦探的弟子）
+  aired_at: 2011-05-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+    - kind: manga
+      ref: Vol.72
+- num: 617
+  title_jp: ホームズの黙示録（LOVE IS 0）
+  title_cn: 福尔摩斯默示录（Love is 0）
+  aired_at: 2011-05-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+    - kind: manga
+      ref: Vol.72
+- num: 618
+  title_jp: ホームズの黙示録（サタン）
+  title_cn: 福尔摩斯默示录（撒旦）
+  aired_at: 2011-06-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+    - kind: manga
+      ref: Vol.72
+- num: 619
+  title_jp: ホームズの黙示録（CODE BREAK）
+  title_cn: 福尔摩斯默示录（Code break）
+  aired_at: 2011-06-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+    - kind: manga
+      ref: Vol.72
+- num: 620
+  title_jp: ホームズの黙示録（芝の女王）
+  title_cn: 福尔摩斯默示录（草地女王）
+  aired_at: 2011-06-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+    - kind: manga
+      ref: Vol.72
+- num: 621
+  title_jp: ホームズの黙示録（0 IS START）
+  title_cn: 福尔摩斯默示录（0 is Start）
+  aired_at: 2011-06-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+    - kind: manga
+      ref: Vol.72
+- num: 622
+  title_jp: 緊急事態252（前編）
+  title_cn: 紧急事件252（上集）
+  aired_at: 2011-07-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+- num: 623
+  title_jp: 緊急事態252（後編）
+  title_cn: 紧急事件252（下集）
+  aired_at: 2011-07-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+- num: 624
+  title_jp: 初恋のビデオレター
+  title_cn: 初恋的录影信
+  aired_at: 2011-07-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.71
+- num: 625
+  title_jp: 絶叫手術室（前編）
+  title_cn: 手术室惊魂（上集）
+  aired_at: 2011-07-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+- num: 626
+  title_jp: 絶叫手術室（後編）
+  title_cn: 手术室惊魂（下集）
+  aired_at: 2011-07-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+- num: 627
+  title_jp: コナンキッドの龍馬お宝攻防戦（前編）
+  title_cn: 柯南与基德的龙马宝物攻防战（上集）
+  aired_at: 2011-08-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.70
+- num: 628
+  title_jp: コナンキッドの龍馬お宝攻防戦（後編）
+  title_cn: 柯南与基德的龙马宝物攻防战（下集）
+  aired_at: 2011-08-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.70
+- num: 629
+  title_jp: プロモビデオ撮影事件（前編）
+  title_cn: 宣传片拍摄事件（上集）
+  aired_at: 2011-09-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 630
+  title_jp: プロモビデオ撮影事件（後編）
+  title_cn: 宣传片拍摄事件（下集）
+  aired_at: 2011-09-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 631
+  title_jp: 花時計は知っていた
+  title_cn: 花钟见证的真相
+  aired_at: 2011-09-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 632
+  title_jp: 時の番人の刃（前編）
+  title_cn: 时间守护者之剑（上集）
+  aired_at: 2011-10-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+    - kind: manga
+      ref: Vol.73
+- num: 633
+  title_jp: 時の番人の刃（後編）
+  title_cn: 时间守护者之剑（下集）
+  aired_at: 2011-10-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+    - kind: manga
+      ref: Vol.73
+- num: 634
+  title_jp: 犯行現場は激セマ店
+  title_cn: 犯罪现场是超级小店
+  aired_at: 2011-10-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 635
+  title_jp: ダイエットにご用心
+  title_cn: 小心减肥的陷阱
+  aired_at: 2011-11-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 636
+  title_jp: 世界一受けたい授業事件（前編）
+  title_cn: 世界上最想听的一堂课（上集）
+  aired_at: 2011-11-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 637
+  title_jp: 世界一受けたい授業事件（後編）
+  title_cn: 世界上最想听的一堂课（下集）
+  aired_at: 2011-11-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 638
+  title_jp: 紅葉御殿で謎を解く（前編）
+  title_cn: 解开红叶公馆之谜（上集）
+  aired_at: 2011-11-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 639
+  title_jp: 紅葉御殿で謎を解く（後編）
+  title_cn: 解开红叶公馆之谜（下集）
+  aired_at: 2011-12-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 640
+  title_jp: 8枚のスケッチ記憶の旅（岡山編）
+  title_cn: 八张素描画的记忆之旅（冈山篇）
+  aired_at: 2011-12-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 641
+  title_jp: 8枚のスケッチ記憶の旅（倉敷編）
+  title_cn: 八张素描画的记忆之旅（仓敷篇）
+  aired_at: 2011-12-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 642
+  title_jp: カルタ取り危機一髪（前編）
+  title_cn: 纸牌游戏千钧一发（上集）
+  aired_at: 2012-01-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+- num: 643
+  title_jp: カルタ取り危機一髪（後編）
+  title_cn: 纸牌游戏千钧一发（下集）
+  aired_at: 2012-01-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.72
+- num: 644
+  title_jp: 死ぬほど美味いラーメン（前編）
+  title_cn: 好吃到要命的拉面（上集）
+  aired_at: 2012-02-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+- num: 645
+  title_jp: 死ぬほど美味いラーメン（後編）
+  title_cn: 好吃到要命的拉面（下集）
+  aired_at: 2012-02-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+- num: 646
+  title_jp: 幽霊ホテルの推理対決（前編）
+  title_cn: 幽灵饭店的推理对决（上集）
+  aired_at: 2012-02-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+- num: 647
+  title_jp: 幽霊ホテルの推理対決（後編）
+  title_cn: 幽灵饭店的推理对决（下集）
+  aired_at: 2012-02-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+- num: 648
+  title_jp: 探偵事務所籠城事件（勃発）
+  title_cn: 侦探事务所挟持事件（突发）
+  aired_at: 2012-03-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+    - kind: manga
+      ref: Vol.74
+- num: 649
+  title_jp: 探偵事務所籠城事件（狙撃）
+  title_cn: 侦探事务所挟持事件（狙击）
+  aired_at: 2012-03-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+    - kind: manga
+      ref: Vol.74
+- num: 650
+  title_jp: 探偵事務所籠城事件（解放）
+  title_cn: 侦探事务所挟持事件（解放）
+  aired_at: 2012-03-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.73
+    - kind: manga
+      ref: Vol.74
+- num: 651
+  title_jp: コナンVS平次 東西探偵推理勝負
+  title_cn: 柯南VS平次东西侦探推理对决
+  aired_at: 2012-03-24
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.74
+- num: 652
+  title_jp: 毒と幻のデザイン（EYE）
+  title_cn: 毒和幻的设计（EYE）
+  aired_at: 2012-04-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.74
+    - kind: manga
+      ref: Vol.75
+- num: 653
+  title_jp: 毒と幻のデザイン（S）
+  title_cn: 毒和幻的设计（S）
+  aired_at: 2012-04-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.74
+    - kind: manga
+      ref: Vol.75
+- num: 654
+  title_jp: 毒と幻のデザイン（Poison）
+  title_cn: 毒和幻的设计（Poison）
+  aired_at: 2012-05-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.74
+    - kind: manga
+      ref: Vol.75
+- num: 655
+  title_jp: 毒と幻のデザイン（Illusion）
+  title_cn: 毒和幻的设计（Illusion）
+  aired_at: 2012-05-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.74
+    - kind: manga
+      ref: Vol.75
+- num: 656
+  title_jp: 博士の動画サイト（前編）
+  title_cn: 博士的影音网站（上集）
+  aired_at: 2012-05-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.74
+- num: 657
+  title_jp: 博士の動画サイト（後編）
+  title_cn: 博士的影音网站（下集）
+  aired_at: 2012-05-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.74
+- num: 658
+  title_jp: ショコラの熱い罠
+  title_cn: 巧克力的火热陷阱
+  aired_at: 2012-06-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 659
+  title_jp: 初恋の共同捜査（前編）
+  title_cn: 初恋情人的共同调查（上集）
+  aired_at: 2012-06-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.75
+- num: 660
+  title_jp: 初恋の共同捜査（後編）
+  title_cn: 初恋情人的共同调查（下集）
+  aired_at: 2012-06-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.75
+- num: 661
+  title_jp: 小五郎さんはいい人（前編）
+  title_cn: 小五郎先生是一个好人（上集）
+  aired_at: 2012-06-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.75
+- num: 662
+  title_jp: 小五郎さんはいい人（後編）
+  title_cn: 小五郎先生是一个好人（下集）
+  aired_at: 2012-06-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.75
+- num: 663
+  title_jp: ミヤマクワガタを追え
+  title_cn: 追捕深山锹形虫
+  aired_at: 2012-07-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 664
+  title_jp: 名犬クールのお手柄2
+  title_cn: 名犬克尔立大功2
+  aired_at: 2012-07-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 665
+  title_jp: 疑惑のイニシャルK
+  title_cn: 令人疑惑的姓名缩写字母“K”
+  aired_at: 2012-07-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 666
+  title_jp: 雨の夜の脅迫者
+  title_cn: 雨夜的恐吓犯
+  aired_at: 2012-07-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 667
+  title_jp: ウェディングイブ（前編）
+  title_cn: 婚礼前夕（上集）
+  aired_at: 2012-09-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.75
+- num: 668
+  title_jp: ウェディングイブ（後編）
+  title_cn: 婚礼前夕（下集）
+  aired_at: 2012-09-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.75
+- num: 669
+  title_jp: くらやみ塔の秘宝（前編）
+  title_cn: 暗黑之塔的秘宝（上集）
+  aired_at: 2012-09-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 670
+  title_jp: くらやみ塔の秘宝（後編）
+  title_cn: 暗黑之塔的秘宝（下集）
+  aired_at: 2012-09-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 671
+  title_jp: 探偵たちの夜想曲（事件）
+  title_cn: 侦探们的夜想曲（案件）
+  aired_at: 2012-10-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+- num: 672
+  title_jp: 探偵たちの夜想曲（誘拐）
+  title_cn: 侦探们的夜想曲（诱拐）
+  aired_at: 2012-10-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+- num: 673
+  title_jp: 探偵たちの夜想曲（推理）
+  title_cn: 侦探们的夜想曲（推理）
+  aired_at: 2012-10-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+- num: 674
+  title_jp: 探偵たちの夜想曲（バーボン）
+  title_cn: 侦探们的夜想曲（波本）
+  aired_at: 2012-10-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+- num: 675
+  title_jp: 1ミリも許さない（前編）
+  title_cn: 一点都不能原谅（上集）
+  aired_at: 2012-11-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+- num: 676
+  title_jp: 1ミリも許さない（後編）
+  title_cn: 一点都不能原谅（下集）
+  aired_at: 2012-11-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+- num: 677
+  title_jp: 足跡がない砂浜
+  title_cn: 没有足迹的沙滩
+  aired_at: 2012-11-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 678
+  title_jp: 長崎ミステリー劇場（幕末篇）
+  title_cn: 长崎推理剧场（幕末篇）
+  aired_at: 2012-12-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 679
+  title_jp: 長崎ミステリー劇場（現代篇）
+  title_cn: 长崎推理剧场（现代篇）
+  aired_at: 2012-12-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 680
+  title_jp: サボテン狂騒曲
+  title_cn: 仙人掌狂想曲
+  aired_at: 2012-12-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 681
+  title_jp: 命を賭けた恋愛中継（中継開始）
+  title_cn: 赌上性命的恋爱转播（转播开始）
+  aired_at: 2013-01-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+    - kind: manga
+      ref: Vol.77
+- num: 682
+  title_jp: 命を賭けた恋愛中継（絶体絶命）
+  title_cn: 赌上性命的恋爱转播（穷途末路）
+  aired_at: 2013-01-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+    - kind: manga
+      ref: Vol.77
+- num: 683
+  title_jp: 命を賭けた恋愛中継（現場突入）
+  title_cn: 赌上性命的恋爱转播（冲入现场）
+  aired_at: 2013-01-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.76
+    - kind: manga
+      ref: Vol.77
+- num: 684
+  title_jp: 泡と湯気と煙（前編）
+  title_cn: 泡沫、热气、烟（上集）
+  aired_at: 2013-01-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.77
+- num: 685
+  title_jp: 泡と湯気と煙（後編）
+  title_cn: 泡沫、热气、烟（下集）
+  aired_at: 2013-02-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.77
+- num: 686
+  title_jp: 時限爆弾を乗せた車
+  title_cn: 安装计时炸弹的车
+  aired_at: 2013-02-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 687
+  title_jp: 誰にもとけない氷の罠
+  title_cn: 无人能解的冰之陷阱
+  aired_at: 2013-02-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 688
+  title_jp: 高木刑事3千万拾う
+  title_cn: 高木刑事捡到3000万日圆
+  aired_at: 2013-02-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 689
+  title_jp: 依頼人からのメッセージ
+  title_cn: 委托人送来的留言
+  aired_at: 2013-03-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 690
+  title_jp: 工藤優作の未解決事件（前編）
+  title_cn: 工藤优作的未解决事件（上集）
+  aired_at: 2013-03-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.77
+- num: 691
+  title_jp: 工藤優作の未解決事件（後編）
+  title_cn: 工藤优作的未解决事件（下集）
+  aired_at: 2013-03-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.77
+- num: 692
+  title_jp: 隅田川夜桜ルート（前編）
+  title_cn: 隅田川夜樱路线（上集）
+  aired_at: 2013-03-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 693
+  title_jp: 隅田川夜桜ルート（後編）
+  title_cn: 隅田川夜樱路线（下集）
+  aired_at: 2013-03-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 694
+  title_jp: 消えた老舗の和菓子
+  title_cn: 老店消失的日式甜点
+  aired_at: 2013-04-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 695
+  title_jp: 葡萄畑に薔薇の花
+  title_cn: 葡萄园、玫瑰花
+  aired_at: 2013-04-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 696
+  title_jp: 花壇あらしの陰謀
+  title_cn: 花圃破坏者的阴谋
+  aired_at: 2013-05-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 697
+  title_jp: 女学園の窓
+  title_cn: 女校学园的窗户
+  aired_at: 2013-05-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 698
+  title_jp: まさか! UFO墜落事件
+  title_cn: 怎么可能！幽浮坠落事件
+  aired_at: 2013-05-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 699
+  title_jp: 灰原の秘密に迫る影（前編）
+  title_cn: 迫近灰原秘密的黑影（上集）
+  aired_at: 2013-06-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.77
+- num: 700
+  title_jp: 灰原の秘密に迫る影（後編）
+  title_cn: 迫近灰原秘密的黑影（下集）
+  aired_at: 2013-06-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.77
+- num: 701
+  title_jp: 漆黒の特急（発車）
+  title_cn: 漆黑的神秘列车（发车）
+  aired_at: 2013-07-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+- num: 702
+  title_jp: 漆黒の特急（隧道）
+  title_cn: 漆黑的神秘列车（隧道）
+  aired_at: 2013-07-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+- num: 703
+  title_jp: 漆黒の特急（交差）
+  title_cn: 漆黑的神秘列车（交叉）
+  aired_at: 2013-07-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+- num: 704
+  title_jp: 漆黒の特急（終点）
+  title_cn: 漆黑的神秘列车（终点）
+  aired_at: 2013-08-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+- num: 705
+  title_jp: 密室にいるコナン
+  title_cn: 密室中的柯南
+  aired_at: 2013-08-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+- num: 706
+  title_jp: 謎解きするバーボン
+  title_cn: 揭开谜底的波本
+  aired_at: 2013-08-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+- num: 707
+  title_jp: はめられた名探偵
+  title_cn: 被陷害的名侦探
+  aired_at: 2013-08-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 708
+  title_jp: ゆっくり落ちた男
+  title_cn: 缓慢坠落的男子
+  aired_at: 2013-09-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 709
+  title_jp: 未確認衝撃事件
+  title_cn: 不明冲击事件
+  aired_at: 2013-09-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 710
+  title_jp: みんなが見ていた（前編）
+  title_cn: 大家都看见了（上集）
+  aired_at: 2013-09-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.79
+- num: 711
+  title_jp: みんなが見ていた（後編）
+  title_cn: 大家都看见了（下集）
+  aired_at: 2013-09-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.79
+- num: 712
+  title_jp: 服部平次と吸血鬼館（一）
+  title_cn: 服部平次、吸血鬼馆（一）
+  aired_at: 2013-10-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.79
+    - kind: manga
+      ref: Vol.80
+- num: 713
+  title_jp: 服部平次と吸血鬼館（二）
+  title_cn: 服部平次、吸血鬼馆（二）
+  aired_at: 2013-10-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.79
+    - kind: manga
+      ref: Vol.80
+- num: 714
+  title_jp: 服部平次と吸血鬼館（三）
+  title_cn: 服部平次、吸血鬼馆（三）
+  aired_at: 2013-10-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.79
+    - kind: manga
+      ref: Vol.80
+- num: 715
+  title_jp: 服部平次と吸血鬼館（四）
+  title_cn: 服部平次、吸血鬼馆（四）
+  aired_at: 2013-10-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.79
+    - kind: manga
+      ref: Vol.80
+- num: 716
+  title_jp: 能面屋敷に鬼が踊る（前編）
+  title_cn: 能面宅邸中跳舞的鬼（上集）
+  aired_at: 2013-11-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 717
+  title_jp: 能面屋敷に鬼が踊る（後編）
+  title_cn: 能面宅邸中跳舞的鬼（下集）
+  aired_at: 2013-11-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 718
+  title_jp: 悪魔の回路
+  title_cn: 恶魔的循环
+  aired_at: 2013-11-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 719
+  title_jp: プラチナチケット騒動記
+  title_cn: 白金票券骚动记
+  aired_at: 2013-11-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 720
+  title_jp: 火と水のミステリーツアー（阿蘇編）
+  title_cn: 火与水的神秘旅行（阿苏篇）
+  aired_at: 2013-11-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 721
+  title_jp: 火と水のミステリーツアー（熊本編）
+  title_cn: 火与水的神秘旅行（熊本篇）
+  aired_at: 2013-12-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 722
+  title_jp: 甘く冷たい宅配便（前編）
+  title_cn: 又甜又冷的宅急便（上集）
+  aired_at: 2013-12-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.80
+- num: 723
+  title_jp: 甘く冷たい宅配便（後編）
+  title_cn: 又甜又冷的宅急便（下集）
+  aired_at: 2013-12-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.80
+- num: 724
+  title_jp: 怪盗キッドと赤面の人魚（前編）
+  title_cn: 怪盗基德、赤面人鱼（上集）
+  aired_at: 2014-01-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+    - kind: manga
+      ref: Vol.79
+- num: 725
+  title_jp: 怪盗キッドと赤面の人魚（後編）
+  title_cn: 怪盗基德、赤面人鱼（下集）
+  aired_at: 2014-01-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.78
+    - kind: manga
+      ref: Vol.79
+- num: 726
+  title_jp: 幸福メールは不幸を呼ぶ
+  title_cn: 幸福讯息招来不幸
+  aired_at: 2014-01-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 727
+  title_jp: 果実が詰まった宝箱（前編）
+  title_cn: 装满水果的宝箱（上集）
+  aired_at: 2014-01-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.80
+- num: 728
+  title_jp: 果実が詰まった宝箱（後編）
+  title_cn: 装满水果的宝箱（下集）
+  aired_at: 2014-02-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.80
+- num: 729
+  title_jp: ダイヤと絵画と大女優
+  title_cn: 钻石、电影、大明星
+  aired_at: 2014-02-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 730
+  title_jp: 完璧すぎたフィギュア
+  title_cn: 太过完美的模型作品
+  aired_at: 2014-02-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 731
+  title_jp: 現場の隣人は元カレ（前編）
+  title_cn: 现场的邻居是前男友（上集）
+  aired_at: 2014-03-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.80
+- num: 732
+  title_jp: 現場の隣人は元カレ（後編）
+  title_cn: 现场的邻居是前男友（下集）
+  aired_at: 2014-03-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.80
+- num: 733
+  title_jp: 披露宴と二つの銃声
+  title_cn: 宴会与两次的枪声
+  aired_at: 2014-03-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 734
+  title_jp: ジョディの追憶とお花見の罠
+  title_cn: 茱蒂的回忆、赏花的陷阱
+  aired_at: 2014-03-29
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.80
+    - kind: manga
+      ref: Vol.81
+- num: 735
+  title_jp: 暗号付きの招待状
+  title_cn: 有暗号的邀请函
+  aired_at: 2014-04-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 736
+  title_jp: 毛利小五郎像の秘密
+  title_cn: 毛利小五郎像的秘密
+  aired_at: 2014-04-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 737
+  title_jp: 疑惑の散歩道
+  title_cn: 充满疑惑的步道
+  aired_at: 2014-05-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 738
+  title_jp: 小五郎はBARにいる（前編）
+  title_cn: 小五郎在BAR（上集）
+  aired_at: 2014-05-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.81
+- num: 739
+  title_jp: 小五郎はBARにいる（後編）
+  title_cn: 小五郎在BAR（下集）
+  aired_at: 2014-05-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.81
+- num: 740
+  title_jp: 蘭も倒れたバスルーム（前編）
+  title_cn: 小兰也昏倒的浴室（上集）
+  aired_at: 2014-05-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.81
+- num: 741
+  title_jp: 蘭も倒れたバスルーム（後編）
+  title_cn: 小兰也昏倒的浴室（下集）
+  aired_at: 2014-06-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.81
+- num: 742
+  title_jp: Jリーガーとの約束
+  title_cn: 与J联盟球员的约定
+  aired_at: 2014-06-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 743
+  title_jp: 偶然は二度かさなる
+  title_cn: 2次的巧合
+  aired_at: 2014-06-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 744
+  title_jp: 容疑者か京極真（前編）
+  title_cn: 嫌疑犯是京极真（上集）
+  aired_at: 2014-06-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.81
+- num: 745
+  title_jp: 容疑者か京極真（後編）
+  title_cn: 嫌疑犯是京极真（下集）
+  aired_at: 2014-07-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.81
+- num: 746
+  title_jp: 怪盗キッドVS京極真（前編）
+  title_cn: 怪盗基德VS京极真（上集）
+  aired_at: 2014-07-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+- num: 747
+  title_jp: 怪盗キッドVS京極真（後編）
+  title_cn: 怪盗基德VS京极真（下集）
+  aired_at: 2014-07-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+- num: 748
+  title_jp: 本庁の刑事恋物語（告白）
+  title_cn: 总局刑警恋爱物语（表白）
+  aired_at: 2014-08-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+- num: 749
+  title_jp: 本庁の刑事恋物語（真相）
+  title_cn: 总局刑警恋爱物语（真相）
+  aired_at: 2014-08-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+- num: 750
+  title_jp: 海に裏切られた男
+  title_cn: 被大海背叛的男子
+  aired_at: 2014-09-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 751
+  title_jp: 招き三毛猫の事件（前編）
+  title_cn: 招财三毛猫事件（上集）
+  aired_at: 2014-09-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+- num: 752
+  title_jp: 招き三毛猫の事件（後編）
+  title_cn: 招财三毛猫事件（下集）
+  aired_at: 2014-09-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+- num: 753
+  title_jp: シェアハウスの死角
+  title_cn: 分租房的死角
+  aired_at: 2014-10-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 754
+  title_jp: 赤い女の惨劇（湯煙）
+  title_cn: 红衣女的惨剧（水蒸气）
+  aired_at: 2014-10-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+    - kind: manga
+      ref: Vol.83
+- num: 755
+  title_jp: 赤い女の惨劇（悪霊）
+  title_cn: 红衣女的惨剧（恶灵）
+  aired_at: 2014-10-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+    - kind: manga
+      ref: Vol.83
+- num: 756
+  title_jp: 赤い女の惨劇（復讐）
+  title_cn: 红衣女的惨剧（报仇）
+  aired_at: 2014-10-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.82
+    - kind: manga
+      ref: Vol.83
+- num: 757
+  title_jp: 自首したお笑い芸人（前編）
+  title_cn: 自首的搞笑艺人（上集）
+  aired_at: 2014-11-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 758
+  title_jp: 自首したお笑い芸人（後編）
+  title_cn: 自首的搞笑艺人（下集）
+  aired_at: 2014-11-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 759
+  title_jp: 意外な結果の恋愛小説（前編）
+  title_cn: 意外结果的爱情小说（上集）
+  aired_at: 2014-11-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.83
+- num: 760
+  title_jp: 意外な結果の恋愛小説（後編）
+  title_cn: 意外结果的爱情小说（下集）
+  aired_at: 2014-11-29
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.83
+- num: 761
+  title_jp: 加賀百万石ミステリーツアー（金沢編）
+  title_cn: 加贺百万石推理之旅（金泽篇）
+  aired_at: 2014-12-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 762
+  title_jp: 加賀百万石ミステリーツアー（加賀温泉編）
+  title_cn: 加贺百万石推理之旅（加贺温泉篇）
+  aired_at: 2014-12-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 763
+  title_jp: コナンと平次 恋の暗号（前編）
+  title_cn: 柯南与平次 恋爱的暗号（上集）
+  aired_at: 2015-01-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.83
+- num: 764
+  title_jp: コナンと平次 恋の暗号（後編）
+  title_cn: 柯南与平次 恋爱的暗号（下集）
+  aired_at: 2015-01-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.83
+- num: 765
+  title_jp: 堤無津川凧揚げ事件（前編）
+  title_cn: 堤无津川风筝事件（上集）
+  aired_at: 2015-01-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.84
+- num: 766
+  title_jp: 堤無津川凧揚げ事件（後編）
+  title_cn: 堤无津川风筝事件（下集）
+  aired_at: 2015-01-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.84
+- num: 767
+  title_jp: 吹雪に消えた恋人
+  title_cn: 消失在风雪中的恋人
+  aired_at: 2015-02-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 768
+  title_jp: 灰原哀監禁事件
+  title_cn: 灰原哀监禁事件
+  aired_at: 2015-02-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 769
+  title_jp: 面倒な救急患者
+  title_cn: 麻烦的急救患者
+  aired_at: 2015-02-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 770
+  title_jp: ギスギスしたお茶会（前編）
+  title_cn: 气氛僵硬的茶会（上集）
+  aired_at: 2015-03-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.84
+- num: 771
+  title_jp: ギスギスしたお茶会（後編）
+  title_cn: 气氛僵硬的茶会（下集）
+  aired_at: 2015-03-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.84
+- num: 772
+  title_jp: 工藤新一水族館事件（前編）
+  title_cn: 工藤新一水族馆事件（上集）
+  aired_at: 2015-03-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.83
+    - kind: manga
+      ref: Vol.84
+- num: 773
+  title_jp: 工藤新一水族館事件（後編）
+  title_cn: 工藤新一水族馆事件（下集）
+  aired_at: 2015-03-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.83
+    - kind: manga
+      ref: Vol.84
+- num: 774
+  title_jp: 消えたムンクの叫び
+  title_cn: 消失的蒙克呐喊
+  aired_at: 2015-04-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 775
+  title_jp: あやつられた名探偵（前編）
+  title_cn: 受人操控的名侦探（上集）
+  aired_at: 2015-04-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 776
+  title_jp: あやつられた名探偵（後編）
+  title_cn: 受人操控的名侦探（下集）
+  aired_at: 2015-05-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 777
+  title_jp: 少年探偵団VS老人探偵団
+  title_cn: 少年侦探团VS老人侦探团
+  aired_at: 2015-05-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 778
+  title_jp: 天使が消えた蜃気楼
+  title_cn: 天使消失的海市蜃楼
+  aired_at: 2015-05-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 779
+  title_jp: 緋色の序章
+  title_cn: 绯色的序章
+  aired_at: 2015-05-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.84
+- num: 780
+  title_jp: 緋色の追求
+  title_cn: 绯色的追求
+  aired_at: 2015-06-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.84
+- num: 781
+  title_jp: 緋色の交錯
+  title_cn: 绯色的交错
+  aired_at: 2015-06-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+- num: 782
+  title_jp: 緋色の帰還
+  title_cn: 绯色的归还
+  aired_at: 2015-06-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+- num: 783
+  title_jp: 緋色の真相
+  title_cn: 绯色的真相
+  aired_at: 2015-06-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+- num: 784
+  title_jp: 織り姫クラブへようこそ
+  title_cn: 欢迎来到织女俱乐部
+  aired_at: 2015-07-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 785
+  title_jp: 太閤恋する名人戦（前編）
+  title_cn: 太阁恋爱的名人战（上集）
+  aired_at: 2015-07-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+- num: 786
+  title_jp: 太閤恋する名人戦（後編）
+  title_cn: 太阁恋爱的名人战（下集）
+  aired_at: 2015-07-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+- num: 787
+  title_jp: 真夏のプールに沈む謎（前編）
+  title_cn: 沉入盛夏游泳池的谜团（上集）
+  aired_at: 2015-08-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+    - kind: manga
+      ref: Vol.86
+- num: 788
+  title_jp: 真夏のプールに沈む謎（後編）
+  title_cn: 沉入盛夏游泳池的谜团（下集）
+  aired_at: 2015-08-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.85
+    - kind: manga
+      ref: Vol.86
+- num: 789
+  title_jp: 女王様の天気予報
+  title_cn: 女王陛下的气象预报
+  aired_at: 2015-08-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 790
+  title_jp: 米花ポン 出血大サービス
+  title_cn: 米花宝 出血大降价
+  aired_at: 2015-09-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 791
+  title_jp: 高木刑事、手錠で逃走
+  title_cn: 高木刑警，戴着手铐逃走
+  aired_at: 2015-09-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 792
+  title_jp: 三人の第一発見者（前編）
+  title_cn: 三个第一发现者（上集）
+  aired_at: 2015-09-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+- num: 793
+  title_jp: 三人の第一発見者（後編）
+  title_cn: 三个第一发现者（下集）
+  aired_at: 2015-09-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+- num: 794
+  title_jp: ボディーガード毛利小五郎
+  title_cn: 保镖毛利小五郎
+  aired_at: 2015-10-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 795
+  title_jp: 若奥様が消えた秘密
+  title_cn: 年轻太太消失的秘密
+  aired_at: 2015-10-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 796
+  title_jp: おしどり夫婦の策略
+  title_cn: 鸳鸯夫妻的策略
+  aired_at: 2015-10-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 797
+  title_jp: 夢みる乙女の迷推理
+  title_cn: 白日梦少女的糊涂推理
+  aired_at: 2015-10-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 798
+  title_jp: 動く標的
+  title_cn: 移动的目标
+  aired_at: 2015-11-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 799
+  title_jp: 探偵団の密室推理合戦
+  title_cn: 侦探团的密室推理之战
+  aired_at: 2015-11-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 800
+  title_jp: 1億円を追いかけろ
+  title_cn: 追逐1亿日圆的去向
+  aired_at: 2015-11-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 801
+  title_jp: 鳥取砂丘ミステリーツアー（倉吉編）
+  title_cn: 鸟取沙丘神秘之旅（仓吉篇）
+  aired_at: 2015-11-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 802
+  title_jp: 鳥取砂丘ミステリーツアー（鳥取編）
+  title_cn: 鸟取沙丘神秘之旅（鸟取篇）
+  aired_at: 2015-12-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 803
+  title_jp: 火の用心の落とし穴
+  title_cn: 小心火烛的陷阱
+  aired_at: 2015-12-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 804
+  title_jp: コナンと海老蔵 歌舞伎十八番ミステリー（前編）
+  title_cn: 柯南与海老藏 歌舞伎18番推理 （上集）
+  aired_at: 2016-01-09
+  duration: 60
+  sources:
+    - kind: original
+- num: 805
+  title_jp: コナンと海老蔵 歌舞伎十八番ミステリー（後編）
+  title_cn: 柯南与海老藏 歌舞伎18番推理 （下集）
+  aired_at: 2016-01-16
+  duration: 60
+  sources:
+    - kind: original
+- num: 806
+  title_jp: 腹話術師の錯覚（前編）
+  title_cn: 腹语师的错觉（上集）
+  aired_at: 2016-01-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 807
+  title_jp: 腹話術師の錯覚（後編）
+  title_cn: 腹语师的错觉（下集）
+  aired_at: 2016-02-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 808
+  title_jp: かまいたちの宿（前編）
+  title_cn: 镰鼬之家（上集）
+  aired_at: 2016-02-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+- num: 809
+  title_jp: かまいたちの宿（後編）
+  title_cn: 镰鼬之家（下集）
+  aired_at: 2016-02-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+- num: 810
+  title_jp: 県警の黒い闇（前編）
+  title_cn: 县警的黑暗（上集）
+  aired_at: 2016-02-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+    - kind: manga
+      ref: Vol.87
+- num: 811
+  title_jp: 県警の黒い闇（中編）
+  title_cn: 县警的黑暗（中集）
+  aired_at: 2016-03-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+    - kind: manga
+      ref: Vol.87
+- num: 812
+  title_jp: 県警の黒い闇（後編）
+  title_cn: 县警的黑暗（下集）
+  aired_at: 2016-03-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.86
+    - kind: manga
+      ref: Vol.87
+- num: 813
+  title_jp: 安室に忍びよる影
+  title_cn: 悄悄逼近安室的黑影
+  aired_at: 2016-04-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 814
+  title_jp: ブログ女優の密室事件（前編）
+  title_cn: 博客女星密室事件（上集）
+  aired_at: 2016-04-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.87
+- num: 815
+  title_jp: ブログ女優の密室事件（後編）
+  title_cn: 博客女星密室事件（下集）
+  aired_at: 2016-04-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.87
+- num: 816
+  title_jp: 残念でやさしい宇宙人
+  title_cn: 令人遗憾的善良外星人
+  aired_at: 2016-05-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 817
+  title_jp: 消えたフィアンセ
+  title_cn: 消失的未婚妻
+  aired_at: 2016-05-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 818
+  title_jp: 小五郎、怒りの大追跡（前編）
+  title_cn: 小五郎愤怒大追踪（上集）
+  aired_at: 2016-05-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 819
+  title_jp: 小五郎、怒りの大追跡（後編）
+  title_cn: 小五郎愤怒大追踪（下集）
+  aired_at: 2016-05-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 820
+  title_jp: 待合室の7人
+  title_cn: 候车室里的7人
+  aired_at: 2016-06-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 821
+  title_jp: 曇柄寺が隠す秘密
+  title_cn: 昙柄寺隐藏的秘密
+  aired_at: 2016-06-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 822
+  title_jp: 容疑者は熱愛カップル（前編）
+  title_cn: 嫌犯是热恋情侣（上集）
+  aired_at: 2016-06-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.87
+    - kind: manga
+      ref: Vol.88
+- num: 823
+  title_jp: 容疑者は熱愛カップル（後編）
+  title_cn: 嫌犯是热恋情侣（下集）
+  aired_at: 2016-06-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.87
+    - kind: manga
+      ref: Vol.88
+- num: 824
+  title_jp: 少年探偵団の雨宿り
+  title_cn: 少年侦探团躲雨记
+  aired_at: 2016-07-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 825
+  title_jp: 潮入り公園逆転事件
+  title_cn: 潮入公园逆转事件
+  aired_at: 2016-07-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 826
+  title_jp: 美女とウソと秘密
+  title_cn: 美女、谎言、秘密
+  aired_at: 2016-07-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 827
+  title_jp: 死ぬほど美味いラーメン2（前編）
+  title_cn: 好吃到要命的拉面2（上集）
+  aired_at: 2016-07-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+- num: 828
+  title_jp: 死ぬほど美味いラーメン2（後編）
+  title_cn: 好吃到要命的拉面2（下集）
+  aired_at: 2016-08-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+- num: 829
+  title_jp: 不思議な少年
+  title_cn: 不可思议的少年
+  aired_at: 2016-08-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 830
+  title_jp: ゾンビが囲む別荘（前編）
+  title_cn: 被僵尸包围的别墅（上集）
+  aired_at: 2016-09-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+- num: 831
+  title_jp: ゾンビが囲む別荘（中編）
+  title_cn: 被僵尸包围的别墅（中集）
+  aired_at: 2016-09-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+- num: 832
+  title_jp: ゾンビが囲む別荘（後編）
+  title_cn: 被僵尸包围的别墅（下集）
+  aired_at: 2016-09-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+- num: 833
+  title_jp: 名探偵に弱点あり
+  title_cn: 有弱点的名侦探
+  aired_at: 2016-09-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 834
+  title_jp: 二度死んだ男（前編）
+  title_cn: 死了2次的男子（上集）
+  aired_at: 2016-10-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 835
+  title_jp: 二度死んだ男（後編）
+  title_cn: 死了2次的男子（下集）
+  aired_at: 2016-10-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 836
+  title_jp: 仲の悪いガールズバンド（前編）
+  title_cn: 关系不好的女子乐队（上集）
+  aired_at: 2016-10-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+    - kind: manga
+      ref: Vol.89
+- num: 837
+  title_jp: 仲の悪いガールズバンド（後編）
+  title_cn: 关系不好的女子乐队（下集）
+  aired_at: 2016-10-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.88
+    - kind: manga
+      ref: Vol.89
+- num: 838
+  title_jp: ふんわり気球で怪事件
+  title_cn: 轻飘飘气球的怪异事件
+  aired_at: 2016-11-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 839
+  title_jp: 天狗の声が聞こえる
+  title_cn: 听见天狗的声音
+  aired_at: 2016-11-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 840
+  title_jp: 最後の贈り物
+  title_cn: 最后的礼物
+  aired_at: 2016-11-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 841
+  title_jp: 雨のバス停
+  title_cn: 雨中的公交站
+  aired_at: 2016-11-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 842
+  title_jp: ドライブデートの別れ道
+  title_cn: 兜风约会的分叉路
+  aired_at: 2016-12-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 843
+  title_jp: 探偵団はヤブの中（前編）
+  title_cn: 不明真相的侦探团（上集）
+  aired_at: 2016-12-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+- num: 844
+  title_jp: 探偵団はヤブの中（後編）
+  title_cn: 不明真相的侦探团（下集）
+  aired_at: 2016-12-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+- num: 845
+  title_jp: 絶体絶命 暗闇のコナン（前編）
+  title_cn: 黑暗中陷入绝境的柯南（上集）
+  aired_at: 2017-01-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 846
+  title_jp: 絶体絶命 暗闇のコナン（後編）
+  title_cn: 黑暗中陷入绝境的柯南（下集）
+  aired_at: 2017-01-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 847
+  title_jp: 千葉のUFO難事件（前編）
+  title_cn: 千叶的UFO疑难事件（上集）
+  aired_at: 2017-01-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+- num: 848
+  title_jp: 千葉のUFO難事件（後編）
+  title_cn: 千叶的UFO疑难事件（下集）
+  aired_at: 2017-02-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+- num: 849
+  title_jp: 婚姻届のパスワード（前編）
+  title_cn: 结婚申请书的密码（上集）
+  aired_at: 2017-02-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+- num: 850
+  title_jp: 婚姻届のパスワード（後編）
+  title_cn: 结婚申请书的密码（下集）
+  aired_at: 2017-02-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+- num: 851
+  title_jp: 恋の地獄めぐりツアー（別府編）
+  title_cn: 恋爱的地狱巡回之旅（别府篇）
+  aired_at: 2017-03-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 852
+  title_jp: 恋の地獄めぐりツアー（大分編）
+  title_cn: 恋爱的地狱巡回之旅（大分篇）
+  aired_at: 2017-03-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 853
+  title_jp: サクラ組の思い出（蘭GIRL）
+  title_cn: 樱花班的回忆（兰GIRL）
+  aired_at: 2017-03-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.87
+- num: 854
+  title_jp: サクラ組の思い出（新一BOY）
+  title_cn: 樱花班的回忆（新一BOY）
+  aired_at: 2017-03-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.87
+- num: 855
+  title_jp: 消えた黒帯の謎
+  title_cn: 消失的黑带之谜
+  aired_at: 2017-04-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 856
+  title_jp: セレブ夫婦の秘密
+  title_cn: 著名夫妇的秘密
+  aired_at: 2017-04-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 857
+  title_jp: 米花町二転三転ミステリー（前編）
+  title_cn: 米花町错综复杂案件之谜（上集）
+  aired_at: 2017-04-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 858
+  title_jp: 米花町二転三転ミステリー（後編）
+  title_cn: 米花町错综复杂案件之谜（下集）
+  aired_at: 2017-05-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 859
+  title_jp: 暗闇の山岳ルート
+  title_cn: 暗黑的山丘路
+  aired_at: 2017-05-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 860
+  title_jp: 防犯システムの落とし穴
+  title_cn: 防盗系统的陷阱
+  aired_at: 2017-05-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 861
+  title_jp: 17年前と同じ現場（前編）
+  title_cn: 与17年前同样的现场（上集）
+  aired_at: 2017-06-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+    - kind: manga
+      ref: Vol.90
+- num: 862
+  title_jp: 17年前と同じ現場（後編）
+  title_cn: 与17年前同样的现场（下集）
+  aired_at: 2017-06-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.89
+    - kind: manga
+      ref: Vol.90
+- num: 863
+  title_jp: 霊魂探偵殺害事件（前編）
+  title_cn: 灵魂侦探杀害事件（上集）
+  aired_at: 2017-06-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+- num: 864
+  title_jp: 霊魂探偵殺害事件（後編）
+  title_cn: 灵魂侦探杀害事件（下集）
+  aired_at: 2017-06-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+- num: 865
+  title_jp: 口の悪い九官鳥
+  title_cn: 口出恶言的九官鸟
+  aired_at: 2017-07-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 866
+  title_jp: 裏切りのステージ（前編）
+  title_cn: 背叛的舞台（上集）
+  aired_at: 2017-07-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+- num: 867
+  title_jp: 裏切りのステージ（後編）
+  title_cn: 背叛的舞台（下集）
+  aired_at: 2017-07-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+- num: 868
+  title_jp: 汽笛の聞こえる古書店
+  title_cn: 能听见汽笛声的旧书店
+  aired_at: 2017-07-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 869
+  title_jp: 断崖に消えたコナン（前編）
+  title_cn: 消失在悬崖的柯南（上集）
+  aired_at: 2017-08-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 870
+  title_jp: 断崖に消えたコナン（後編）
+  title_cn: 消失在悬崖的柯南（下集）
+  aired_at: 2017-08-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 871
+  title_jp: ノブナガ四五〇事件
+  title_cn: 信长450周年事件
+  aired_at: 2017-09-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 872
+  title_jp: コナンと平次の鵺伝説（鳴声編）
+  title_cn: 柯南与平次的鵺传说（鸣叫篇）
+  aired_at: 2017-09-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+    - kind: manga
+      ref: Vol.91
+- num: 873
+  title_jp: コナンと平次の鵺伝説（爪跡編）
+  title_cn: 柯南与平次的鵺传说（爪迹篇）
+  aired_at: 2017-09-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+    - kind: manga
+      ref: Vol.91
+- num: 874
+  title_jp: コナンと平次の鵺伝説（解決編）
+  title_cn: 柯南与平次的鵺传说（解决篇）
+  aired_at: 2017-09-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.90
+    - kind: manga
+      ref: Vol.91
+- num: 875
+  title_jp: 不思議な予知仏像
+  title_cn: 不可思议的预知佛像
+  aired_at: 2017-09-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 876
+  title_jp: 機械じかけの目撃者
+  title_cn: 机器目击者
+  aired_at: 2017-10-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 877
+  title_jp: 交差する運命の二人
+  title_cn: 命运交错的2人
+  aired_at: 2017-10-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 878
+  title_jp: 試着室の死角（前編）
+  title_cn: 试衣间的死角（上集）
+  aired_at: 2017-10-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.91
+    - kind: manga
+      ref: Vol.92
+- num: 879
+  title_jp: 試着室の死角（後編）
+  title_cn: 试衣间的死角（下集）
+  aired_at: 2017-11-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.91
+    - kind: manga
+      ref: Vol.92
+- num: 880
+  title_jp: 探偵団と幽霊館
+  title_cn: 侦探团和幽灵馆
+  aired_at: 2017-11-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 881
+  title_jp: さざ波の魔法使い（前編）
+  title_cn: 涟漪中的魔法师（上集）
+  aired_at: 2017-11-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+- num: 882
+  title_jp: さざ波の魔法使い（後編）
+  title_cn: 涟漪中的魔法师（下集）
+  aired_at: 2017-11-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+- num: 883
+  title_jp: 絵本から飛び出す爆弾魔（前編）
+  title_cn: 从绘本冒出的爆炸狂（上集）
+  aired_at: 2017-12-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 884
+  title_jp: 絵本から飛び出す爆弾魔（後編）
+  title_cn: 从绘本冒出的爆炸狂（下集）
+  aired_at: 2017-12-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 885
+  title_jp: 謎解きは喫茶ポアロで（前編）
+  title_cn: 在波洛咖啡厅解谜（上集）
+  aired_at: 2017-12-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+    - kind: manga
+      ref: Vol.93
+- num: 886
+  title_jp: 謎解きは喫茶ポアロで（後編）
+  title_cn: 在波洛咖啡厅解谜（下集）
+  aired_at: 2017-12-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+    - kind: manga
+      ref: Vol.93
+- num: 887
+  title_jp: 怪盗キッドの絡繰箱（前編）
+  title_cn: 怪盗基德的机关盒（上集）
+  aired_at: 2018-01-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.91
+- num: 888
+  title_jp: 怪盗キッドの絡繰箱（後編）
+  title_cn: 怪盗基德的机关盒（下集）
+  aired_at: 2018-01-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.91
+- num: 889
+  title_jp: 新任教師の骸骨事件（前編）
+  title_cn: 新老师的骸骨事件（上集）
+  aired_at: 2018-01-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.91
+- num: 890
+  title_jp: 新任教師の骸骨事件（後編）
+  title_cn: 新老师的骸骨事件（下集）
+  aired_at: 2018-01-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.91
+- num: 891
+  title_jp: 幕末維新ミステリーツアー（山口編）
+  title_cn: 幕末维新推理之旅（山口篇）
+  aired_at: 2018-02-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 892
+  title_jp: 幕末維新ミステリーツアー（萩編）
+  title_cn: 幕末维新推理之旅（萩市篇）
+  aired_at: 2018-02-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 893
+  title_jp: 星付きレストランの謎
+  title_cn: 星级餐厅之谜
+  aired_at: 2018-02-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 894
+  title_jp: となりの江戸前推理ショー（前編）
+  title_cn: 隔壁的江户前推理秀（上集）
+  aired_at: 2018-03-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+- num: 895
+  title_jp: となりの江戸前推理ショー（後編）
+  title_cn: 隔壁的江户前推理秀（下集）
+  aired_at: 2018-03-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+- num: 896
+  title_jp: 白い手の女（前編）
+  title_cn: 手部白皙的女人（上集）
+  aired_at: 2018-03-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+- num: 897
+  title_jp: 白い手の女（後編）
+  title_cn: 手部白皙的女人（下集）
+  aired_at: 2018-03-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.92
+- num: 898
+  title_jp: ケーキが溶けた!
+  title_cn: 蛋糕融化了！
+  aired_at: 2018-04-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 899
+  title_jp: 真犯人の叫び声
+  title_cn: 真凶的喊叫声
+  aired_at: 2018-04-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 900
+  title_jp: 密室の謎解きショウ
+  title_cn: 密室解谜秀
+  aired_at: 2018-05-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 901
+  title_jp: 妃弁護士SOS（前編）
+  title_cn: 妃律师的求救信号（上集）
+  aired_at: 2018-05-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.93
+- num: 902
+  title_jp: 妃弁護士SOS（後編）
+  title_cn: 妃律师的求救信号（下集）
+  aired_at: 2018-05-19
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.93
+- num: 903
+  title_jp: 似た者同士が犬猿の仲
+  title_cn: 相似的死对头
+  aired_at: 2018-05-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 904
+  title_jp: 相討ちの果て
+  title_cn: 两败俱伤的真相
+  aired_at: 2018-06-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 905
+  title_jp: 七年後の目撃証言（前編）
+  title_cn: 七年后的目击证词（上集）
+  aired_at: 2018-06-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 906
+  title_jp: 七年後の目撃証言（後編）
+  title_cn: 七年后的目击证词（下集）
+  aired_at: 2018-06-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 907
+  title_jp: Jリーグの用心棒
+  title_cn: J联赛的保镖
+  aired_at: 2018-07-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 908
+  title_jp: 川床に流れた友情
+  title_cn: 顺流而逝的友情
+  aired_at: 2018-07-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 909
+  title_jp: 燃えるテントの怪（前編）
+  title_cn: 燃烧帐篷的怪物（上集）
+  aired_at: 2018-07-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.93
+- num: 910
+  title_jp: 燃えるテントの怪（後編）
+  title_cn: 燃烧帐篷的怪物（下集）
+  aired_at: 2018-08-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.93
+- num: 911
+  title_jp: 目暮警部からの依頼
+  title_cn: 来自目暮警官的委托
+  aired_at: 2018-09-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 912
+  title_jp: モデルになった探偵団
+  title_cn: 成为模特的侦探团
+  aired_at: 2018-09-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 913
+  title_jp: 連れ去られたコナン（前編）
+  title_cn: 被掳走的柯南（上集）
+  aired_at: 2018-09-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 914
+  title_jp: 連れ去られたコナン（後編）
+  title_cn: 被掳走的柯南（下集）
+  aired_at: 2018-09-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 915
+  title_jp: JK探偵鈴木園子
+  title_cn: 女高中生侦探铃木园子
+  aired_at: 2018-09-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 916
+  title_jp: 恋と推理の剣道大会（前編）
+  title_cn: 恋爱与推理的剑道大赛（上集）
+  aired_at: 2018-10-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.93
+    - kind: manga
+      ref: Vol.94
+- num: 917
+  title_jp: 恋と推理の剣道大会（後編）
+  title_cn: 恋爱与推理的剑道大赛（下集）
+  aired_at: 2018-10-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.93
+    - kind: manga
+      ref: Vol.94
+- num: 918
+  title_jp: ミニパトポリス大追跡
+  title_cn: 女警大追击
+  aired_at: 2018-10-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 919
+  title_jp: JKトリオ秘密のカフェ（前編）
+  title_cn: 三名女高中生的秘密咖啡店（上集）
+  aired_at: 2018-11-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.94
+- num: 920
+  title_jp: JKトリオ秘密のカフェ（後編）
+  title_cn: 三名女高中生的秘密咖啡店（下集）
+  aired_at: 2018-11-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.94
+- num: 921
+  title_jp: 殺意のあいのり
+  title_cn: 充满杀意的同车人
+  aired_at: 2018-11-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 922
+  title_jp: 消えた少年探偵団
+  title_cn: 失踪的少年侦探团
+  aired_at: 2018-11-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 923
+  title_jp: コナンのいない日
+  title_cn: 柯南不在的日子
+  aired_at: 2018-12-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 924
+  title_jp: みかん畑に陽は沈む
+  title_cn: 夕阳下的橘子林
+  aired_at: 2018-12-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 925
+  title_jp: 心のこもったストラップ（前編）
+  title_cn: 饱含心意的手机链（上集）
+  aired_at: 2018-12-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.94
+- num: 926
+  title_jp: 心のこもったストラップ（後編）
+  title_cn: 饱含心意的手机链（下集）
+  aired_at: 2018-12-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.94
+- num: 927
+  title_jp: 紅の修学旅行（鮮紅編）
+  title_cn: 红之校外旅行（鲜红篇）
+  aired_at: 2019-01-05
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.94
+    - kind: manga
+      ref: Vol.95
+- num: 928
+  title_jp: 紅の修学旅行（恋紅編）
+  title_cn: 红之校外旅行（恋红篇）
+  aired_at: 2019-01-12
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.94
+    - kind: manga
+      ref: Vol.95
+- num: 929
+  title_jp: 窓辺にたたずむ女（前編）
+  title_cn: 伫立在窗边的女人（上集）
+  aired_at: 2019-02-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 930
+  title_jp: 窓辺にたたずむ女（後編）
+  title_cn: 伫立在窗边的女人（下集）
+  aired_at: 2019-02-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 931
+  title_jp: 北九州ミステリーツアー（小倉編）
+  title_cn: 北九州神秘之旅（小仓篇）
+  aired_at: 2019-02-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 932
+  title_jp: 北九州ミステリーツアー（門司編）
+  title_cn: 北九州神秘之旅（门司篇）
+  aired_at: 2019-02-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 933
+  title_jp: サラブレッド誘拐事件（前編）
+  title_cn: 纯种赛马绑架事件（上集）
+  aired_at: 2019-03-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 934
+  title_jp: サラブレッド誘拐事件（後編）
+  title_cn: 纯种赛马绑架事件（下集）
+  aired_at: 2019-03-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 935
+  title_jp: 占い師と三人の客
+  title_cn: 占卜师与三名客人
+  aired_at: 2019-03-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 936
+  title_jp: フードコートの陰謀
+  title_cn: 美食广场的阴谋
+  aired_at: 2019-04-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 937
+  title_jp: 巨人タロスの必殺拳（前編）
+  title_cn: 青铜巨人的必杀拳（上集）
+  aired_at: 2019-04-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 938
+  title_jp: 巨人タロスの必殺拳（後編）
+  title_cn: 青铜巨人的必杀拳（下集）
+  aired_at: 2019-04-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 939
+  title_jp: 危ない化石採集
+  title_cn: 危险的化石采集
+  aired_at: 2019-05-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 940
+  title_jp: 姿を消した恋人
+  title_cn: 消失的恋人
+  aired_at: 2019-05-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 941
+  title_jp: マリアちゃんをさがせ!（前編）
+  title_cn: 寻找玛莉亚！（上集）
+  aired_at: 2019-06-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+- num: 942
+  title_jp: マリアちゃんをさがせ!（後編）
+  title_cn: 寻找玛莉亚！（下集）
+  aired_at: 2019-06-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+- num: 943
+  title_jp: 東京婆ールズコレクション
+  title_cn: 东京潮流老婆婆盛典
+  aired_at: 2019-06-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 944
+  title_jp: いいね。の代償（前編）
+  title_cn: 点赞的代价（上集）
+  aired_at: 2019-06-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 945
+  title_jp: いいね。の代償（後編）
+  title_cn: 点赞的代价（下集）
+  aired_at: 2019-06-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 946
+  title_jp: 呪いの宝石ボルジアの涙（前編）
+  title_cn: 诅咒的宝石-波吉亚之泪（上集）
+  aired_at: 2019-07-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 947
+  title_jp: 呪いの宝石ボルジアの涙（後編）
+  title_cn: 诅咒的宝石-波吉亚之泪（下集）
+  aired_at: 2019-07-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 948
+  title_jp: 恐竜につぶされた男
+  title_cn: 被恐龙压倒的男人
+  aired_at: 2019-07-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 949
+  title_jp: ラジオお悩み相談（挑戦編）
+  title_cn: 广播电台的烦恼咨询（挑战篇）
+  aired_at: 2019-08-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 950
+  title_jp: ラジオお悩み相談（謎解き編）
+  title_cn: 广播电台的烦恼咨询（解谜篇）
+  aired_at: 2019-08-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 951
+  title_jp: 汽笛の聞こえる古書店2
+  title_cn: 能听见汽笛声的旧书店2
+  aired_at: 2019-08-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 952
+  title_jp: 迷宮カクテル（前編）
+  title_cn: 充满谜团的鸡尾酒（上集）
+  aired_at: 2019-08-31
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+- num: 953
+  title_jp: 迷宮カクテル（中編）
+  title_cn: 充满谜团的鸡尾酒（中集）
+  aired_at: 2019-09-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+- num: 954
+  title_jp: 迷宮カクテル（後編）
+  title_cn: 充满谜团的鸡尾酒（下集）
+  aired_at: 2019-09-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+- num: 955
+  title_jp: 昆虫人間のヒミツ
+  title_cn: 昆虫人的秘密
+  aired_at: 2019-09-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 956
+  title_jp: 謎解き水上バス（前編）
+  title_cn: 在水上公车解谜（上集）
+  aired_at: 2019-10-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 957
+  title_jp: 謎解き水上バス（後編）
+  title_cn: 在水上公车解谜（下集）
+  aired_at: 2019-10-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 958
+  title_jp: プードルと散弾銃（前編）
+  title_cn: 贵宾犬与霰弹枪（上集）
+  aired_at: 2019-11-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 959
+  title_jp: プードルと散弾銃（後編）
+  title_cn: 贵宾犬与霰弹枪（下集）
+  aired_at: 2019-11-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 960
+  title_jp: 未亡人と探偵団
+  title_cn: 遗孀与侦探团
+  aired_at: 2019-11-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 961
+  title_jp: グランピング怪事件
+  title_cn: 豪华露营的怪事件
+  aired_at: 2019-11-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 962
+  title_jp: 毛利小五郎大講演会（前編）
+  title_cn: 毛利小五郎的盛大演讲会（上集）
+  aired_at: 2019-12-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 963
+  title_jp: 毛利小五郎大講演会（中編）
+  title_cn: 毛利小五郎的盛大演讲会（中集）
+  aired_at: 2019-12-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 964
+  title_jp: 毛利小五郎大講演会（後編）
+  title_cn: 毛利小五郎的盛大演讲会（下集）
+  aired_at: 2019-12-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 965
+  title_jp: 大怪獣ゴメラVS仮面ヤイバー（序）
+  title_cn: 大怪兽哥梅拉VS假面超人（序）
+  aired_at: 2020-01-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 966
+  title_jp: 大怪獣ゴメラVS仮面ヤイバー（破）
+  title_cn: 大怪兽哥梅拉VS假面超人（破）
+  aired_at: 2020-01-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 967
+  title_jp: 大怪獣ゴメラVS仮面ヤイバー（急）
+  title_cn: 大怪兽哥梅拉VS假面超人（急）
+  aired_at: 2020-01-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 968
+  title_jp: 大怪獣ゴメラVS仮面ヤイバー（結）
+  title_cn: 大怪兽哥梅拉VS假面超人（结）
+  aired_at: 2020-01-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 969
+  title_jp: 加賀令嬢ミステリーツアー（前編）
+  title_cn: 加贺令嫒神秘之旅（上集）
+  aired_at: 2020-02-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 970
+  title_jp: 加賀令嬢ミステリーツアー（後編）
+  title_cn: 加贺令嫒神秘之旅（下集）
+  aired_at: 2020-02-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 971
+  title_jp: 標的は警視庁交通部（一）
+  title_cn: 目标是警视厅交通部（一）
+  aired_at: 2020-03-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+    - kind: manga
+      ref: Vol.96
+- num: 972
+  title_jp: 標的は警視庁交通部（二）
+  title_cn: 目标是警视厅交通部（二）
+  aired_at: 2020-03-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+    - kind: manga
+      ref: Vol.96
+- num: 973
+  title_jp: 標的は警視庁交通部（三）
+  title_cn: 目标是警视厅交通部（三）
+  aired_at: 2020-03-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+    - kind: manga
+      ref: Vol.96
+- num: 974
+  title_jp: 標的は警視庁交通部（四）
+  title_cn: 目标是警视厅交通部（四）
+  aired_at: 2020-03-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.95
+    - kind: manga
+      ref: Vol.96
+- num: 975
+  title_jp: 妻探しの秘密
+  title_cn: 寻妻的秘密
+  aired_at: 2020-07-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 976
+  title_jp: 追跡! 探偵タクシー
+  title_cn: 追迹！侦探计程车
+  aired_at: 2020-07-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 977
+  title_jp: 割れた金魚鉢
+  title_cn: 破碎的金鱼缸
+  aired_at: 2020-08-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 978
+  title_jp: 対岸の事件
+  title_cn: 对岸的事件
+  aired_at: 2020-08-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 979
+  title_jp: 探偵を引きずり回す
+  title_cn: 被人摆布的侦探
+  aired_at: 2020-08-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 980
+  title_jp: 完全犯罪のススメ
+  title_cn: 完美犯罪指南
+  aired_at: 2020-09-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 981
+  title_jp: 坊っちゃん亭へようこそ（前編）
+  title_cn: 欢迎来到少爷亭（上集）
+  aired_at: 2020-09-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 982
+  title_jp: 坊っちゃん亭へようこそ（後編）
+  title_cn: 欢迎来到少爷亭（下集）
+  aired_at: 2020-09-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 983
+  title_jp: キッドVS高明 狙われた唇（前編）
+  title_cn: 基德VS高明 被盯上的嘴唇（上集）
+  aired_at: 2020-10-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.96
+- num: 984
+  title_jp: キッドVS高明 狙われた唇（後編）
+  title_cn: 基德VS高明 被盯上的嘴唇（下集）
+  aired_at: 2020-10-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.96
+- num: 985
+  title_jp: 二つの素顔（前編）
+  title_cn: 两副面孔（上集）
+  aired_at: 2020-10-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 986
+  title_jp: 二つの素顔（後編）
+  title_cn: 两副面孔（下集）
+  aired_at: 2020-10-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 987
+  title_jp: 会社解散パーティー
+  title_cn: 公司解散派对
+  aired_at: 2020-11-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 988
+  title_jp: いがみ合う乙女達
+  title_cn: 争执不休的少女们
+  aired_at: 2020-11-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 989
+  title_jp: 歩美の絵日記事件簿
+  title_cn: 步美的图绘日记事件簿
+  aired_at: 2020-12-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 990
+  title_jp: オートマティック悲劇（前編）
+  title_cn: 连锁的悲剧（上集）
+  aired_at: 2020-12-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 991
+  title_jp: オートマティック悲劇（後編）
+  title_cn: 连锁的悲剧（下集）
+  aired_at: 2020-12-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 992
+  title_jp: 町家カフェでの事件
+  title_cn: 民家咖啡店的事件
+  aired_at: 2020-12-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 993
+  title_jp: 代役・京極真（前編）
+  title_cn: 替身·京极真（上集）
+  aired_at: 2021-01-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.96
+    - kind: manga
+      ref: Vol.97
+- num: 994
+  title_jp: 代役・京極真（中編）
+  title_cn: 替身·京极真（中集）
+  aired_at: 2021-01-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.96
+    - kind: manga
+      ref: Vol.97
+- num: 995
+  title_jp: 代役・京極真（後編）
+  title_cn: 替身·京极真（下集）
+  aired_at: 2021-01-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.96
+    - kind: manga
+      ref: Vol.97
+- num: 996
+  title_jp: 能ある鷹は罪を隠す
+  title_cn: 真人不露罪
+  aired_at: 2021-01-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 997
+  title_jp: スマイルの里の陰謀
+  title_cn: 微笑之乡的阴谋
+  aired_at: 2021-02-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 998
+  title_jp: 憎しみのフライパン
+  title_cn: 仇恨的平底锅
+  aired_at: 2021-02-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 999
+  title_jp: 迷惑な親切心
+  title_cn: 好心帮倒忙
+  aired_at: 2021-02-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 1000
+  title_jp: ピアノソナタ『月光』殺人事件（前編）
+  title_cn: 钢琴奏鸣曲“月光”杀人事件（上集） （重制版）
+  aired_at: 2021-03-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.7
+- num: 1001
+  title_jp: ピアノソナタ『月光』殺人事件（後編）
+  title_cn: 钢琴奏鸣曲“月光”杀人事件（下集） （重制版）
+  aired_at: 2021-03-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.7
+- num: 1002
+  title_jp: 米花商店街ダストミステリー
+  title_cn: 米花商店街的垃圾之谜
+  aired_at: 2021-04-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 1003
+  title_jp: 36マスの完全犯罪（前編）
+  title_cn: 36方格的完美犯罪（上集）
+  aired_at: 2021-04-24
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+- num: 1004
+  title_jp: 36マスの完全犯罪（中編）
+  title_cn: 36方格的完美犯罪（中集）
+  aired_at: 2021-05-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+- num: 1005
+  title_jp: 36マスの完全犯罪（後編）
+  title_cn: 36方格的完美犯罪（下集）
+  aired_at: 2021-05-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+- num: 1006
+  title_jp: 毒を入れたのは誰
+  title_cn: 谁是投毒者？
+  aired_at: 2021-05-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1007
+  title_jp: 復讐者（前編）
+  title_cn: 复仇者（上集）
+  aired_at: 2021-06-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 1008
+  title_jp: 復讐者（後編）
+  title_cn: 复仇者（下集）
+  aired_at: 2021-06-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 1009
+  title_jp: 落とし物は事件のにおい
+  title_cn: 遗失物背后的案件
+  aired_at: 2021-06-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 1010
+  title_jp: 笑顔を消したアイドル
+  title_cn: 失去笑容的偶像
+  aired_at: 2021-06-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 1011
+  title_jp: 山菜狩りとクローバー（前編）
+  title_cn: 采野菜和四叶草（上集）
+  aired_at: 2021-07-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+- num: 1012
+  title_jp: 山菜狩りとクローバー（後編）
+  title_cn: 采野菜和四叶草（下集）
+  aired_at: 2021-07-17
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+- num: 1013
+  title_jp: 愛しすぎた男
+  title_cn: 太过深爱的男人
+  aired_at: 2021-07-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 1014
+  title_jp: 魔王と呼ばれた小説家
+  title_cn: 人称魔王的小说家
+  aired_at: 2021-07-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 1015
+  title_jp: 張り込み
+  title_cn: 暗中监视
+  aired_at: 2021-08-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 1016
+  title_jp: モノレール狙撃事件（前編）
+  title_cn: 单轨列车狙击事件（上集）
+  aired_at: 2021-08-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 1017
+  title_jp: モノレール狙撃事件（後編）
+  title_cn: 单轨列车狙击事件（下集）
+  aired_at: 2021-09-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 1018
+  title_jp: 骨董盆は隠せない（前編）
+  title_cn: 无法隐藏的古董盘（上集）
+  aired_at: 2021-09-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+    - kind: manga
+      ref: Vol.98
+- num: 1019
+  title_jp: 骨董盆は隠せない（中編）
+  title_cn: 无法隐藏的古董盘（中集）
+  aired_at: 2021-09-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+    - kind: manga
+      ref: Vol.98
+- num: 1020
+  title_jp: 骨董盆は隠せない（後編）
+  title_cn: 无法隐藏的古董盘（下集）
+  aired_at: 2021-09-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.97
+    - kind: manga
+      ref: Vol.98
+- num: 1021
+  title_jp: 悪友たちの輪舞
+  title_cn: 恶友们的轮舞曲
+  aired_at: 2021-10-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 1022
+  title_jp: 呪いのミュージアム
+  title_cn: 被诅咒的博物馆
+  aired_at: 2021-10-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 1023
+  title_jp: 汽笛の聞こえる古書店3
+  title_cn: 能听见汽笛声的旧书店3
+  aired_at: 2021-10-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1024
+  title_jp: 大岡紅葉の挑戦状（前編）
+  title_cn: 大冈红叶的挑战书（上集）
+  aired_at: 2021-10-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+- num: 1025
+  title_jp: 大岡紅葉の挑戦状（後編）
+  title_cn: 大冈红叶的挑战书（下集）
+  aired_at: 2021-11-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+- num: 1026
+  title_jp: 言えない目撃者
+  title_cn: 有口难言的目击者
+  aired_at: 2021-11-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 1027
+  title_jp: カーテンの向こう側
+  title_cn: 窗帘的另一边
+  aired_at: 2021-11-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 1028
+  title_jp: ケーキを愛する女のバラード
+  title_cn: 甜品女的叙事诗
+  aired_at: 2021-11-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 1029
+  title_jp: 警察学校編 Wild Police Story CASE.松田陣平
+  title_cn: 警察学校篇 疯狂警察故事 松田阵平篇
+  aired_at: 2021-12-04
+  duration: 30
+  sources:
+    - kind: 警察学校篇
+      ref: Vol.1
+- num: 1030
+  title_jp: 空白の一年（前編）
+  title_cn: 空白的一年（上集）
+  aired_at: 2021-12-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 1031
+  title_jp: 空白の一年（後編）
+  title_cn: 空白的一年（下集）
+  aired_at: 2021-12-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 1032
+  title_jp: モデル、毛利蘭
+  title_cn: 模特儿毛利兰
+  aired_at: 2021-12-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 1033
+  title_jp: 太閤名人の将棋盤（初手編）
+  title_cn: 太阁名人的将棋盘（初手篇）
+  aired_at: 2022-01-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+- num: 1034
+  title_jp: 太閤名人の将棋盤（妙手編）
+  title_cn: 太阁名人的将棋盘（妙手篇）
+  aired_at: 2022-01-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+- num: 1035
+  title_jp: 太閤名人の将棋盤（王手編）
+  title_cn: 太阁名人的将棋盘（将军篇）
+  aired_at: 2022-01-22
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+- num: 1036
+  title_jp: ホワイトアウト（前編）
+  title_cn: 雪茫危机（上集）
+  aired_at: 2022-01-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 1037
+  title_jp: ホワイトアウト（後編）
+  title_cn: 雪茫危机（下集）
+  aired_at: 2022-02-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 1038
+  title_jp: 警察学校編 Wild Police Story CASE.伊達航
+  title_cn: 警察学校篇 疯狂警察故事 伊达航篇
+  aired_at: 2022-03-12
+  duration: 30
+  sources:
+    - kind: 警察学校篇
+      ref: Vol.1
+- num: 1039
+  title_jp: 空飛ぶハロウィンカボチャ
+  title_cn: 飞天的万圣节南瓜
+  aired_at: 2022-04-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1040
+  title_jp: 歩美の絵日記事件簿2
+  title_cn: 步美的图绘日记事件簿2
+  aired_at: 2022-04-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 1041
+  title_jp: 言えないアリバイ
+  title_cn: 无法言说的不在场证明
+  aired_at: 2022-04-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 1042
+  title_jp: 警察学校編 Wild Police Story CASE.萩原研二
+  title_cn: 警察学校篇 疯狂警察故事 萩原研二篇
+  aired_at: 2022-05-07
+  duration: 30
+  sources:
+    - kind: 警察学校篇
+      ref: Vol.2
+- num: 1043
+  title_jp: 復讐のフィギュア
+  title_cn: 复仇的模型
+  aired_at: 2022-05-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 1044
+  title_jp: 豚汁は命がけの合図
+  title_cn: 肉汤是赌上性命的暗号
+  aired_at: 2022-05-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 1045
+  title_jp: 天罰くだる誕生パーティー（前編）
+  title_cn: 遭天谴的生日宴（上集）
+  aired_at: 2022-06-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+    - kind: manga
+      ref: Vol.99
+- num: 1046
+  title_jp: 天罰くだる誕生パーティー（後編）
+  title_cn: 遭天谴的生日宴（下集）
+  aired_at: 2022-06-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.98
+    - kind: manga
+      ref: Vol.99
+- num: 1047
+  title_jp: 赤いヒツジの不気味なゲーム（前編）
+  title_cn: 红色绵羊的恐怖游戏（上集）
+  aired_at: 2022-06-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 1048
+  title_jp: 赤いヒツジの不気味なゲーム（後編）
+  title_cn: 红色绵羊的恐怖游戏（下集）
+  aired_at: 2022-06-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 1049
+  title_jp: 目暮、刑事人生の危機
+  title_cn: 目暮，刑警生涯的危机
+  aired_at: 2022-07-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 1050
+  title_jp: 森川御殿の陰謀（前編）
+  title_cn: 森川宅邸的阴谋（上集）
+  aired_at: 2022-07-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1051
+  title_jp: 森川御殿の陰謀（後編）
+  title_cn: 森川宅邸的阴谋（下集）
+  aired_at: 2022-07-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 1052
+  title_jp: 少年探偵団の肝試し
+  title_cn: 少年侦探团的试胆冒险
+  aired_at: 2022-07-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 1053
+  title_jp: 牧場に墜ちた火種（前編）
+  title_cn: 坠入牧场的火种（上集）
+  aired_at: 2022-08-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.99
+- num: 1054
+  title_jp: 牧場に墜ちた火種（後編）
+  title_cn: 坠入牧场的火种（下集）
+  aired_at: 2022-08-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.99
+- num: 1055
+  title_jp: 幽霊になって復讐を
+  title_cn: 化身幽灵复仇
+  aired_at: 2022-09-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 1056
+  title_jp: あの人を取り戻したい
+  title_cn: 想要找回那个人
+  aired_at: 2022-09-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 1057
+  title_jp: わるいやつら
+  title_cn: 一群恶人
+  aired_at: 2022-09-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 1058
+  title_jp: 警察に居座った男
+  title_cn: 不肯离开警察署的男人
+  aired_at: 2022-10-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 1059
+  title_jp: 沖野ヨーコと屋根裏の密室（前編）
+  title_cn: 冲野洋子与阁楼里的密室（上集）
+  aired_at: 2022-10-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.99
+- num: 1060
+  title_jp: 沖野ヨーコと屋根裏の密室（後編）
+  title_cn: 冲野洋子与阁楼里的密室（下集）
+  aired_at: 2022-10-15
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.99
+- num: 1061
+  title_jp: 警察学校編 Wild Police Story CASE.諸伏景光
+  title_cn: 警察学校篇 疯狂警察故事 诸伏景光篇
+  aired_at: 2022-10-29
+  duration: 30
+  sources:
+    - kind: 警察学校篇
+      ref: Vol.2
+- num: 1062
+  title_jp: 雨と悪意のスパイラル
+  title_cn: 雨与恶意的循环
+  aired_at: 2022-11-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 1063
+  title_jp: 狙われたひよこ鑑定士
+  title_cn: 被盯上的小鸡鉴别师
+  aired_at: 2022-11-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 1064
+  title_jp: 夢見る貴婦人、最後の恋
+  title_cn: 痴人说梦的贵妇人 和她最后的恋爱
+  aired_at: 2022-11-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 1065
+  title_jp: 探偵は眠らない
+  title_cn: 侦探无眠
+  aired_at: 2022-11-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 1066
+  title_jp: 死が二人を分かつまで
+  title_cn: 直到死亡将两人分开
+  aired_at: 2022-12-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 1067
+  title_jp: 恋する商店街
+  title_cn: 恋爱的商店街
+  aired_at: 2022-12-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 1068
+  title_jp: 円谷光彦の探偵ノート
+  title_cn: 圆谷光彦的侦探笔记
+  aired_at: 2023-01-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 1069
+  title_jp: 受話器ごしのスウィートボイス
+  title_cn: 电话另一端的甜美声音
+  aired_at: 2023-01-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 1070
+  title_jp: サプライズは悲劇のはじまり
+  title_cn: 惊喜是悲剧的开端
+  aired_at: 2023-01-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 1071
+  title_jp: 工藤優作の推理ショー（前編）
+  title_cn: 工藤优作的推理秀（上集）
+  aired_at: 2023-01-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.99
+    - kind: manga
+      ref: Vol.100
+- num: 1072
+  title_jp: 工藤優作の推理ショー（後編）
+  title_cn: 工藤优作的推理秀（下集）
+  aired_at: 2023-02-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.99
+    - kind: manga
+      ref: Vol.100
+- num: 1073
+  title_jp: 探偵団の引ったくり大追跡
+  title_cn: 侦探团的强盗大追踪
+  aired_at: 2023-02-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 1074
+  title_jp: てっちり対決ミステリーツアー（門司港・小倉編）
+  title_cn: 河豚火锅对决推理之旅（门司港·小仓篇）
+  aired_at: 2023-02-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 1075
+  title_jp: てっちり対決ミステリーツアー（下関編）
+  title_cn: 河豚火锅对决推理之旅（下关篇）
+  aired_at: 2023-02-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 1076
+  title_jp: カリスマ社長の極秘計画
+  title_cn: 魅力社长的绝密计划
+  aired_at: 2023-03-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 1077
+  title_jp: 黒ずくめの謀略（狩り）
+  title_cn: 黑暗组织的谋略（狩猎）
+  aired_at: 2023-03-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.100
+- num: 1078
+  title_jp: 黒ずくめの謀略（上陸）
+  title_cn: 黑暗组织的谋略（登陆）
+  aired_at: 2023-04-01
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.100
+- num: 1079
+  title_jp: 黒ずくめの謀略（正体）
+  title_cn: 黑暗组织的谋略（真身）
+  aired_at: 2023-04-08
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.100
+- num: 1080
+  title_jp: 灰原を狙うカメラ
+  title_cn: 对准灰原的摄像头
+  aired_at: 2023-04-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1081
+  title_jp: 愛犬パン君はおりこうさん
+  title_cn: 爱犬小胖是个机灵鬼
+  aired_at: 2023-04-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 1082
+  title_jp: 哀しみの裏切り横丁
+  title_cn: 背叛小巷的悲剧
+  aired_at: 2023-04-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 1083
+  title_jp: Jリーグ決戦の舞台裏
+  title_cn: J联赛决战的幕后
+  aired_at: 2023-05-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 1084
+  title_jp: 冷え切った男達
+  title_cn: 冰冷的男子们
+  aired_at: 2023-05-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 1085
+  title_jp: 不吉な縁結び（前編）
+  title_cn: 不吉利的结缘（上集）
+  aired_at: 2023-06-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.100
+- num: 1086
+  title_jp: 不吉な縁結び（後編）
+  title_cn: 不吉利的结缘（下集）
+  aired_at: 2023-06-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.100
+- num: 1087
+  title_jp: 歩美の絵日記事件簿3
+  title_cn: 步美的图绘日记事件簿3
+  aired_at: 2023-06-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 1088
+  title_jp: 不運で不審な被害者
+  title_cn: 不幸而可疑的被害人
+  aired_at: 2023-06-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 1089
+  title_jp: 天才レストラン
+  title_cn: 天才餐厅
+  aired_at: 2023-07-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 1090
+  title_jp: 眠れる街に消えた犯人
+  title_cn: 消失于沉睡街道的犯人
+  aired_at: 2023-07-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1091
+  title_jp: 女子会ミステリー
+  title_cn: 女子聚会谜案
+  aired_at: 2023-07-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 1092
+  title_jp: 張り込み2
+  title_cn: 暗中监视2
+  aired_at: 2023-07-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 1093
+  title_jp: 宮野明美のタイムカプセル（前編）
+  title_cn: 宫野明美的时间胶囊（上集）
+  aired_at: 2023-08-05
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+- num: 1094
+  title_jp: 宮野明美のタイムカプセル（後編）
+  title_cn: 宫野明美的时间胶囊（下集）
+  aired_at: 2023-08-12
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+- num: 1095
+  title_jp: 消えた男の夢
+  title_cn: 消失男子的梦想
+  aired_at: 2023-09-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 1096
+  title_jp: 円谷光彦の探偵ノート2
+  title_cn: 圆谷光彦的侦探笔记2
+  aired_at: 2023-09-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 1097
+  title_jp: 私がやりましたか？
+  title_cn: 是我做的吗？
+  aired_at: 2023-09-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1098
+  title_jp: 風の女神·萩原千速（前編）
+  title_cn: 风之女神·萩原千速（上集）
+  aired_at: 2023-09-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+- num: 1099
+  title_jp: 風の女神·萩原千速（後編）
+  title_cn: 风之女神·萩原千速（下集）
+  aired_at: 2023-09-30
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+- num: 1100
+  title_jp: 疑惑の2000万円
+  title_cn: 疑团重重的2000万日圆
+  aired_at: 2023-10-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 1101
+  title_jp: 不死身男のプライド
+  title_cn: 不死之身男子的自尊
+  aired_at: 2023-10-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 1102
+  title_jp: 赤べこと3人の福男
+  title_cn: 赤牛、3名有福之人
+  aired_at: 2023-11-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 1103
+  title_jp: 青春小説に罪の匂い
+  title_cn: 青春小说中的犯罪气息
+  aired_at: 2023-11-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 1104
+  title_jp: 真犯人は逃走中
+  title_cn: 真正的犯人逃跑中
+  aired_at: 2023-11-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 1105
+  title_jp: キッドVS安室 王妃の前髪（前編）
+  title_cn: 基德VS安室 王妃的浏海（上集）
+  aired_at: 2023-12-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+- num: 1106
+  title_jp: キッドVS安室 王妃の前髪（後編）
+  title_cn: 基德VS安室 王妃的浏海（下集）
+  aired_at: 2023-12-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+- num: 1107
+  title_jp: ハメられたのは私
+  title_cn: 被设套的人是我
+  aired_at: 2023-12-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1108
+  title_jp: カードに伏せられた秘密
+  title_cn: 隐藏在卡牌上的秘密
+  aired_at: 2023-12-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 1109
+  title_jp: 高木と伊達と手帳の約束（前編）
+  title_cn: 高木、伊达与笔记本的约定（上集）
+  aired_at: 2024-01-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+    - kind: manga
+      ref: Vol.102
+- num: 1110
+  title_jp: 高木と伊達と手帳の約束（後編）
+  title_cn: 高木、伊达与笔记本的约定（下集）
+  aired_at: 2024-01-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.101
+    - kind: manga
+      ref: Vol.102
+- num: 1111
+  title_jp: ルーブ·ゴールドバーグマシン（前編）
+  title_cn: 鲁布·戈德堡机械（上集）
+  aired_at: 2024-01-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 1112
+  title_jp: ルーブ·ゴールドバーグマシン（後編）
+  title_cn: 鲁布·戈德堡机械（下集）
+  aired_at: 2024-01-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 1113
+  title_jp: ラスト·ディナーをあなたに
+  title_cn: 献给你最后的晚餐
+  aired_at: 2024-02-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 1114
+  title_jp: お騒がせな籠城
+  title_cn: 骚动的挟持
+  aired_at: 2024-02-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 1115
+  title_jp: 千速と重悟の婚活パーティー（前編）
+  title_cn: 千速与重悟的相亲派对（上集）
+  aired_at: 2024-03-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+- num: 1116
+  title_jp: 千速と重悟の婚活パーティー（後編）
+  title_cn: 千速与重悟的相亲派对（下集）
+  aired_at: 2024-03-09
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+- num: 1117
+  title_jp: 空手の先生、毛利蘭
+  title_cn: 空手道老师，毛利兰
+  aired_at: 2024-03-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1118
+  title_jp: 女子会ミステリー2
+  title_cn: 女子聚会谜案2
+  aired_at: 2024-03-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 1119
+  title_jp: 4人だけの同窓会
+  title_cn: 只有四人的同学会
+  aired_at: 2024-04-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 1120
+  title_jp: 失われたお宝ミステリー
+  title_cn: 失去的宝物之谜
+  aired_at: 2024-04-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 1121
+  title_jp: あぶなすぎるメロン畑
+  title_cn: 过于危险的蜜瓜田
+  aired_at: 2024-04-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 1122
+  title_jp: 張り込み3
+  title_cn: 暗中监视3
+  aired_at: 2024-05-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 1123
+  title_jp: 长野と群马 県境の遗体（前编）
+  title_cn: 群马与长野 县边境上的遗体（上集）
+  aired_at: 2024-05-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+- num: 1124
+  title_jp: 长野と群马 県境の遗体（后编）
+  title_cn: 群马与长野 县边境上的遗体（下集）
+  aired_at: 2024-05-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+- num: 1125
+  title_jp: 歩美の絵日記事件簿4
+  title_cn: 步美的图绘日记事件簿4
+  aired_at: 2024-06-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 1126
+  title_jp: 逆上せあがった探偵
+  title_cn: 心荡神迷的侦探
+  aired_at: 2024-06-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 1127
+  title_jp: ザ·取調室2
+  title_cn: THE侦讯室2
+  aired_at: 2024-06-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1128
+  title_jp: コナンと目暮 2人の人質（前編）
+  title_cn: 柯南与目暮 两名人质（上集）
+  aired_at: 2024-06-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 1129
+  title_jp: コナンと目暮 2人の人質（後編）
+  title_cn: 柯南与目暮 两名人质（下集）
+  aired_at: 2024-06-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 1130
+  title_jp: トリプルコラボの浮気疑惑（前編）
+  title_cn: 疑似出轨的三重协作（上集）
+  aired_at: 2024-07-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+    - kind: manga
+      ref: Vol.103
+- num: 1131
+  title_jp: トリプルコラボの浮気疑惑（後編）
+  title_cn: 疑似出轨的三重协作（下集）
+  aired_at: 2024-08-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+    - kind: manga
+      ref: Vol.103
+- num: 1132
+  title_jp: 円谷光彦の探偵ノート3
+  title_cn: 圆谷光彦的侦探笔记3
+  aired_at: 2024-08-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 1133
+  title_jp: ベストハズバンド
+  title_cn: 完美丈夫
+  aired_at: 2024-08-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 1134
+  title_jp: ポジティブ男の災難
+  title_cn: 乐观男子的灾难
+  aired_at: 2024-09-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 1135
+  title_jp: 大岡紅葉の甘い罠（前編）
+  title_cn: 大冈红叶的甜蜜圈套（上集）
+  aired_at: 2024-09-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+- num: 1136
+  title_jp: 大岡紅葉の甘い罠（後編）
+  title_cn: 大冈红叶的甜蜜圈套（下集）
+  aired_at: 2024-09-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.102
+- num: 1137
+  title_jp: 行列店、味変の秘密
+  title_cn: 大排长龙的店，味道变化的秘密
+  aired_at: 2024-10-05
+  duration: 30
+  sources:
+    - kind: original
+- num: 1138
+  title_jp: 動く交番
+  title_cn: 移动派出所
+  aired_at: 2024-10-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 1139
+  title_jp: 意地悪な弟に困る姉
+  title_cn: 被坏心眼的弟弟困扰的姐姐
+  aired_at: 2024-10-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 1140
+  title_jp: 女子会ミステリー3
+  title_cn: 女子聚会谜案3
+  aired_at: 2024-11-02
+  duration: 30
+  sources:
+    - kind: original
+- num: 1141
+  title_jp: お留守番毛利一家
+  title_cn: 看家的毛利一家
+  aired_at: 2024-11-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 1142
+  title_jp: 乱歩邸殺人事件（前編）
+  title_cn: 乱步宅邸杀人事件（上集）
+  aired_at: 2024-11-16
+  duration: 30
+  sources:
+    - kind: original
+- num: 1143
+  title_jp: 乱歩邸殺人事件（後編）
+  title_cn: 乱步宅邸杀人事件（下集）
+  aired_at: 2024-11-23
+  duration: 30
+  sources:
+    - kind: original
+- num: 1144
+  title_jp: ホテル連続爆破事件（前編）
+  title_cn: 酒店连续爆炸事件（上集）
+  aired_at: 2024-12-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.103
+- num: 1145
+  title_jp: ホテル連続爆破事件（後編）
+  title_cn: 酒店连续爆炸事件（下集）
+  aired_at: 2024-12-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.103
+- num: 1146
+  title_jp: 汽笛の聞こえる古書店4
+  title_cn: 能听见汽笛声的旧书店4
+  aired_at: 2024-12-21
+  duration: 30
+  sources:
+    - kind: original
+- num: 1147
+  title_jp: 張り込み4
+  title_cn: 暗中监视4
+  aired_at: 2024-12-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 1148
+  title_jp: 探偵団と二人の引率者（前編）
+  title_cn: 侦探团与两位引领者（上集）
+  aired_at: 2025-01-04
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.103
+- num: 1149
+  title_jp: 探偵団と二人の引率者（後編）
+  title_cn: 侦探团与两位引领者（下集）
+  aired_at: 2025-01-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.103
+- num: 1150
+  title_jp: 怪盗キッドと王冠マジック（前編）
+  title_cn: 怪盗基德与王冠魔术（上集）
+  aired_at: 2025-01-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.103
+- num: 1151
+  title_jp: 怪盗キッドと王冠マジック（後編）
+  title_cn: 怪盗基德与王冠魔术（下集）
+  aired_at: 2025-01-25
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.103
+- num: 1152
+  title_jp: ラストダンス
+  title_cn: 最后一舞
+  aired_at: 2025-02-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 1153
+  title_jp: 屋久島の山姫（前編）
+  title_cn: 屋久岛的山姬（上集）
+  aired_at: 2025-02-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1154
+  title_jp: 屋久島の山姫（後編）
+  title_cn: 屋久岛的山姬（下集）
+  aired_at: 2025-02-22
+  duration: 30
+  sources:
+    - kind: original
+- num: 1155
+  title_jp: 追跡！探偵タクシー2
+  title_cn: 追迹！侦探计程车2
+  aired_at: 2025-03-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 1156
+  title_jp: 石川よるまっしミステリー（前編）
+  title_cn: 石川之行疑案（上集）
+  aired_at: 2025-03-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 1157
+  title_jp: 石川よるまっしミステリー（後編）
+  title_cn: 石川之行疑案（下集）
+  aired_at: 2025-03-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1158
+  title_jp: 探偵団と憧れの古民家
+  title_cn: 侦探团与向往的古民居
+  aired_at: 2025-04-12
+  duration: 30
+  sources:
+    - kind: original
+- num: 1159
+  title_jp: サヨナラの行方
+  title_cn: 告别后的去向
+  aired_at: 2025-04-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 1160
+  title_jp: 鹿威しが響く刻
+  title_cn: 醒竹敲响之时
+  aired_at: 2025-04-26
+  duration: 30
+  sources:
+    - kind: original
+- num: 1161
+  title_jp: 秘密の残像
+  title_cn: 秘密的残像
+  aired_at: 2025-05-03
+  duration: 30
+  sources:
+    - kind: original
+- num: 1162
+  title_jp: 歩美の絵日記事件簿5
+  title_cn: 步美的图绘日记事件簿5
+  aired_at: 2025-05-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 1163
+  title_jp: 闇に聞こえる数え歌
+  title_cn: 黑暗中传来的数数声
+  aired_at: 2025-05-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 1164
+  title_jp: 17年前の真相 血染めの骑士
+  title_cn: 17年前的真相 染血的骑士
+  aired_at: 2025-06-07
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+- num: 1165
+  title_jp: 17年前の真相 达眼の悪魔
+  title_cn: 17年前的真相 慧眼的恶魔
+  aired_at: 2025-06-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+- num: 1166
+  title_jp: 17年前の真相 遠見の角行
+  title_cn: 17年前的真相 远见的角行
+  aired_at: 2025-06-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+- num: 1167
+  title_jp: 17年前の真相 女王の謀
+  title_cn: 17年前的真相 女王的谋略
+  aired_at: 2025-06-28
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+- num: 1168
+  title_jp: 元太のうなぎ捕物帳
+  title_cn: 元太的鳗鱼探案簿
+  aired_at: 2025-07-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 1169
+  title_jp: 人喰い教室の怪（前編）
+  title_cn: 吃人教室的古怪（上集）
+  aired_at: 2025-07-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+- num: 1170
+  title_jp: 人喰い教室の怪（後編）
+  title_cn: 吃人教室的古怪（下集）
+  aired_at: 2025-08-02
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+- num: 1171
+  title_jp: 執事になった理由（前編）
+  title_cn: 我当管家的原因（上集）
+  aired_at: 2025-08-16
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+    - kind: manga
+      ref: Vol.105
+- num: 1172
+  title_jp: 執事になった理由（後編）
+  title_cn: 我当管家的原因（下集）
+  aired_at: 2025-08-23
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.104
+    - kind: manga
+      ref: Vol.105
+- num: 1173
+  title_jp: オバケが出た！
+  title_cn: 妖怪出现了！
+  aired_at: 2025-08-30
+  duration: 30
+  sources:
+    - kind: original
+- num: 1174
+  title_jp: ガラスの水面（前編）
+  title_cn: 琉璃水面（上集）
+  aired_at: 2025-09-06
+  duration: 30
+  sources:
+    - kind: original
+- num: 1175
+  title_jp: ガラスの水面（後編）
+  title_cn: 琉璃水面（下集）
+  aired_at: 2025-09-13
+  duration: 30
+  sources:
+    - kind: original
+- num: 1176
+  title_jp: 石巻のヒーロー
+  title_cn: 石卷的英雄
+  aired_at: 2025-09-20
+  duration: 30
+  sources:
+    - kind: original
+- num: 1177
+  title_jp: 幻の大男を探せ
+  title_cn: 寻找神秘的高大男子
+  aired_at: 2025-09-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 1178
+  title_jp: 鷲雄山の紅蓮髑髏（前編）
+  title_cn: 鹫雄山的红莲骷髅（上集）
+  aired_at: 2025-10-11
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.105
+- num: 1179
+  title_jp: 鷲雄山の紅蓮髑髏（後編）
+  title_cn: 鹫雄山的红莲骷髅（下集）
+  aired_at: 2025-10-18
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.105
+- num: 1180
+  title_jp: 招き猫は見ていた
+  title_cn: 招财猫看见了
+  aired_at: 2025-11-01
+  duration: 30
+  sources:
+    - kind: original
+- num: 1181
+  title_jp: ブチの恩返し
+  title_cn: 小渊的报恩
+  aired_at: 2025-11-08
+  duration: 30
+  sources:
+    - kind: original
+- num: 1182
+  title_jp: その顔を捕まえろ
+  title_cn: 抓住那个长相的人
+  aired_at: 2025-11-15
+  duration: 30
+  sources:
+    - kind: original
+- num: 1183
+  title_jp: ザ·取調室3
+  title_cn: THE侦讯室3
+  aired_at: 2025-11-29
+  duration: 30
+  sources:
+    - kind: original
+- num: 1184
+  title_jp: 赤レンガ倉庫 消えた誘拐犯（前編）
+  title_cn: 红砖仓库 消失的绑架犯（上集）
+  aired_at: 2025-12-06
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.105
+    - kind: manga
+      ref: Vol.106
+- num: 1185
+  title_jp: 赤レンガ倉庫 消えた誘拐犯（後編）
+  title_cn: 红砖仓库 消失的绑架犯（下集）
+  aired_at: 2025-12-13
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.105
+    - kind: manga
+      ref: Vol.106
+- num: 1186
+  title_jp: 女子会ミステリー4
+  title_cn: 女子聚会谜案4
+  aired_at: 2025-12-27
+  duration: 30
+  sources:
+    - kind: original
+- num: 1187
+  title_jp: エピソード"ZERO" 工藤新一水族館事件
+  title_cn: Episode"ZERO" 工藤新一水族馆事件
+  aired_at: 2026-01-03
+  duration: 60
+  sources:
+    - kind: manga
+      ref: Vol.0
+    - kind: manga
+      ref: Vol.83
+    - kind: manga
+      ref: Vol.84
+    - kind: original
+- num: 1188
+  title_jp: 追跡！探偵タクシー3
+  title_cn: 追迹！侦探计程车3
+  aired_at: 2026-01-10
+  duration: 30
+  sources:
+    - kind: original
+- num: 1189
+  title_jp: W·アリバイ
+  title_cn: 双重不在场证明
+  aired_at: 2026-01-17
+  duration: 30
+  sources:
+    - kind: original
+- num: 1190
+  title_jp: 恋谷橋に消えた恋人（鳥取周遊編）
+  title_cn: 消失于恋谷桥的恋人（鸟取周游篇）
+  aired_at: 2026-01-24
+  duration: 30
+  sources:
+    - kind: original
+- num: 1191
+  title_jp: 恋谷橋に消えた恋人（三朝編）
+  title_cn: 消失于恋谷桥的恋人（三朝篇）
+  aired_at: 2026-01-31
+  duration: 30
+  sources:
+    - kind: original
+- num: 1192
+  title_jp: 円谷光彦の探偵ノート4
+  title_cn: 圆谷光彦的侦探笔记4
+  aired_at: 2026-03-07
+  duration: 30
+  sources:
+    - kind: original
+- num: 1193
+  title_jp: キッドVS白馬 青の王座（前編）
+  title_cn: 基德VS白马 青玉王座（上集）
+  aired_at: 2026-03-14
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.105
+- num: 1194
+  title_jp: キッドVS白馬 青の王座（後編）
+  title_cn: 基德VS白马 青玉王座（下集）
+  aired_at: 2026-03-21
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.105
