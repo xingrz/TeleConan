@@ -48,3 +48,13 @@ export function useSliceDict<K extends string | number, T>(store: UnwrapNestedRe
     return acc;
   }, {} as UnwrapRef<Record<K, T>>));
 }
+
+export function useSliceGroupDict<K extends string | number, T>(store: UnwrapNestedRefs<DataSlice<T>>, keyFn: (item: T) => K): Readonly<Ref<UnwrapRef<Record<K, T[]>>>> {
+  return computed(() => store.data.reduce((acc, cur) => {
+    const k = keyFn(cur as T);
+    const record = acc as Record<K, T[]>;
+    if (!record[k]) record[k] = [];
+    record[k].push(cur as T);
+    return acc;
+  }, {} as UnwrapRef<Record<K, T[]>>));
+}

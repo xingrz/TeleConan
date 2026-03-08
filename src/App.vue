@@ -1,27 +1,22 @@
 <template>
   <a-affix :offset-top="8">
-    <a-input v-model:value="keyword" placeholder="输入官方集数、拆分集数或标题关键词搜索" autofocus :class="$style.entry"
+    <a-input v-model:value="keyword" placeholder="输入集数或标题关键词搜索" autofocus :class="$style.entry"
       @blur="() => updateHistory(keyword)" @press-enter="() => updateHistory(keyword)" />
   </a-affix>
 
-  <a-table :columns="columns" :data-source="filtered" row-key="num_jp" :class="$style.table">
+  <a-table :columns="columns" :data-source="filtered" row-key="num" :class="$style.table">
     <template #bodyCell="{ column, record }">
       <template v-if="column.dataIndex == 'aired_at'">
         {{ record.aired_at }}
       </template>
-      <template v-else-if="column.dataIndex == 'num_jp'">
-        <div :class="{ [$style.highlight]: String(record.num_jp) == keyword }">{{ record.num_jp }}</div>
-        <div v-if="record.num_cn.length > 1" :class="$style.sp">
+      <template v-else-if="column.dataIndex == 'num'">
+        <div :class="{ [$style.highlight]: String(record.num) == keyword }">{{ record.num }}</div>
+        <div v-if="record.duration > 30" :class="$style.sp">
           <sp-tag :episode="record" />
         </div>
       </template>
-      <template v-else-if="column.dataIndex == 'num_cn'">
-        <template v-for="num in record.num_cn" :key="num">
-          <div :class="{ [$style.highlight]: String(num) == keyword }">{{ num }}</div>
-        </template>
-      </template>
-      <template v-else-if="column.dataIndex == 'manga'">
-        <manga-tag :episode="record" />
+      <template v-else-if="column.dataIndex == 'sources'">
+        <source-tag :episode="record" />
       </template>
       <template v-else-if="column.key == 'title'">
         <highlight-text :text="record.title_jp" :highlight="keyword" lang="ja" />
@@ -35,19 +30,13 @@
           </a>
           <template #overlay>
             <a-menu>
-              <link-menu-item :icon="FileTextOutlined" :href="`https://www.conanpedia.com/TV${record.num_jp}`">
+              <link-menu-item :icon="FileTextOutlined" :href="`https://www.conanpedia.com/TV${record.num}`">
                 柯南百科
               </link-menu-item>
-              <external-links :icon="PlaySquareOutlined" name="哔哩哔哩" :episode="record.num_cn" :links="bilibili"
+              <external-links :icon="PlaySquareOutlined" name="哔哩哔哩" :episode="record.num" :links="bilibili"
                 key-suffix="bilibili">
-                <template v-slot="{ episode }">
-                  第 {{ episode }} 集
-                </template>
-              </external-links>
-              <external-links :icon="PlaySquareOutlined" name="腾讯视频" :episode="record.num_cn" :links="qq"
-                key-suffix="qq">
-                <template v-slot="{ episode }">
-                  第 {{ episode }} 集
+                <template v-slot="{ streaming }">
+                  第 {{ streaming.num }} 集
                 </template>
               </external-links>
             </a-menu>
@@ -79,17 +68,17 @@ import { computed, onMounted, ref } from 'vue';
 import { DownOutlined, FileTextOutlined, PlaySquareOutlined } from '@ant-design/icons-vue';
 
 import SpTag from '@/components/SpTag.vue';
-import MangaTag from '@/components/MangaTag.vue';
+import SourceTag from '@/components/SourceTag.vue';
 import HighlightText from '@/components/HighlightText.vue';
 import LinkMenuItem from '@/components/LinkMenuItem.vue';
 import ExternalLinks from '@/components/ExternalLinks.vue';
 
-import { useSliceStore, fillSliceStore, useSliceDict } from '@/composables/slices';
+import { useSliceStore, fillSliceStore, useSliceGroupDict } from '@/composables/slices';
 import useStats from '@/composables/useStats';
 import { useHistory, updateHistory } from '@/composables/history';
 
 import type { Episode } from '@/types/episode';
-import type { Link } from '@/types/link';
+import type { Streaming } from '@/types/streaming';
 
 const REPO_URL = 'https://github.com/xingrz/TeleConan';
 const WIKI_URL = `https://zh.wikipedia.org/wiki/${encodeURIComponent('名偵探柯南動畫集數列表')}`;
@@ -102,20 +91,14 @@ const columns = [
     width: '10em',
   },
   {
-    title: '官方集数',
-    dataIndex: 'num_jp',
+    title: '集数',
+    dataIndex: 'num',
     width: '8em',
     align: 'center',
   },
   {
-    title: '拆分集数',
-    dataIndex: 'num_cn',
-    width: '8em',
-    align: 'center',
-  },
-  {
-    title: '对应漫画',
-    dataIndex: 'manga',
+    title: '对应原作',
+    dataIndex: 'sources',
     width: '10em',
   },
   {
@@ -135,28 +118,33 @@ onMounted(async () => {
   await fillSliceStore(episodes, 'episode-latest');
 });
 
-const bilibiliLinks = useSliceStore<Link>();
-const bilibili = useSliceDict<number, Link>(bilibiliLinks, 'num');
+const bilibiliStore = useSliceStore<Streaming>();
+const bilibili = useSliceGroupDict<number, Streaming>(bilibiliStore, (s) => s.maps_to.episode_num);
 onMounted(async () => {
-  await fillSliceStore(bilibiliLinks, 'bilibili-latest');
-});
-
-const qqLinks = useSliceStore<Link>();
-const qq = useSliceDict<number, Link>(qqLinks, 'num');
-onMounted(async () => {
-  await fillSliceStore(qqLinks, 'qq-latest');
+  await fillSliceStore(bilibiliStore, 'bilibili-latest');
 });
 
 const keyword = ref('');
 useHistory(keyword);
 
+const bilibiliNumSet = computed(() => {
+  const set = new Set<number>();
+  for (const s of bilibiliStore.data) {
+    set.add(s.num);
+  }
+  return set;
+});
+
 const filtered = computed<Episode[]>(() => {
   if (keyword.value) {
+    const kw = keyword.value;
+    const kwNum = parseInt(kw);
     return episodes.data.filter(item => {
-      return item.title_jp.includes(keyword.value) ||
-        item.title_cn.includes(keyword.value) ||
-        item.num_jp == parseInt(keyword.value) ||
-        item.num_cn.includes(parseInt(keyword.value));
+      return item.title_jp.includes(kw) ||
+        item.title_cn.includes(kw) ||
+        item.num == kwNum ||
+        (!isNaN(kwNum) && bilibiliNumSet.value.has(kwNum) &&
+          bilibili.value[item.num]?.some(s => s.num == kwNum));
     }).reverse();
   } else {
     return [...episodes.data].reverse();

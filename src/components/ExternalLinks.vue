@@ -1,19 +1,19 @@
 <template>
-  <template v-if="episodes.length == 1">
-    <link-menu-item :icon="icon" :href="props.links[episodes[0]!]!.href" :title="props.links[episodes[0]!]!.title"
+  <template v-if="items.length == 1">
+    <link-menu-item :icon="icon" :href="items[0]!.href" :title="items[0]!.title"
       :key="props.keySuffix">
       {{ name }}
     </link-menu-item>
   </template>
-  <template v-else-if="episodes.length > 1">
+  <template v-else-if="items.length > 1">
     <a-sub-menu :key="props.keySuffix">
       <template #title>
         <component :is="icon" /> &nbsp;
         {{ name }}
       </template>
-      <template v-for="num in episodes" :key="`${props.keySuffix}-${num}`">
-        <link-menu-item :href="props.links[num]!.href" :title="props.links[num]!.title">
-          <slot :episode="num" :link="props.links[num]" />
+      <template v-for="item in items" :key="`${props.keySuffix}-${item.num}`">
+        <link-menu-item :href="item.href" :title="item.title">
+          <slot :streaming="item" />
         </link-menu-item>
       </template>
     </a-sub-menu>
@@ -25,18 +25,17 @@ import { computed, type FunctionalComponent } from 'vue';
 
 import LinkMenuItem from './LinkMenuItem.vue';
 
-import type { Link } from '@/types/link';
+import type { Streaming } from '@/types/streaming';
 
 const props = defineProps<{
   keySuffix: string;
   icon: FunctionalComponent;
   name: string;
-  links: Record<number, Link>;
-  episode: number | number[];
+  links: Record<number, Streaming[]>;
+  episode: number;
 }>();
 
-const episodes = computed(() => {
-  const episodes = Array.isArray(props.episode) ? props.episode : [props.episode];
-  return episodes.filter(ep => props.links[ep]);
+const items = computed(() => {
+  return props.links[props.episode] ?? [];
 });
 </script>
