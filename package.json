@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 8080",
-    "build": "vite build"
+    "slice": "tsx scripts/slice.ts",
+    "build": "npm run slice && vite build"
   },
   "author": "XiNGRZ <hi@xingrz.me>",
   "license": "GPL-3.0",
@@ -16,11 +17,14 @@
     "vue": "^3.5.24"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
     "@types/luxon": "^3.7.1",
     "@types/node": "^24.10.1",
     "@vitejs/plugin-vue": "^6.0.2",
     "@vue/tsconfig": "^0.8.1",
+    "js-yaml": "^4.1.1",
     "sass": "^1.94.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.4"
   }
