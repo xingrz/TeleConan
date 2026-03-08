@@ -2,10 +2,10 @@ name: Auto deploy
 
 on:
   push:
-    branches: [master]
+    branches: [master, data]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     permissions:
@@ -15,11 +15,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
+          ref: master
           fetch-depth: 2
 
-      - name: Get short SHA
-        uses: benjlevesque/short-sha@v3.0
-        id: short-sha
+      - name: Checkout data
+        uses: actions/checkout@v6
+        with:
+          ref: data
+          path: data
+          fetch-depth: 1
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
@@ -30,14 +34,24 @@ jobs:
       - name: Build
         run: npm ci && npm run build
 
-      - name: Publish
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target_branch: gh-pages
-          keep_history: true
-          allow_empty_commit: false
-          build_dir: dist
-          commit_message: 'Auto deploy for commit ${{ steps.short-sha.outputs.sha }}'
-          fqdn: conan.xingrz.me
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

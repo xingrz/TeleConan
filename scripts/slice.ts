@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, copyFileSync, existsSync, mkdirSync, rmSync, readdirSync } from 'fs';
 import { createHash } from 'crypto';
 import { resolve, basename } from 'path';
 import { load, JSON_SCHEMA } from 'js-yaml';
@@ -114,6 +114,13 @@ for (const file of streamingFiles) {
     data: data,
     tiers: [500, 200, 100, 50, 20, 10],
   });
+}
+
+// Copy stats.json if present
+const statsFile = resolve(DATA_DIR, 'stats.json');
+if (existsSync(statsFile)) {
+  copyFileSync(statsFile, resolve(OUT_DIR, 'stats.json'));
+  console.log('  stats.json copied');
 }
 
 console.log('Done.');

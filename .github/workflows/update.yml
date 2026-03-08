@@ -1,8 +1,6 @@
 name: Data update
 
 on:
-  push:
-    branches: [master]
   schedule:
     - cron: '0 16 * * *'
   workflow_dispatch:
@@ -15,11 +13,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout gh-pages branch
+      - name: Checkout data branch
         uses: actions/checkout@v6
         with:
-          ref: gh-pages
-          fetch-depth: 0
+          ref: data
 
       - name: Get current time
         uses: gerred/actions/current-time@master
@@ -50,8 +47,8 @@ jobs:
           if [[ -z "$(git status --porcelain)" ]] && [[ "${{ github.event_name }}" != "workflow_dispatch" ]]; then
             echo "No changes to commit"
           else
-            echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\",\"workflow_run\":\"${{ github.run_id }}\"}" > data/stats.json
-            git add data
+            echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\",\"workflow_run\":\"${{ github.run_id }}\"}" > stats.json
+            git add -A
             git commit -m "Auto data update ${{ steps.now.outputs.time }}"
             git pull --rebase
             git push
