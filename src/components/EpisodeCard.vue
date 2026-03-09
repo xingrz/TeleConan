@@ -1,7 +1,6 @@
 <template>
   <div class="relative pl-4 pr-4 py-3.5 transition-all cursor-default group hover:bg-accent-subtle before:absolute before:left-0 before:top-2 before:bottom-2 before:w-0.5 before:rounded-full before:bg-accent before:scale-y-0 before:transition-transform hover:before:scale-y-100"
-    :class="{ 'opacity-75': !aired }"
-    style="content-visibility: auto; contain-intrinsic-size: 0 120px;">
+    :class="{ 'opacity-75': !aired }">
     <!-- Row 1: number + date -->
     <div class="flex items-baseline justify-between gap-4">
       <div class="flex items-center gap-2">
@@ -25,19 +24,13 @@
     <div v-if="aired" class="flex items-center gap-2 mt-1.5 text-xs">
       <a :href="`https://www.conanpedia.com/TV${episode.num}`" target="_blank" rel="noreferrer"
         class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors">柯南百科</a>
-      <template v-for="s in bilibiliLinks" :key="`bilibili-${s.num}`">
+      <template v-if="bilibiliLinks.length > 0">
         <span class="text-text-tertiary">·</span>
-        <a :href="s.href" target="_blank" rel="noreferrer"
-          class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors" :title="s.title">
-          B站<template v-if="bilibiliLinks.length > 1"> #{{ s.num }}</template>
-        </a>
+        <streaming-links label="B站" :links="bilibiliLinks" />
       </template>
-      <template v-for="s in qqLinks" :key="`qq-${s.num}`">
+      <template v-if="qqLinks.length > 0">
         <span class="text-text-tertiary">·</span>
-        <a :href="s.href" target="_blank" rel="noreferrer"
-          class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors" :title="s.title">
-          腾讯<template v-if="qqLinks.length > 1"> #{{ s.num }}</template>
-        </a>
+        <streaming-links label="腾讯" :links="qqLinks" />
       </template>
     </div>
   </div>
@@ -49,6 +42,7 @@ import { computed } from 'vue';
 import SpTag from './SpTag.vue';
 import SourceTag from './SourceTag.vue';
 import HighlightText from './HighlightText.vue';
+import StreamingLinks from './StreamingLinks.vue';
 
 import type { Episode } from '@/types/episode';
 import type { Streaming } from '@/types/streaming';

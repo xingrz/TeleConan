@@ -78,7 +78,7 @@
 
     <!-- Episode list -->
     <div class="max-w-2xl mx-auto px-4 md:px-0 py-4">
-      <div class="bg-surface-elevated rounded-2xl border border-border overflow-hidden divide-y divide-border">
+      <div class="bg-surface-elevated rounded-2xl border border-border overflow-visible divide-y divide-border">
         <episode-card v-for="ep in filtered" :key="ep.num" :episode="ep" :keyword="keyword"
           :bilibili="bilibili" :qq="qq" />
       </div>
