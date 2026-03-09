@@ -25,11 +25,18 @@
     <div v-if="aired" class="flex items-center gap-2 mt-1.5 text-xs">
       <a :href="`https://www.conanpedia.com/TV${episode.num}`" target="_blank" rel="noreferrer"
         class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors">柯南百科</a>
-      <template v-for="s in links" :key="s.num">
+      <template v-for="s in bilibiliLinks" :key="`bilibili-${s.num}`">
         <span class="text-text-tertiary">·</span>
         <a :href="s.href" target="_blank" rel="noreferrer"
           class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors" :title="s.title">
-          B站<template v-if="links.length > 1"> #{{ s.num }}</template>
+          B站<template v-if="bilibiliLinks.length > 1"> #{{ s.num }}</template>
+        </a>
+      </template>
+      <template v-for="s in qqLinks" :key="`qq-${s.num}`">
+        <span class="text-text-tertiary">·</span>
+        <a :href="s.href" target="_blank" rel="noreferrer"
+          class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors" :title="s.title">
+          腾讯<template v-if="qqLinks.length > 1"> #{{ s.num }}</template>
         </a>
       </template>
     </div>
@@ -50,6 +57,7 @@ const props = defineProps<{
   episode: Episode;
   keyword: string;
   bilibili: Record<number, Streaming[]>;
+  qq: Record<number, Streaming[]>;
 }>();
 
 const today = new Date().toISOString().slice(0, 10);
@@ -68,5 +76,6 @@ const airCountdown = computed(() => {
   return `${weeks}周后播出`;
 });
 
-const links = computed(() => props.bilibili[props.episode.num] ?? []);
+const bilibiliLinks = computed(() => props.bilibili[props.episode.num] ?? []);
+const qqLinks = computed(() => props.qq[props.episode.num] ?? []);
 </script>

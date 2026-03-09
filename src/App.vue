@@ -80,7 +80,7 @@
     <div class="max-w-2xl mx-auto px-4 md:px-0 py-4">
       <div class="bg-surface-elevated rounded-2xl border border-border overflow-hidden divide-y divide-border">
         <episode-card v-for="ep in filtered" :key="ep.num" :episode="ep" :keyword="keyword"
-          :bilibili="bilibili" />
+          :bilibili="bilibili" :qq="qq" />
       </div>
     </div>
 
@@ -141,6 +141,12 @@ onMounted(async () => {
   await fillSliceStore(bilibiliStore, 'bilibili-latest');
 });
 
+const qqStore = useSliceStore<Streaming>();
+const qq = useSliceGroupDict<number, Streaming>(qqStore, (s) => s.maps_to.episode_num);
+onMounted(async () => {
+  await fillSliceStore(qqStore, 'qq-latest');
+});
+
 const keyword = ref('');
 useHistory(keyword);
 
@@ -164,6 +170,14 @@ const searchPlaceholder = computed(() => {
 const bilibiliNumSet = computed(() => {
   const set = new Set<number>();
   for (const s of bilibiliStore.data) {
+    set.add(s.num);
+  }
+  return set;
+});
+
+const qqNumSet = computed(() => {
+  const set = new Set<number>();
+  for (const s of qqStore.data) {
     set.add(s.num);
   }
   return set;
@@ -208,7 +222,9 @@ function matchesKeyword(item: Episode): boolean {
     item.title_cn.includes(q.kw) ||
     item.num == q.kwNum ||
     (!isNaN(q.kwNum) && bilibiliNumSet.value.has(q.kwNum) &&
-      bilibili.value[item.num]?.some(s => s.num == q.kwNum) === true);
+      bilibili.value[item.num]?.some(s => s.num == q.kwNum) === true) ||
+    (!isNaN(q.kwNum) && qqNumSet.value.has(q.kwNum) &&
+      qq.value[item.num]?.some(s => s.num == q.kwNum) === true);
 }
 
 function matchesSourceFilter(item: Episode): boolean {
