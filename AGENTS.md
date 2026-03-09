@@ -12,7 +12,6 @@
 
 - `master` - 源代码
 - `data` - 独立 orphan 分支，存放 fetcher 抓取的原始数据
-- `gh-pages` - 构建产物
 
 ## 数据分片
 
