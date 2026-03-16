@@ -3,6 +3,7 @@ name: Auto deploy
 on:
   push:
     branches: [master, data]
+  workflow_call:
 
 jobs:
   build:

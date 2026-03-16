@@ -12,11 +12,15 @@ jobs:
     permissions:
       contents: write
 
+    outputs:
+      has_update: ${{ steps.update.outputs.has_update }}
+
     steps:
       - name: Checkout data branch
         uses: actions/checkout@v6
         with:
           ref: data
+          fetch-depth: 2
 
       - name: Get current time
         uses: gerred/actions/current-time@master
@@ -35,21 +39,36 @@ jobs:
           token: ${{ secrets.FETCHER_TOKEN }}
 
       - name: Install and run
+        id: update
         run: |
           npm install --no-save teleconan-fetcher.tgz
           node node_modules/teleconan-fetcher
           rm -rf node_modules teleconan-fetcher.tgz
+          git diff
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No update"
+          else
+            echo "has_update=yes" >> $GITHUB_OUTPUT
+          fi
 
       - name: Publish
+        if: steps.update.outputs.has_update == 'yes'
         run: |
           git config user.name "Teleconan Fetcher"
           git config user.email "xingrz@users.noreply.github.com"
-          if [[ -z "$(git status --porcelain)" ]] && [[ "${{ github.event_name }}" != "workflow_dispatch" ]]; then
-            echo "No changes to commit"
-          else
-            echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\",\"workflow_run\":\"${{ github.run_id }}\"}" > stats.json
-            git add -A
-            git commit -m "Auto data update ${{ steps.now.outputs.time }}"
-            git pull --rebase
-            git push
-          fi
+          echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\",\"workflow_run\":\"${{ github.run_id }}\"}" > stats.json
+          git add -A
+          git commit -m "Auto data update ${{ steps.now.outputs.time }}"
+          git pull origin data --depth 10 --rebase
+          git push origin data
+
+  deploy:
+    if: needs.update.outputs.has_update == 'yes'
+    needs: update
+
+    uses: ./.github/workflows/deploy.yml
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
