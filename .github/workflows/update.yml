@@ -22,10 +22,6 @@ jobs:
           ref: data
           fetch-depth: 2
 
-      - name: Get current time
-        uses: gerred/actions/current-time@master
-        id: now
-
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
@@ -56,9 +52,8 @@ jobs:
         run: |
           git config user.name "Teleconan Fetcher"
           git config user.email "xingrz@users.noreply.github.com"
-          echo "{\"updated_at\":\"${{ steps.now.outputs.time }}\",\"workflow_run\":\"${{ github.run_id }}\"}" > stats.json
           git add -A
-          git commit -m "Auto data update ${{ steps.now.outputs.time }}"
+          git commit -m "Auto data update via workflow run ${{ github.run_id }}"
           git pull origin data --depth 10 --rebase
           git push origin data
 
