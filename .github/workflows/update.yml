@@ -43,8 +43,12 @@ jobs:
           git diff
           if [[ -z "$(git status --porcelain)" ]]; then
             echo "No update"
+            echo "No update" > $GITHUB_STEP_SUMMARY
           else
             echo "has_update=yes" >> $GITHUB_OUTPUT
+            echo '```diff' > $GITHUB_STEP_SUMMARY
+            git diff >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Publish
