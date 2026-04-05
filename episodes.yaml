@@ -9306,7 +9306,7 @@
     - kind: original
 - num: 1193
   title_jp: キッドVS白馬 青の王座（前編）
-  title_cn: 基德VS白马 青玉王座（上集）
+  title_cn: 基德VS白马 蔚蓝的王座（上集）
   aired_at: 2026-03-14
   duration: 30
   sources:
@@ -9314,9 +9314,30 @@
       ref: Vol.105
 - num: 1194
   title_jp: キッドVS白馬 青の王座（後編）
-  title_cn: 基德VS白马 青玉王座（下集）
+  title_cn: 基德VS白马 蔚蓝的王座（下集）
   aired_at: 2026-03-21
   duration: 30
   sources:
     - kind: manga
       ref: Vol.105
+- num: 1195
+  title_jp: 館ミステリー 渦巻館（前編）
+  title_cn: 馆之谜案 涡卷馆（上集）
+  aired_at: 2026-03-28
+  duration: 30
+  sources:
+    - kind: original
+- num: 1196
+  title_jp: 館ミステリー 渦巻館（後編）
+  title_cn: 馆之谜案 涡卷馆（下集）
+  aired_at: 2026-04-04
+  duration: 30
+  sources:
+    - kind: original
+- num: 1197
+  title_jp: 旋風のコスプレライダー
+  title_cn: 旋风的扮装骑士
+  aired_at: 2026-04-11
+  duration: 30
+  sources:
+    - kind: original
