@@ -6150,7 +6150,7 @@
     - kind: original
 - num: 777
   title_jp: 少年探偵団VS老人探偵団
-  title_cn: 少年侦探团VS老人侦探团
+  title_cn: 少年侦探团VS老年侦探团
   aired_at: 2015-05-09
   duration: 30
   sources:
@@ -9345,6 +9345,13 @@
   title_jp: シンデレラの靴
   title_cn: 灰姑娘的鞋
   aired_at: 2026-04-18
+  duration: 30
+  sources:
+    - kind: original
+- num: 1199
+  title_jp: 少年探偵団VS老人探偵団2
+  title_cn: 少年侦探团VS老年侦探团2
+  aired_at: 2026-04-25
   duration: 30
   sources:
     - kind: original
