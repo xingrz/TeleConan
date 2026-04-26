@@ -31,7 +31,7 @@
           </div>
 
           <button @click="toggle"
-            class="grid h-10 w-10 shrink-0 place-items-center rounded-lg border border-border bg-surface text-text-secondary shadow-sm transition-colors hover:border-accent hover:text-accent focus:outline-none focus:ring-2 focus:ring-accent/25"
+            class="grid h-10 w-10 shrink-0 place-items-center rounded-lg text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary focus:outline-none focus:ring-2 focus:ring-accent/20"
             :title="dark ? '切换为浅色' : '切换为深色'"
             :aria-label="dark ? '切换为浅色' : '切换为深色'">
             <svg v-if="dark" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -45,42 +45,43 @@
       </div>
     </header>
 
-    <main class="mx-auto max-w-5xl px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
-      <section class="sticky top-0 z-10 -mx-4 border-b border-transparent bg-surface/85 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8"
-        :class="{ '!border-border': scrolled }">
-        <div class="rounded-lg border border-border bg-surface-elevated/95 p-3 shadow-sm">
-          <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
-            <div class="relative min-w-0 flex-1">
-              <svg class="pointer-events-none absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-text-tertiary"
-                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd"
-                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                  clip-rule="evenodd" />
-              </svg>
-              <input v-model="keyword" type="search" :placeholder="searchPlaceholder"
-                class="search-input h-11 w-full rounded-md border border-border bg-surface px-11 text-base text-text-primary outline-none transition-all placeholder:text-text-tertiary focus:border-accent focus:ring-3 focus:ring-accent/15"
-                @blur="updateHistory(keyword)" @keydown.enter="updateHistory(keyword)" />
-              <button v-if="keyword" type="button"
-                class="absolute right-2 top-1/2 grid h-7 w-7 -translate-y-1/2 place-items-center rounded-md text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary"
-                aria-label="清空搜索" @click="clearKeyword">
-                <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
-                </svg>
-              </button>
-            </div>
+    <section class="sticky top-0 z-20 border-b border-border bg-surface-elevated/90 backdrop-blur">
+      <div class="mx-auto max-w-5xl px-4 py-3 sm:px-6 lg:px-8" @focusin="openSearchPanel" @focusout="closeSearchPanel">
+        <div class="search-panel" :class="{ 'search-panel-expanded': searchExpanded }">
+          <div class="search-field" :class="{ 'search-field-expanded': searchExpanded }">
+            <svg class="h-5 w-5 shrink-0 text-text-tertiary"
+              viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                clip-rule="evenodd" />
+            </svg>
 
-            <div class="flex shrink-0 items-center justify-between gap-3 lg:min-w-48">
-              <div class="text-xs leading-5 text-text-tertiary">
-                <span class="font-semibold text-text-secondary">{{ resultCountLabel }}</span>
-              </div>
-              <button v-if="hasActiveFilter" type="button" class="text-xs font-medium text-accent transition-colors hover:text-accent-hover"
-                @click="clearFilters">
-                重置
-              </button>
-            </div>
+            <button v-for="f in activeSourceFilterList" :key="f.value" type="button"
+              class="search-token" @pointerdown.prevent @click="removeSourceFilter(f.value)">
+              <span>{{ f.label }}</span>
+              <span aria-hidden="true">×</span>
+            </button>
+            <button v-if="spOnly" type="button" class="search-token" @pointerdown.prevent @click="removeSpFilter">
+              <span>SP</span>
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <input ref="searchInput" v-model="keyword" type="search" :placeholder="activeTokenCount ? '' : searchPlaceholder"
+              class="search-input min-w-24 flex-1 bg-transparent text-base text-text-primary outline-none placeholder:text-text-tertiary"
+              @blur="updateHistory(keyword)" @keydown.enter="updateHistory(keyword)" />
+
+            <span class="ml-auto shrink-0 text-xs font-semibold text-text-secondary">{{ resultCountLabel }}</span>
+
+            <button v-if="keyword" type="button"
+              class="grid h-7 w-7 shrink-0 place-items-center rounded-md text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary"
+              aria-label="清空搜索" @click="clearKeyword">
+              <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+              </svg>
+            </button>
           </div>
 
-          <div class="mt-3 flex flex-wrap gap-1.5">
+          <div v-if="searchExpanded" class="mt-3 flex flex-wrap items-center gap-1.5">
             <button v-for="f in SOURCE_FILTERS" :key="f.value" type="button"
               class="filter-chip"
               :class="activeFilters.has(f.value) ? 'filter-chip-active' : 'filter-chip-idle'"
@@ -93,11 +94,17 @@
               @click="spOnly = !spOnly">
               SP
             </button>
+            <button v-if="hasActiveFilter" type="button" class="ml-auto h-8 px-2 text-xs font-medium text-accent transition-colors hover:text-accent-hover"
+              @click="clearFilters">
+              重置
+            </button>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <div class="mt-4 flex items-center justify-between gap-3">
+    <main class="mx-auto max-w-5xl px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
+      <div class="flex items-center justify-between gap-3">
         <h2 class="text-sm font-semibold text-text-secondary">剧集列表</h2>
         <p class="text-xs text-text-tertiary">最新剧集在前</p>
       </div>
@@ -133,7 +140,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, onMounted, onUnmounted, reactive, ref } from 'vue';
+import { computed, onMounted, reactive, ref } from 'vue';
 
 import EpisodeCard from '@/components/EpisodeCard.vue';
 
@@ -162,13 +169,6 @@ type SourceFilterValue = typeof SOURCE_FILTERS[number]['value'];
 const stats = useStats();
 const { dark, toggle } = useTheme();
 
-const scrolled = ref(false);
-function onScroll() {
-  scrolled.value = window.scrollY > 80;
-}
-onMounted(() => window.addEventListener('scroll', onScroll, { passive: true }));
-onUnmounted(() => window.removeEventListener('scroll', onScroll));
-
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
   await fillSliceStore(episodes, 'episode-latest');
@@ -191,6 +191,8 @@ useHistory(keyword);
 
 const activeFilters = reactive(new Set<SourceFilterValue>());
 const spOnly = ref(false);
+const searchFocused = ref(false);
+const searchInput = ref<HTMLInputElement | null>(null);
 
 function toggleFilter(value: SourceFilterValue) {
   if (activeFilters.has(value)) {
@@ -200,7 +202,39 @@ function toggleFilter(value: SourceFilterValue) {
   }
 }
 
+function removeSourceFilter(value: SourceFilterValue) {
+  activeFilters.delete(value);
+  focusSearchInput();
+}
+
+function removeSpFilter() {
+  spOnly.value = false;
+  focusSearchInput();
+}
+
+function focusSearchInput() {
+  requestAnimationFrame(() => searchInput.value?.focus());
+}
+
+function openSearchPanel() {
+  searchFocused.value = true;
+}
+
+function closeSearchPanel(event: FocusEvent) {
+  const current = event.currentTarget as HTMLElement | null;
+  const next = event.relatedTarget as Node | null;
+  if (current && next && current.contains(next)) return;
+  searchFocused.value = false;
+  updateHistory(keyword.value);
+}
+
 const hasActiveFilter = computed(() => keyword.value.trim().length > 0 || activeFilters.size > 0 || spOnly.value);
+
+const searchExpanded = computed(() => searchFocused.value);
+
+const activeSourceFilterList = computed(() => SOURCE_FILTERS.filter(f => activeFilters.has(f.value)));
+
+const activeTokenCount = computed(() => activeSourceFilterList.value.length + (spOnly.value ? 1 : 0));
 
 const searchPlaceholder = computed(() => {
   return '集数 / 标题 / 日期 / 漫画';
