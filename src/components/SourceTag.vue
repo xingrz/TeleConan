@@ -1,6 +1,6 @@
 <template>
   <template v-for="(source, i) in props.episode.sources" :key="i">
-    <span class="inline-block px-1.5 py-0.5 rounded text-[11px] font-medium leading-none" :class="getSourceClass(source)">
+    <span class="inline-flex h-5 items-center rounded border px-1.5 text-[11px] font-medium leading-none" :class="getSourceClass(source)">
       {{ getSourceText(source) }}
     </span>
   </template>
@@ -15,11 +15,11 @@ const props = defineProps<{
 
 function getSourceClass(source: Episode['sources'][number]): string {
   switch (source.kind) {
-    case 'original': return 'bg-orange-500/10 text-orange-600 dark:bg-orange-500/15 dark:text-orange-400';
-    case '特别篇': return 'bg-red-500/10 text-red-600 dark:bg-red-500/15 dark:text-red-400';
-    case '魔术快斗': return 'bg-purple-500/10 text-purple-600 dark:bg-purple-500/15 dark:text-purple-400';
-    case '警察学校篇': return 'bg-cyan-500/10 text-cyan-600 dark:bg-cyan-500/15 dark:text-cyan-400';
-    default: return 'bg-blue-500/10 text-blue-600 dark:bg-blue-500/15 dark:text-blue-400';
+    case 'original': return 'border-amber-500/20 bg-amber-500/10 text-amber-700 dark:text-amber-300';
+    case '特别篇': return 'border-rose-500/20 bg-rose-500/10 text-rose-700 dark:text-rose-300';
+    case '魔术快斗': return 'border-violet-500/20 bg-violet-500/10 text-violet-700 dark:text-violet-300';
+    case '警察学校篇': return 'border-cyan-500/20 bg-cyan-500/10 text-cyan-700 dark:text-cyan-300';
+    default: return 'border-sky-500/20 bg-sky-500/10 text-sky-700 dark:text-sky-300';
   }
 }
 

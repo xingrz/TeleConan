@@ -1,5 +1,5 @@
 <template>
-  <span v-if="sp" class="inline-block px-1.5 py-0.5 rounded-md text-xs font-medium" :class="sp.cls">
+  <span v-if="sp" class="inline-flex h-5 items-center rounded border px-1.5 text-[11px] font-semibold leading-none" :class="sp.cls">
     {{ sp.text }}
   </span>
 </template>
@@ -15,10 +15,10 @@ const props = defineProps<{
 
 const sp = computed(() => {
   switch (props.episode.duration) {
-    case 60: return { cls: 'bg-orange-500/15 text-orange-600 dark:text-orange-400', text: '1HSP' };
-    case 90: return { cls: 'bg-orange-500/15 text-orange-600 dark:text-orange-400', text: '1.5HSP' };
-    case 120: return { cls: 'bg-red-500/15 text-red-600 dark:text-red-400', text: '2HSP' };
-    case 150: return { cls: 'bg-purple-500/15 text-purple-600 dark:text-purple-400', text: '2.5HSP' };
+    case 60: return { cls: 'border-amber-500/20 bg-amber-500/10 text-amber-700 dark:text-amber-300', text: '1HSP' };
+    case 90: return { cls: 'border-amber-500/20 bg-amber-500/10 text-amber-700 dark:text-amber-300', text: '1.5HSP' };
+    case 120: return { cls: 'border-rose-500/20 bg-rose-500/10 text-rose-700 dark:text-rose-300', text: '2HSP' };
+    case 150: return { cls: 'border-violet-500/20 bg-violet-500/10 text-violet-700 dark:text-violet-300', text: '2.5HSP' };
   }
 });
 </script>

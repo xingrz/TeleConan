@@ -1,96 +1,134 @@
 <template>
-  <div class="min-h-screen bg-surface text-text-primary">
-    <!-- Hero header -->
-    <header class="pt-12 pb-6 px-4 md:px-0">
-      <div class="max-w-2xl mx-auto flex items-start justify-between">
-        <div>
-          <h1 class="text-3xl font-bold tracking-tight">TeleConan</h1>
-          <p class="text-text-secondary mt-1">名侦探柯南 TV 动画集数索引</p>
-          <p class="text-xs text-text-tertiary mt-2 space-x-1">
-            <span>数据来源
-              <a :href="WIKI_URL" target="_blank" rel="noreferrer" class="underline underline-offset-2 decoration-border hover:text-text-secondary transition-colors">维基百科</a>
-              (CC BY-SA 3.0)</span>
-            <span>·</span>
-            <a :href="REPO_URL" target="_blank" class="underline underline-offset-2 decoration-border hover:text-text-secondary transition-colors">GitHub</a>
-            <template v-if="stats.updated_at">
-              <span>·</span>
-              <span>更新于
-                <a :href="`${REPO_URL}/actions/runs/${stats.workflow_run}`" target="_blank"
-                  class="underline underline-offset-2 decoration-border hover:text-text-secondary transition-colors">{{ stats.updated_at }}</a>
+  <div class="min-h-screen bg-surface text-text-primary antialiased">
+    <header class="border-b border-border bg-surface-elevated/90 backdrop-blur">
+      <div class="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
+        <div class="flex items-start justify-between gap-4">
+          <div class="min-w-0">
+            <div class="flex items-center gap-3">
+              <span class="h-9 w-1.5 rounded-full bg-accent" aria-hidden="true" />
+              <div>
+                <h1 class="text-2xl font-semibold leading-tight tracking-normal sm:text-3xl">TeleConan</h1>
+                <p class="mt-1 text-sm leading-6 text-text-secondary">名侦探柯南 TV 动画集数索引</p>
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs leading-5 text-text-tertiary">
+              <span>数据来源</span>
+              <span>
+                <a :href="WIKI_URL" target="_blank" rel="noreferrer" class="meta-link">维基百科</a>
+                <span> (</span><a :href="LICENSE_URL" target="_blank" rel="noreferrer" class="meta-link">CC BY-SA 3.0</a><span>)</span>
               </span>
-            </template>
-          </p>
+              <span>·</span>
+              <a :href="REPO_URL" target="_blank" rel="noreferrer" class="meta-link">GitHub</a>
+              <template v-if="stats.updated_at">
+                <span>·</span>
+                <span>更新于
+                  <a :href="`${REPO_URL}/actions/runs/${stats.workflow_run}`" target="_blank"
+                    rel="noreferrer" class="meta-link">{{ stats.updated_at }}</a>
+                </span>
+              </template>
+            </div>
+          </div>
+
+          <button @click="toggle"
+            class="grid h-10 w-10 shrink-0 place-items-center rounded-lg border border-border bg-surface text-text-secondary shadow-sm transition-colors hover:border-accent hover:text-accent focus:outline-none focus:ring-2 focus:ring-accent/25"
+            :title="dark ? '切换为浅色' : '切换为深色'"
+            :aria-label="dark ? '切换为浅色' : '切换为深色'">
+            <svg v-if="dark" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zM10 15a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 15zM10 7a3 3 0 100 6 3 3 0 000-6zM15.657 5.404a.75.75 0 10-1.06-1.06l-1.061 1.06a.75.75 0 001.06 1.06l1.06-1.06zM6.464 14.596a.75.75 0 10-1.06-1.06l-1.06 1.06a.75.75 0 001.06 1.06l1.06-1.06zM18 10a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0118 10zM5 10a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 015 10zM14.596 15.657a.75.75 0 001.06-1.06l-1.06-1.061a.75.75 0 10-1.06 1.06l1.06 1.06zM5.404 6.464a.75.75 0 001.06-1.06l-1.06-1.06a.75.75 0 10-1.06 1.06l1.06 1.06z" />
+            </svg>
+            <svg v-else class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M7.455 2.004a.75.75 0 01.26.77 7 7 0 009.958 7.967.75.75 0 011.067.853A8.5 8.5 0 116.647 1.921a.75.75 0 01.808.083z" clip-rule="evenodd" />
+            </svg>
+          </button>
         </div>
-        <button @click="toggle"
-          class="mt-1 p-2 rounded-lg text-text-tertiary hover:text-text-primary hover:bg-accent-subtle transition-colors"
-          :title="dark ? '切换为浅色' : '切换为深色'">
-          <svg v-if="dark" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zM10 15a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 15zM10 7a3 3 0 100 6 3 3 0 000-6zM15.657 5.404a.75.75 0 10-1.06-1.06l-1.061 1.06a.75.75 0 001.06 1.06l1.06-1.06zM6.464 14.596a.75.75 0 10-1.06-1.06l-1.06 1.06a.75.75 0 001.06 1.06l1.06-1.06zM18 10a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0118 10zM5 10a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 015 10zM14.596 15.657a.75.75 0 001.06-1.06l-1.06-1.061a.75.75 0 10-1.06 1.06l1.06 1.06zM5.404 6.464a.75.75 0 001.06-1.06l-1.06-1.06a.75.75 0 10-1.06 1.06l1.06 1.06z" />
-          </svg>
-          <svg v-else class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.455 2.004a.75.75 0 01.26.77 7 7 0 009.958 7.967.75.75 0 011.067.853A8.5 8.5 0 116.647 1.921a.75.75 0 01.808.083z" clip-rule="evenodd" />
-          </svg>
-        </button>
       </div>
     </header>
 
-    <!-- Sticky search + filters -->
-    <div class="sticky top-0 z-10 bg-surface/70 backdrop-blur-xl border-b border-transparent"
-      :class="{ '!border-border': scrolled }">
-      <div class="max-w-2xl mx-auto px-4 md:px-0 py-3">
-        <div class="relative">
-          <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-text-tertiary pointer-events-none"
-            viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd"
-              d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-              clip-rule="evenodd" />
-          </svg>
-          <input v-model="keyword" type="text" :placeholder="searchPlaceholder" autofocus
-            class="w-full h-11 pl-11 pr-4 text-base bg-surface-elevated text-text-primary placeholder-text-tertiary rounded-xl border border-border outline-none focus:border-accent/50 focus:ring-2 focus:ring-accent/20 transition-all"
-            @blur="updateHistory(keyword)" @keydown.enter="updateHistory(keyword)" />
-        </div>
+    <main class="mx-auto max-w-5xl px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
+      <section class="sticky top-0 z-10 -mx-4 border-b border-transparent bg-surface/85 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8"
+        :class="{ '!border-border': scrolled }">
+        <div class="rounded-lg border border-border bg-surface-elevated/95 p-3 shadow-sm">
+          <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
+            <div class="relative min-w-0 flex-1">
+              <svg class="pointer-events-none absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-text-tertiary"
+                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                  clip-rule="evenodd" />
+              </svg>
+              <input v-model="keyword" type="search" :placeholder="searchPlaceholder"
+                class="search-input h-11 w-full rounded-md border border-border bg-surface px-11 text-base text-text-primary outline-none transition-all placeholder:text-text-tertiary focus:border-accent focus:ring-3 focus:ring-accent/15"
+                @blur="updateHistory(keyword)" @keydown.enter="updateHistory(keyword)" />
+              <button v-if="keyword" type="button"
+                class="absolute right-2 top-1/2 grid h-7 w-7 -translate-y-1/2 place-items-center rounded-md text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary"
+                aria-label="清空搜索" @click="clearKeyword">
+                <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+                </svg>
+              </button>
+            </div>
 
-        <!-- Filter chips -->
-        <div class="flex flex-wrap gap-1.5 mt-2">
-          <button v-for="f in SOURCE_FILTERS" :key="f.value"
-            class="px-2.5 py-1 rounded-full text-xs font-medium border cursor-pointer select-none transition-all active:scale-95"
-            :class="activeFilters.has(f.value)
-              ? 'bg-accent text-white border-accent'
-              : 'text-text-secondary border-border hover:border-text-tertiary hover:text-text-primary'"
-            @click="toggleFilter(f.value)">
-            {{ f.label }}
-          </button>
-          <button
-            class="px-2.5 py-1 rounded-full text-xs font-medium border cursor-pointer select-none transition-all active:scale-95"
-            :class="spOnly
-              ? 'bg-accent text-white border-accent'
-              : 'text-text-secondary border-border hover:border-text-tertiary hover:text-text-primary'"
-            @click="spOnly = !spOnly">
-            SP
-          </button>
-        </div>
+            <div class="flex shrink-0 items-center justify-between gap-3 lg:min-w-48">
+              <div class="text-xs leading-5 text-text-tertiary">
+                <span class="font-semibold text-text-secondary">{{ resultCountLabel }}</span>
+              </div>
+              <button v-if="hasActiveFilter" type="button" class="text-xs font-medium text-accent transition-colors hover:text-accent-hover"
+                @click="clearFilters">
+                重置
+              </button>
+            </div>
+          </div>
 
-        <p v-if="hasActiveFilter" class="text-xs text-text-tertiary mt-2">
-          找到 {{ filtered.length }} 条结果
-        </p>
+          <div class="mt-3 flex flex-wrap gap-1.5">
+            <button v-for="f in SOURCE_FILTERS" :key="f.value" type="button"
+              class="filter-chip"
+              :class="activeFilters.has(f.value) ? 'filter-chip-active' : 'filter-chip-idle'"
+              @click="toggleFilter(f.value)">
+              {{ f.label }}
+            </button>
+            <button type="button"
+              class="filter-chip"
+              :class="spOnly ? 'filter-chip-active' : 'filter-chip-idle'"
+              @click="spOnly = !spOnly">
+              SP
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="mt-4 flex items-center justify-between gap-3">
+        <h2 class="text-sm font-semibold text-text-secondary">剧集列表</h2>
+        <p class="text-xs text-text-tertiary">最新剧集在前</p>
       </div>
-    </div>
 
-    <!-- Episode list -->
-    <div class="max-w-2xl mx-auto px-4 md:px-0 py-4">
-      <div class="bg-surface-elevated rounded-2xl border border-border overflow-visible divide-y divide-border">
-        <episode-card v-for="ep in filtered" :key="ep.num" :episode="ep" :keyword="keyword"
+      <div v-if="isLoading" class="mt-3 overflow-hidden rounded-lg border border-border bg-surface-elevated shadow-sm">
+        <div v-for="i in 8" :key="i" class="grid gap-3 border-b border-border px-4 py-4 last:border-b-0 sm:grid-cols-[6.5rem_minmax(0,1fr)]">
+          <div class="h-5 w-16 animate-pulse rounded bg-surface-muted" />
+          <div class="space-y-2">
+            <div class="h-4 w-3/4 animate-pulse rounded bg-surface-muted" />
+            <div class="h-4 w-1/2 animate-pulse rounded bg-surface-muted" />
+          </div>
+        </div>
+      </div>
+
+      <div v-else-if="filtered.length === 0" class="mt-3 rounded-lg border border-border bg-surface-elevated px-6 py-12 text-center shadow-sm">
+        <p class="text-sm font-medium text-text-primary">没有匹配的剧集</p>
+        <p class="mt-2 text-sm text-text-tertiary">换一个集数、标题、日期或漫画卷数试试。</p>
+      </div>
+
+      <div v-else class="mt-3 overflow-visible rounded-lg border border-border bg-surface-elevated shadow-sm">
+        <episode-card v-for="ep in filtered" :key="ep.num" :episode="ep" :keyword="keyword.trim()"
           :bilibili="bilibili" :qq="qq" />
       </div>
-    </div>
+    </main>
 
-    <!-- Info banner -->
-    <div class="max-w-2xl mx-auto px-4 md:px-0 py-6">
-      <div class="text-sm text-text-tertiary text-center">
+    <footer class="mx-auto max-w-5xl px-4 pb-8 pt-2 text-center text-sm text-text-tertiary sm:px-6 lg:px-8">
+      <p>
         在找字幕编辑器吗？前往
-        <a href="https://subtitle.xingrz.me/" class="text-accent hover:text-accent-hover transition-colors">subtitle.xingrz.me</a>
-      </div>
-    </div>
+        <a href="https://subtitle.xingrz.me/" class="text-accent transition-colors hover:text-accent-hover">subtitle.xingrz.me</a>
+      </p>
+    </footer>
   </div>
 </template>
 
@@ -109,6 +147,7 @@ import type { Streaming } from '@/types/streaming';
 
 const REPO_URL = 'https://github.com/xingrz/TeleConan';
 const WIKI_URL = `https://zh.wikipedia.org/wiki/${encodeURIComponent('名偵探柯南動畫集數列表')}`;
+const LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans';
 
 const SOURCE_FILTERS = [
   { label: '原创', value: 'original' },
@@ -161,11 +200,33 @@ function toggleFilter(value: SourceFilterValue) {
   }
 }
 
-const hasActiveFilter = computed(() => keyword.value || activeFilters.size > 0 || spOnly.value);
+const hasActiveFilter = computed(() => keyword.value.trim().length > 0 || activeFilters.size > 0 || spOnly.value);
 
 const searchPlaceholder = computed(() => {
-  return '搜索集数、标题、日期（2024）、漫画章节（V102）…';
+  return '集数 / 标题 / 日期 / 漫画';
 });
+
+const isLoading = computed(() => episodes.data.length === 0);
+
+const totalEpisodes = computed(() => episodes.data.length);
+
+const resultCountLabel = computed(() => {
+  if (isLoading.value) return '加载中';
+  if (hasActiveFilter.value) return `${filtered.value.length} 条结果`;
+  return `${totalEpisodes.value} 集`;
+});
+
+function clearKeyword() {
+  keyword.value = '';
+  updateHistory(keyword.value);
+}
+
+function clearFilters() {
+  keyword.value = '';
+  activeFilters.clear();
+  spOnly.value = false;
+  updateHistory(keyword.value);
+}
 
 const bilibiliNumSet = computed(() => {
   const set = new Set<number>();

@@ -1,39 +1,36 @@
 <template>
-  <div class="relative pl-4 pr-4 py-3.5 transition-all cursor-default group hover:bg-accent-subtle before:absolute before:left-0 before:top-2 before:bottom-2 before:w-0.5 before:rounded-full before:bg-accent before:scale-y-0 before:transition-transform hover:before:scale-y-100"
+  <article class="group relative grid gap-3 border-b border-border px-4 py-4 transition-colors last:border-b-0 hover:bg-accent-subtle sm:grid-cols-[6.5rem_minmax(0,1fr)] sm:px-5"
     :class="{ 'opacity-75': !aired }">
-    <!-- Row 1: number + date -->
-    <div class="flex items-baseline justify-between gap-4">
-      <div class="flex items-center gap-2">
-        <span class="font-semibold tabular-nums" :class="String(episode.num) == keyword ? 'text-accent' : ''">
+    <div class="flex items-center justify-between gap-3 sm:block">
+      <div class="flex items-baseline gap-1">
+        <span class="text-[11px] font-medium uppercase tracking-[0.18em] text-text-tertiary">TV</span>
+        <span class="text-xl font-semibold leading-none tabular-nums" :class="String(episode.num) == keyword ? 'text-accent' : 'text-text-primary'">
           {{ episode.num }}
         </span>
+      </div>
+      <time class="text-xs leading-5 text-text-tertiary tabular-nums sm:mt-2 sm:block" :datetime="episode.aired_at">{{ episode.aired_at }}</time>
+    </div>
+
+    <div class="min-w-0">
+      <div class="flex flex-wrap items-center gap-1.5">
         <sp-tag v-if="episode.duration > 30" :episode="episode" />
         <source-tag :episode="episode" />
-        <span v-if="!aired" class="text-[11px] text-text-tertiary italic">{{ airCountdown }}</span>
+        <span v-if="!aired" class="inline-flex h-5 items-center rounded border border-border px-1.5 text-[11px] font-medium text-text-tertiary">{{ airCountdown }}</span>
       </div>
-      <span class="text-xs text-text-tertiary tabular-nums shrink-0">{{ episode.aired_at }}</span>
-    </div>
 
-    <!-- Row 2: titles -->
-    <div class="mt-1">
-      <highlight-text class="text-sm leading-relaxed" :text="episode.title_jp" :highlight="keyword" lang="ja" />
-      <highlight-text class="text-sm text-text-secondary leading-relaxed" :text="episode.title_cn" :highlight="keyword" />
-    </div>
+      <div class="mt-2 space-y-0.5">
+        <highlight-text class="block text-[15px] font-medium leading-6 text-text-primary" :text="episode.title_jp" :highlight="keyword" lang="ja" />
+        <highlight-text class="block text-sm leading-6 text-text-secondary" :text="episode.title_cn" :highlight="keyword" />
+      </div>
 
-    <!-- Row 3: links -->
-    <div v-if="aired" class="flex items-center gap-2 mt-1.5 text-xs">
-      <a :href="`https://www.conanpedia.com/TV${episode.num}`" target="_blank" rel="noreferrer"
-        class="text-accent/70 underline decoration-accent/20 underline-offset-2 hover:text-accent hover:decoration-accent/50 transition-colors">柯南百科</a>
-      <template v-if="bilibiliLinks.length > 0">
-        <span class="text-text-tertiary">·</span>
-        <streaming-links label="B站" :links="bilibiliLinks" />
-      </template>
-      <template v-if="qqLinks.length > 0">
-        <span class="text-text-tertiary">·</span>
-        <streaming-links label="腾讯" :links="qqLinks" />
-      </template>
+      <div v-if="aired" class="mt-3 flex flex-wrap items-center gap-2 text-xs">
+        <a :href="`https://www.conanpedia.com/TV${episode.num}`" target="_blank" rel="noreferrer"
+          class="episode-link">柯南百科</a>
+        <streaming-links v-if="bilibiliLinks.length > 0" label="B站" :links="bilibiliLinks" />
+        <streaming-links v-if="qqLinks.length > 0" label="腾讯" :links="qqLinks" />
+      </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <script lang="ts" setup>
