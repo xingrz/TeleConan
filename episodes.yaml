@@ -743,9 +743,7 @@
     - kind: original
 - num: 96
   title_jp: 追いつめられた名探偵！ 連続2大殺人事件
-  title_cn: |-
-    走投无路的名侦探！
-    连续两大杀人事件
+  title_cn: 走投无路的名侦探！连续两大杀人事件
   aired_at: 1998-03-23
   duration: 120
   sources:
@@ -1558,7 +1556,7 @@
     - kind: original
 - num: 199
   title_jp: 容疑者・毛利小五郎（前編）
-  title_cn: 嫌疑人 · 毛利小五郎（上集）
+  title_cn: 嫌疑人·毛利小五郎（上集）
   aired_at: 2000-07-17
   duration: 30
   sources:
@@ -1566,7 +1564,7 @@
       ref: Vol.27
 - num: 200
   title_jp: 容疑者・毛利小五郎（後編）
-  title_cn: 嫌疑人 · 毛利小五郎（下集）
+  title_cn: 嫌疑人·毛利小五郎（下集）
   aired_at: 2000-07-24
   duration: 30
   sources:
@@ -9366,6 +9364,13 @@
   title_jp: 私が犯人です
   title_cn: 我是犯人
   aired_at: 2026-05-09
+  duration: 30
+  sources:
+    - kind: original
+- num: 1202
+  title_jp: アーチェリーに嘘はつけない
+  title_cn: 西洋弓不会说谎
+  aired_at: 2026-05-30
   duration: 30
   sources:
     - kind: original
