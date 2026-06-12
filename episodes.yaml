@@ -9381,3 +9381,19 @@
   duration: 30
   sources:
     - kind: original
+- num: 1204
+  title_jp: コナンと梓 誘拐したのは誰？（前編）
+  title_cn: 柯南与梓 绑架犯是谁？（上集）
+  aired_at: 2026-06-20
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.106
+- num: 1205
+  title_jp: コナンと梓 誘拐したのは誰？（後編）
+  title_cn: 柯南与梓 绑架犯是谁？（下集）
+  aired_at: 2026-06-27
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.106
