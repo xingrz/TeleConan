@@ -63,7 +63,7 @@
       ref: Vol.4
 - num: 9
   title_jp: 天下一夜祭殺人事件
-  title_cn: “天下一”夜祭杀人事件
+  title_cn: 天下一夜祭杀人事件
   aired_at: 1996-03-04
   duration: 30
   sources:
@@ -794,7 +794,7 @@
       ref: Vol.18
 - num: 102
   title_jp: 時代劇俳優殺人事件（前編）
-  title_cn: 时代剧演员杀人事件（上集）
+  title_cn: 古装演员杀人事件（上集）
   aired_at: 1998-05-25
   duration: 30
   sources:
@@ -804,7 +804,7 @@
       ref: Vol.18
 - num: 103
   title_jp: 時代劇俳優殺人事件（後編）
-  title_cn: 时代剧演员杀人事件（下集）
+  title_cn: 古装演员杀人事件（下集）
   aired_at: 1998-06-01
   duration: 30
   sources:
@@ -814,7 +814,7 @@
       ref: Vol.18
 - num: 104
   title_jp: 盗賊団謎の洋館事件（前編）
-  title_cn: 盗贼团谜之别墅事件（上集）
+  title_cn: 窃盗集团别墅事件（上集）
   aired_at: 1998-06-08
   duration: 30
   sources:
@@ -822,7 +822,7 @@
       ref: Vol.17
 - num: 105
   title_jp: 盗賊団謎の洋館事件（後編）
-  title_cn: 盗贼团谜之别墅事件（下集）
+  title_cn: 窃盗集团别墅时间件（下集）
   aired_at: 1998-06-15
   duration: 30
   sources:
@@ -9401,6 +9401,13 @@
   title_jp: 転げ落ちてきた男
   title_cn: 翻滚跌落的男子
   aired_at: 2026-07-11
+  duration: 30
+  sources:
+    - kind: original
+- num: 1207
+  title_jp: Jリーグ 開幕の警笛
+  title_cn: J联赛 开幕的警笛
+  aired_at: 2026-07-18
   duration: 30
   sources:
     - kind: original
