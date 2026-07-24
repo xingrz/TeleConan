@@ -9413,8 +9413,15 @@
     - kind: original
 - num: 1208
   title_jp: おいでよ石器人の里
-  title_cn: 欢迎来到石器人之乡
+  title_cn: 欢迎来石器人之村
   aired_at: 2026-07-25
+  duration: 30
+  sources:
+    - kind: original
+- num: 1209
+  title_jp: 狙われたのは誰？
+  title_cn: 被盯上的是谁？
+  aired_at: 2026-08-01
   duration: 30
   sources:
     - kind: original
