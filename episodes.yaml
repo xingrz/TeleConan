@@ -9446,3 +9446,34 @@
   duration: 30
   sources:
     - kind: original
+- num: 1213
+  title_jp: 目撃者、毛利蘭
+  title_cn: 目击者，毛利兰
+  aired_at: 2026-09-19
+  duration: 30
+  sources:
+    - kind: original
+- num: 1214
+  title_jp: 茜色の千秋楽（初日）
+  title_cn: 茜红色的最终日（初日）
+  aired_at: 2026-09-26
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.106
+- num: 1215
+  title_jp: 茜色の千秋楽（前楽）
+  title_cn: 茜红色的最终日（压轴日）
+  aired_at: 2026-10-03
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.106
+- num: 1216
+  title_jp: 茜色の千秋楽（大楽）
+  title_cn: 茜红色的最终日（大轴日）
+  aired_at: 2026-10-10
+  duration: 30
+  sources:
+    - kind: manga
+      ref: Vol.106
