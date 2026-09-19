@@ -1279,7 +1279,7 @@
       ref: Vol.21
 - num: 163
   title_jp: 月と星と太陽の秘密（前編）
-  title_cn: 月亮、星星、太阳的秘密（上集）
+  title_cn: 月亮、星星与太阳的秘密（上集）
   aired_at: 1999-10-11
   duration: 30
   sources:
@@ -1287,7 +1287,7 @@
       ref: Vol.12
 - num: 164
   title_jp: 月と星と太陽の秘密（後編）
-  title_cn: 月亮、星星、太阳的秘密（下集）
+  title_cn: 月亮、星星与太阳的秘密（下集）
   aired_at: 1999-10-18
   duration: 30
   sources:
@@ -2752,14 +2752,14 @@
       ref: Vol.43
 - num: 348
   title_jp: 愛と幽霊と地球遺産（前編）
-  title_cn: 爱、幽灵、地球遗产（上集）
+  title_cn: 爱、幽灵与地球遗产（上集）
   aired_at: 2004-01-26
   duration: 30
   sources:
     - kind: original
 - num: 349
   title_jp: 愛と幽霊と地球遺産（後編）
-  title_cn: 爱、幽灵、地球遗产（下集）
+  title_cn: 爱、幽灵与地球遗产（下集）
   aired_at: 2004-02-02
   duration: 30
   sources:
@@ -4404,7 +4404,7 @@
       ref: Vol.65
 - num: 558
   title_jp: 死亡の館、赤い壁（三顧の礼）
-  title_cn: 死亡之馆 赤壁（三顾之礼）
+  title_cn: 死亡之馆，赤壁（三顾之礼）
   aired_at: 2009-12-05
   duration: 30
   sources:
@@ -4414,7 +4414,7 @@
       ref: Vol.66
 - num: 559
   title_jp: 死亡の館、赤い壁（掌中の物）
-  title_cn: 死亡之馆 赤壁（掌中之物）
+  title_cn: 死亡之馆，赤壁（掌中之物）
   aired_at: 2009-12-12
   duration: 30
   sources:
@@ -4424,7 +4424,7 @@
       ref: Vol.66
 - num: 560
   title_jp: 死亡の館、赤い壁（死せる孔明）
-  title_cn: 死亡之馆 赤壁（逝者孔明）
+  title_cn: 死亡之馆，赤壁（逝者孔明）
   aired_at: 2009-12-19
   duration: 30
   sources:
@@ -4434,7 +4434,7 @@
       ref: Vol.66
 - num: 561
   title_jp: 死亡の館、赤い壁（空城の計）
-  title_cn: 死亡之馆 赤壁（空城计）
+  title_cn: 死亡之馆，赤壁（空城计）
   aired_at: 2009-12-26
   duration: 30
   sources:
@@ -4488,7 +4488,7 @@
     - kind: original
 - num: 568
   title_jp: 白鳥警部、桜の思い出（前編）
-  title_cn: 白鸟警官 樱花的回忆（上集）
+  title_cn: 白鸟警官，樱花的回忆（上集）
   aired_at: 2010-03-13
   duration: 30
   sources:
@@ -4496,7 +4496,7 @@
       ref: Vol.66
 - num: 569
   title_jp: 白鳥警部、桜の思い出（後編）
-  title_cn: 白鸟警官 樱花的回忆（下集）
+  title_cn: 白鸟警官，樱花的回忆（下集）
   aired_at: 2010-03-20
   duration: 30
   sources:
@@ -5421,7 +5421,7 @@
       ref: Vol.77
 - num: 684
   title_jp: 泡と湯気と煙（前編）
-  title_cn: 泡沫、热气、烟（上集）
+  title_cn: 泡沫、热气与烟（上集）
   aired_at: 2013-01-26
   duration: 30
   sources:
@@ -5429,7 +5429,7 @@
       ref: Vol.77
 - num: 685
   title_jp: 泡と湯気と煙（後編）
-  title_cn: 泡沫、热气、烟（下集）
+  title_cn: 泡沫、热气与烟（下集）
   aired_at: 2013-02-02
   duration: 30
   sources:
@@ -5502,7 +5502,7 @@
     - kind: original
 - num: 695
   title_jp: 葡萄畑に薔薇の花
-  title_cn: 葡萄园、玫瑰花
+  title_cn: 葡萄园与玫瑰花
   aired_at: 2013-04-27
   duration: 30
   sources:
@@ -5631,7 +5631,7 @@
       ref: Vol.79
 - num: 712
   title_jp: 服部平次と吸血鬼館（一）
-  title_cn: 服部平次、吸血鬼馆（一）
+  title_cn: 服部平次与吸血鬼馆（一）
   aired_at: 2013-10-05
   duration: 30
   sources:
@@ -5641,7 +5641,7 @@
       ref: Vol.80
 - num: 713
   title_jp: 服部平次と吸血鬼館（二）
-  title_cn: 服部平次、吸血鬼馆（二）
+  title_cn: 服部平次与吸血鬼馆（二）
   aired_at: 2013-10-12
   duration: 30
   sources:
@@ -5651,7 +5651,7 @@
       ref: Vol.80
 - num: 714
   title_jp: 服部平次と吸血鬼館（三）
-  title_cn: 服部平次、吸血鬼馆（三）
+  title_cn: 服部平次与吸血鬼馆（三）
   aired_at: 2013-10-19
   duration: 30
   sources:
@@ -5661,7 +5661,7 @@
       ref: Vol.80
 - num: 715
   title_jp: 服部平次と吸血鬼館（四）
-  title_cn: 服部平次、吸血鬼馆（四）
+  title_cn: 服部平次与吸血鬼馆（四）
   aired_at: 2013-10-26
   duration: 30
   sources:
@@ -5729,7 +5729,7 @@
       ref: Vol.80
 - num: 724
   title_jp: 怪盗キッドと赤面の人魚（前編）
-  title_cn: 怪盗基德、赤面人鱼（上集）
+  title_cn: 怪盗基德与赤面人鱼（上集）
   aired_at: 2014-01-04
   duration: 30
   sources:
@@ -5739,7 +5739,7 @@
       ref: Vol.79
 - num: 725
   title_jp: 怪盗キッドと赤面の人魚（後編）
-  title_cn: 怪盗基德、赤面人鱼（下集）
+  title_cn: 怪盗基德与赤面人鱼（下集）
   aired_at: 2014-01-11
   duration: 30
   sources:
@@ -5772,7 +5772,7 @@
       ref: Vol.80
 - num: 729
   title_jp: ダイヤと絵画と大女優
-  title_cn: 钻石、电影、大明星
+  title_cn: 钻石、电影与大明星
   aired_at: 2014-02-08
   duration: 30
   sources:
@@ -5809,7 +5809,7 @@
     - kind: original
 - num: 734
   title_jp: ジョディの追憶とお花見の罠
-  title_cn: 茱蒂的回忆、赏花的陷阱
+  title_cn: 茱蒂的回忆与赏花的陷阱
   aired_at: 2014-03-29
   duration: 60
   sources:
@@ -6463,14 +6463,14 @@
     - kind: original
 - num: 818
   title_jp: 小五郎、怒りの大追跡（前編）
-  title_cn: 小五郎愤怒大追踪（上集）
+  title_cn: 小五郎，愤怒大追踪（上集）
   aired_at: 2016-05-21
   duration: 30
   sources:
     - kind: original
 - num: 819
   title_jp: 小五郎、怒りの大追跡（後編）
-  title_cn: 小五郎愤怒大追踪（下集）
+  title_cn: 小五郎，愤怒大追踪（下集）
   aired_at: 2016-05-28
   duration: 30
   sources:
@@ -6525,7 +6525,7 @@
     - kind: original
 - num: 826
   title_jp: 美女とウソと秘密
-  title_cn: 美女、谎言、秘密
+  title_cn: 美女、谎言与秘密
   aired_at: 2016-07-23
   duration: 30
   sources:
@@ -8334,7 +8334,7 @@
     - kind: original
 - num: 1064
   title_jp: 夢見る貴婦人、最後の恋
-  title_cn: 痴人说梦的贵妇人 和她最后的恋爱
+  title_cn: 痴人说梦的贵妇人，和她最后的恋爱
   aired_at: 2022-11-19
   duration: 30
   sources:
