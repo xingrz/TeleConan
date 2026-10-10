@@ -9477,3 +9477,10 @@
   sources:
     - kind: manga
       ref: Vol.106
+- num: 1217
+  title_jp: 背中を押す手
+  title_cn: 推向后背的手
+  aired_at: 2026-10-17
+  duration: 30
+  sources:
+    - kind: original
