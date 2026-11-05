@@ -9498,3 +9498,17 @@
   duration: 30
   sources:
     - kind: original
+- num: 1220
+  title_jp: 女子会ミステリー5（前編）
+  title_cn: 女子聚会谜案5（上集）
+  aired_at: 2026-11-14
+  duration: 30
+  sources:
+    - kind: original
+- num: 1221
+  title_jp: 女子会ミステリー5（後編）
+  title_cn: 女子聚会谜案5（下集）
+  aired_at: 2026-11-21
+  duration: 30
+  sources:
+    - kind: original
