@@ -9427,7 +9427,7 @@
     - kind: original
 - num: 1210
   title_jp: 呪いの隣家
-  title_cn: 被诅咒的邻居家
+  title_cn: 受诅咒的邻居
   aired_at: 2026-08-22
   duration: 30
   sources:
@@ -9455,7 +9455,7 @@
     - kind: original
 - num: 1214
   title_jp: 茜色の千秋楽（初日）
-  title_cn: 茜红色的最终日（首演日）
+  title_cn: 茜色的最终日（首演日）
   aired_at: 2026-09-26
   duration: 30
   sources:
@@ -9463,7 +9463,7 @@
       ref: Vol.106
 - num: 1215
   title_jp: 茜色の千秋楽（前楽）
-  title_cn: 茜红色的最终日（压轴日）
+  title_cn: 茜色的最终日（压轴日）
   aired_at: 2026-10-03
   duration: 30
   sources:
@@ -9471,7 +9471,7 @@
       ref: Vol.106
 - num: 1216
   title_jp: 茜色の千秋楽（大楽）
-  title_cn: 茜红色的最终日（大轴日）
+  title_cn: 茜色的最终日（收官日）
   aired_at: 2026-10-10
   duration: 30
   sources:
@@ -9479,21 +9479,21 @@
       ref: Vol.106
 - num: 1217
   title_jp: 背中を押す手
-  title_cn: 推向后背的手
+  title_cn: 从背后推人的手
   aired_at: 2026-10-17
   duration: 30
   sources:
     - kind: original
 - num: 1218
   title_jp: わんダフルな捜査
-  title_cn: 汪为观止的搜查
+  title_cn: 精彩吠腾的调查
   aired_at: 2026-10-31
   duration: 30
   sources:
     - kind: original
 - num: 1219
   title_jp: お断りの多い喫茶店
-  title_cn: 频繁拒客的咖啡厅
+  title_cn: 经常拒客的咖啡店
   aired_at: 2026-11-07
   duration: 30
   sources:
