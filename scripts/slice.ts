@@ -104,17 +104,27 @@ sliceDataset({
   tiers: [500, 200, 20],
 });
 
+const knownSplits = new Map<number, { num: number; maps_to: { episode_num: number; segment?: number } }>();
+
 // Process streaming files
 const streamingFiles = readdirSync(DATA_DIR).filter(f => f.startsWith('streaming_') && f.endsWith('.yaml'));
 for (const file of streamingFiles) {
   const platform = basename(file, '.yaml').replace('streaming_', '');
-  const data = load(readFileSync(resolve(DATA_DIR, file), 'utf-8'), { schema: JSON_SCHEMA }) as { num: number }[];
+  const data = load(readFileSync(resolve(DATA_DIR, file), 'utf-8'), { schema: JSON_SCHEMA }) as { num: number; maps_to: { episode_num: number; segment?: number } }[];
+  for (const { num, maps_to } of data) knownSplits.set(num, { num, maps_to });
   sliceDataset({
     name: platform,
     data: data,
     tiers: [500, 200, 100, 50, 20, 10],
   });
 }
+
+// Dedicated mappings include episodes that are not yet available on streaming sites.
+const splitFile = resolve(DATA_DIR, 'episode_splits.yaml');
+const splits = existsSync(splitFile)
+  ? load(readFileSync(splitFile, 'utf-8'), { schema: JSON_SCHEMA }) as { num: number }[]
+  : [...knownSplits.values()];
+sliceDataset({ name: 'episode-split', data: splits, tiers: [500, 200, 100, 50, 20, 10] });
 
 // Copy stats.json if present
 const statsFile = resolve(DATA_DIR, 'stats.json');

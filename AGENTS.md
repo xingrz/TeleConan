@@ -19,11 +19,14 @@
 
 数据模型定义在 `src/types/`，streaming 通过 `maps_to.episode_num` 关联到 episode。
 
+拆分编号独立于播放入口显示，读取抓取器从维基生成的 `episode_splits.yaml`，按 `maps_to.episode_num` 反查 `num`；兼容旧数据时使用已有平台映射，不在前端推算。未播出条目同样显示编号，播放入口仍受播出日期控制。播出状态按浏览器本地日期判断，并在跨日后更新。
+
 ## 开发
 
 - `npm run dev` - 开发服务器
 - `npm run slice` - 单独运行分片脚本（需要 `data/` 目录下有 YAML 数据）
 - `npm run build` - 完整构建（slice + vite build）
+- `npm test` - 拆分编号计算的回归测试
 
 ## 约定
 

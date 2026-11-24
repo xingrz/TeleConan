@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 8080",
     "slice": "tsx scripts/slice.ts",
-    "build": "npm run slice && vite build"
+    "build": "npm run slice && vite build",
+    "test": "node --import tsx --test tests/*.test.ts"
   },
   "author": "XiNGRZ <hi@xingrz.me>",
   "license": "GPL-3.0",

@@ -1,6 +1,24 @@
-import { computed, ref, watch, onMounted, onUnmounted } from 'vue';
+import { computed, ref, onMounted, onUnmounted } from 'vue';
 
 const dark = ref(false);
+let themeFrame: number | undefined;
+
+function renderTheme() {
+  if (themeFrame !== undefined) cancelAnimationFrame(themeFrame);
+
+  const root = document.documentElement;
+  root.classList.add('theme-changing');
+  root.classList.toggle('dark', dark.value);
+  document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', dark.value ? 'dark' : 'light');
+
+  // Restore hover transitions after the new palette has been painted.
+  themeFrame = requestAnimationFrame(() => {
+    themeFrame = requestAnimationFrame(() => {
+      root.classList.remove('theme-changing');
+      themeFrame = undefined;
+    });
+  });
+}
 
 function systemDark() {
   return window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -18,8 +36,7 @@ function apply() {
   } else {
     dark.value = systemDark();
   }
-  document.documentElement.classList.toggle('dark', dark.value);
-  document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', dark.value ? 'dark' : 'light');
+  renderTheme();
 }
 
 export default function useTheme() {
@@ -43,8 +60,7 @@ export default function useTheme() {
       localStorage.removeItem('theme');
     }
     dark.value = next;
-    document.documentElement.classList.toggle('dark', dark.value);
-    document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', dark.value ? 'dark' : 'light');
+    renderTheme();
   }
 
   const icon = computed(() => dark.value ? 'moon' : 'sun');

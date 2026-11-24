@@ -1,7 +1,7 @@
 <template>
   <span>
     <template v-for="(part, i) in parts" :key="i">
-      <mark v-if="part.highlight" class="rounded bg-accent-subtle px-0.5 font-semibold text-accent">{{ part.text }}</mark>
+      <mark v-if="part.highlight" class="bg-accent-subtle px-0.5 font-semibold text-accent">{{ part.text }}</mark>
       <span v-else>{{ part.text }}</span>
     </template>
   </span>

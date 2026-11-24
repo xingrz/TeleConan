@@ -1,11 +1,10 @@
 <template>
   <div class="min-h-screen bg-surface text-text-primary antialiased">
-    <header class="border-b border-border bg-surface-elevated/90 backdrop-blur">
+    <header class="border-t-3 border-t-accent border-b border-border bg-surface-elevated">
       <div class="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
         <div class="flex items-start justify-between gap-4">
           <div class="min-w-0">
             <div class="flex items-center gap-3">
-              <span class="h-9 w-1.5 rounded-full bg-accent" aria-hidden="true" />
               <div>
                 <h1 class="text-2xl font-semibold leading-tight tracking-normal sm:text-3xl">TeleConan</h1>
                 <p class="mt-1 text-sm leading-6 text-text-secondary">名侦探柯南 TV 动画集数索引</p>
@@ -31,7 +30,7 @@
           </div>
 
           <button @click="toggle"
-            class="grid h-10 w-10 shrink-0 place-items-center rounded-lg text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary focus:outline-none focus:ring-2 focus:ring-accent/20"
+            class="grid h-10 w-10 shrink-0 place-items-center rounded-sm text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary focus:outline-none focus:ring-2 focus:ring-accent/20"
             :title="dark ? '切换为浅色' : '切换为深色'"
             :aria-label="dark ? '切换为浅色' : '切换为深色'">
             <svg v-if="dark" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -45,10 +44,10 @@
       </div>
     </header>
 
-    <section class="sticky top-0 z-20 border-b border-border bg-surface-elevated/90 backdrop-blur">
-      <div class="mx-auto max-w-5xl px-4 py-3 sm:px-6 lg:px-8" @focusin="openSearchPanel" @focusout="closeSearchPanel">
-        <div class="search-panel" :class="{ 'search-panel-expanded': searchExpanded }">
-          <div class="search-field" :class="{ 'search-field-expanded': searchExpanded }">
+    <section class="sticky top-0 z-20 border-b border-border bg-surface-elevated">
+      <div class="mx-auto max-w-5xl px-4 py-3 sm:px-6 lg:px-8">
+        <div class="search-panel">
+          <div class="search-field">
             <svg class="h-5 w-5 shrink-0 text-text-tertiary"
               viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd"
@@ -56,61 +55,54 @@
                 clip-rule="evenodd" />
             </svg>
 
-            <button v-for="f in activeSourceFilterList" :key="f.value" type="button"
-              class="search-token" @pointerdown.prevent @click="removeSourceFilter(f.value)">
-              <span>{{ f.label }}</span>
-              <span aria-hidden="true">×</span>
-            </button>
-            <button v-if="spOnly" type="button" class="search-token" @pointerdown.prevent @click="removeSpFilter">
-              <span>SP</span>
-              <span aria-hidden="true">×</span>
-            </button>
-
-            <input ref="searchInput" v-model="keyword" type="search" :placeholder="activeTokenCount ? '' : searchPlaceholder"
+            <input ref="searchInput" v-model="keyword" type="search" aria-label="搜索剧集" placeholder="集数 / 标题 / 日期 / 漫画"
               class="search-input min-w-24 flex-1 bg-transparent text-base text-text-primary outline-none placeholder:text-text-tertiary"
               @blur="updateHistory(keyword)" @keydown.enter="updateHistory(keyword)" />
 
-            <span class="ml-auto shrink-0 text-xs font-semibold text-text-secondary">{{ resultCountLabel }}</span>
+            <span class="ml-auto shrink-0 text-xs text-text-secondary" role="status">{{ resultCountLabel }}</span>
 
             <button v-if="keyword" type="button"
-              class="grid h-7 w-7 shrink-0 place-items-center rounded-md text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary"
-              aria-label="清空搜索" @click="clearKeyword">
+              class="grid h-7 w-7 shrink-0 place-items-center rounded-sm text-text-tertiary transition-colors hover:bg-surface-muted hover:text-text-primary"
+              aria-label="清空搜索" @pointerdown.prevent @click="clearKeyword">
               <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
               </svg>
             </button>
           </div>
 
-          <div v-if="searchExpanded" class="mt-3 flex flex-wrap items-center gap-1.5">
-            <button v-for="f in SOURCE_FILTERS" :key="f.value" type="button"
-              class="filter-chip"
-              :class="activeFilters.has(f.value) ? 'filter-chip-active' : 'filter-chip-idle'"
-              @click="toggleFilter(f.value)">
-              {{ f.label }}
-            </button>
-            <button type="button"
-              class="filter-chip"
-              :class="spOnly ? 'filter-chip-active' : 'filter-chip-idle'"
-              @click="spOnly = !spOnly">
-              SP
-            </button>
-            <button v-if="hasActiveFilter" type="button" class="ml-auto h-8 px-2 text-xs font-medium text-accent transition-colors hover:text-accent-hover"
-              @click="clearFilters">
-              重置
-            </button>
+          <div class="mt-2 flex items-center gap-2">
+            <div class="filter-options" role="group" aria-label="剧集筛选">
+              <button v-for="f in SOURCE_FILTERS" :key="f.value" type="button"
+                class="filter-chip"
+                :class="activeFilters.has(f.value) ? 'filter-chip-active' : 'filter-chip-idle'"
+                :aria-pressed="activeFilters.has(f.value)"
+                @click="toggleFilter(f.value)">
+                {{ f.label }}
+              </button>
+              <button type="button"
+                class="filter-chip"
+                :class="spOnly ? 'filter-chip-active' : 'filter-chip-idle'"
+                :aria-pressed="spOnly"
+                @click="spOnly = !spOnly">
+                SP
+              </button>
+              <button type="button" :class="{ invisible: !hasSourceFilter }" :disabled="!hasSourceFilter"
+                class="ml-auto h-11 shrink-0 px-2 text-xs text-text-secondary hover:text-accent"
+                aria-label="清除筛选" @click="clearSourceFilters">清除</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <main class="mx-auto max-w-5xl px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
-      <div class="flex items-center justify-between gap-3">
+    <main class="mx-auto max-w-5xl py-5 sm:px-6 sm:py-7 lg:px-8">
+      <div class="flex items-center justify-between gap-3 px-4 sm:px-0">
         <h2 class="text-sm font-semibold text-text-secondary">剧集列表</h2>
         <p class="text-xs text-text-tertiary">最新剧集在前</p>
       </div>
 
-      <div v-if="isLoading" class="mt-3 overflow-hidden rounded-lg border border-border bg-surface-elevated shadow-sm">
-        <div v-for="i in 8" :key="i" class="grid gap-3 border-b border-border px-4 py-4 last:border-b-0 sm:grid-cols-[6.5rem_minmax(0,1fr)]">
+      <div v-if="isLoading" class="mt-3 overflow-hidden border-y border-border bg-surface-elevated">
+        <div v-for="i in 8" :key="i" class="grid gap-3 border-b border-border px-4 py-4 last:border-b-0 sm:grid-cols-[9rem_minmax(0,1fr)]">
           <div class="h-5 w-16 animate-pulse rounded bg-surface-muted" />
           <div class="space-y-2">
             <div class="h-4 w-3/4 animate-pulse rounded bg-surface-muted" />
@@ -119,14 +111,14 @@
         </div>
       </div>
 
-      <div v-else-if="filtered.length === 0" class="mt-3 rounded-lg border border-border bg-surface-elevated px-6 py-12 text-center shadow-sm">
+      <div v-else-if="filtered.length === 0" class="mt-3 border-y border-border bg-surface-elevated px-6 py-12 text-center">
         <p class="text-sm font-medium text-text-primary">没有匹配的剧集</p>
         <p class="mt-2 text-sm text-text-tertiary">换一个集数、标题、日期或漫画卷数试试。</p>
       </div>
 
-      <div v-else class="mt-3 overflow-visible rounded-lg border border-border bg-surface-elevated shadow-sm">
+      <div v-else class="mt-3 border-y border-border bg-surface-elevated">
         <episode-card v-for="ep in filtered" :key="ep.num" :episode="ep" :keyword="keyword.trim()"
-          :bilibili="bilibili" :qq="qq" />
+          :bilibili="bilibili" :qq="qq" :split-numbers="episodeNumbering[ep.num] ?? []" :today="today" />
       </div>
     </main>
 
@@ -147,9 +139,12 @@ import EpisodeCard from '@/components/EpisodeCard.vue';
 import { useSliceStore, fillSliceStore, useSliceGroupDict } from '@/composables/slices';
 import useStats from '@/composables/useStats';
 import useTheme from '@/composables/useTheme';
+import useToday from '@/composables/useToday';
+import { getEpisodeNumbers } from '@/composables/episodeNumbers';
 import { useHistory, updateHistory } from '@/composables/history';
 
 import type { Episode } from '@/types/episode';
+import type { EpisodeSplit } from '@/types/episodeSplit';
 import type { Streaming } from '@/types/streaming';
 
 const REPO_URL = 'https://github.com/xingrz/TeleConan';
@@ -168,6 +163,7 @@ type SourceFilterValue = typeof SOURCE_FILTERS[number]['value'];
 
 const stats = useStats();
 const { dark, toggle } = useTheme();
+const today = useToday();
 
 const episodes = useSliceStore<Episode>();
 onMounted(async () => {
@@ -186,13 +182,20 @@ onMounted(async () => {
   await fillSliceStore(qqStore, 'qq-latest');
 });
 
+const splitStore = useSliceStore<EpisodeSplit>();
+const splits = useSliceGroupDict<number, EpisodeSplit>(splitStore, split => split.maps_to.episode_num);
+onMounted(async () => {
+  await fillSliceStore(splitStore, 'episode-split-latest');
+});
+
+const episodeNumbering = computed(() => getEpisodeNumbers(episodes.data, splits.value, [bilibili.value, qq.value]));
+
 const keyword = ref('');
+const searchInput = ref<HTMLInputElement | null>(null);
 useHistory(keyword);
 
 const activeFilters = reactive(new Set<SourceFilterValue>());
 const spOnly = ref(false);
-const searchFocused = ref(false);
-const searchInput = ref<HTMLInputElement | null>(null);
 
 function toggleFilter(value: SourceFilterValue) {
   if (activeFilters.has(value)) {
@@ -202,43 +205,9 @@ function toggleFilter(value: SourceFilterValue) {
   }
 }
 
-function removeSourceFilter(value: SourceFilterValue) {
-  activeFilters.delete(value);
-  focusSearchInput();
-}
+const hasSourceFilter = computed(() => activeFilters.size > 0 || spOnly.value);
 
-function removeSpFilter() {
-  spOnly.value = false;
-  focusSearchInput();
-}
-
-function focusSearchInput() {
-  requestAnimationFrame(() => searchInput.value?.focus());
-}
-
-function openSearchPanel() {
-  searchFocused.value = true;
-}
-
-function closeSearchPanel(event: FocusEvent) {
-  const current = event.currentTarget as HTMLElement | null;
-  const next = event.relatedTarget as Node | null;
-  if (current && next && current.contains(next)) return;
-  searchFocused.value = false;
-  updateHistory(keyword.value);
-}
-
-const hasActiveFilter = computed(() => keyword.value.trim().length > 0 || activeFilters.size > 0 || spOnly.value);
-
-const searchExpanded = computed(() => searchFocused.value);
-
-const activeSourceFilterList = computed(() => SOURCE_FILTERS.filter(f => activeFilters.has(f.value)));
-
-const activeTokenCount = computed(() => activeSourceFilterList.value.length + (spOnly.value ? 1 : 0));
-
-const searchPlaceholder = computed(() => {
-  return '集数 / 标题 / 日期 / 漫画';
-});
+const hasActiveFilter = computed(() => keyword.value.trim().length > 0 || hasSourceFilter.value);
 
 const isLoading = computed(() => episodes.data.length === 0);
 
@@ -252,14 +221,13 @@ const resultCountLabel = computed(() => {
 
 function clearKeyword() {
   keyword.value = '';
+  searchInput.value?.focus({ preventScroll: true });
   updateHistory(keyword.value);
 }
 
-function clearFilters() {
-  keyword.value = '';
+function clearSourceFilters() {
   activeFilters.clear();
   spOnly.value = false;
-  updateHistory(keyword.value);
 }
 
 const bilibiliNumSet = computed(() => {
@@ -299,7 +267,7 @@ function matchesKeyword(item: Episode): boolean {
   if (!q) return true;
 
   // Date filter
-  if (q.dateMatch) {
+  if (q.dateMatch && Number(q.dateMatch[1]) >= 1900) {
     return item.aired_at.startsWith(q.kw);
   }
 
@@ -316,6 +284,7 @@ function matchesKeyword(item: Episode): boolean {
   return item.title_jp.includes(q.kw) ||
     item.title_cn.includes(q.kw) ||
     item.num == q.kwNum ||
+    episodeNumbering.value[item.num]?.includes(q.kwNum) === true ||
     (!isNaN(q.kwNum) && bilibiliNumSet.value.has(q.kwNum) &&
       bilibili.value[item.num]?.some(s => s.num == q.kwNum) === true) ||
     (!isNaN(q.kwNum) && qqNumSet.value.has(q.kwNum) &&

@@ -5,26 +5,30 @@
 @theme {
   --font-sans: "Inter", "SF Pro Display", -apple-system, "Noto Sans SC", sans-serif;
 
-  --color-surface: #f6f7f9;
-  --color-surface-muted: #eef1f5;
-  --color-surface-elevated: #ffffff;
-  --color-text-primary: #171b22;
-  --color-text-secondary: #566070;
-  --color-text-tertiary: #8b95a5;
-  --color-border: #dfe4ea;
+  --color-surface: #f8f7f4;
+  --color-surface-muted: #eeede9;
+  --color-surface-elevated: #fdfcf9;
+  --color-text-primary: #242526;
+  --color-text-secondary: #62635f;
+  --color-text-tertiary: #797a74;
+  --color-border: #d9d8d2;
+  --color-source-original: #8a5e27;
+  --color-source-manga: #426b85;
   --color-accent: #c7352b;
   --color-accent-hover: #9f2a22;
   --color-accent-subtle: rgba(199, 53, 43, 0.07);
 }
 
 .dark {
-  --color-surface: #10141b;
-  --color-surface-muted: #1a2029;
-  --color-surface-elevated: #151a22;
-  --color-text-primary: #f4f7fb;
-  --color-text-secondary: #b3bdca;
-  --color-text-tertiary: #737f90;
-  --color-border: #28313d;
+  --color-surface: #181a1b;
+  --color-surface-muted: #252829;
+  --color-surface-elevated: #1d1f20;
+  --color-text-primary: #eeede7;
+  --color-text-secondary: #b5b6af;
+  --color-text-tertiary: #91958e;
+  --color-border: #383b3b;
+  --color-source-original: #c9ab78;
+  --color-source-manga: #8faec1;
   --color-accent: #ff766d;
   --color-accent-hover: #ff9a94;
   --color-accent-subtle: rgba(255, 118, 109, 0.12);
@@ -43,6 +47,30 @@
 }
 
 @layer components {
+  .episode-upcoming {
+    box-shadow: inset 3px 0 0 var(--color-accent);
+    background-color: var(--color-accent-subtle);
+  }
+
+  .source-tag {
+    border: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+  }
+
+  .source-tag-original {
+    color: var(--color-source-original);
+  }
+
+  .source-tag-manga {
+    color: var(--color-source-manga);
+  }
+
+  .source-tag-original,
+  .source-tag-manga {
+    border-color: color-mix(in srgb, currentColor 28%, transparent);
+    background-color: color-mix(in srgb, currentColor 6%, transparent);
+  }
+
   .meta-link {
     color: var(--color-text-secondary);
     text-decoration-line: underline;
@@ -56,62 +84,49 @@
     text-decoration-color: var(--color-accent);
   }
 
-  .filter-chip {
-    height: 2rem;
-    cursor: pointer;
-    user-select: none;
-    border-radius: 0.375rem;
-    border-width: 1px;
-    padding-inline: 0.75rem;
-    font-size: 0.8125rem;
-    font-weight: 500;
-    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease, transform 150ms ease;
+  .filter-options {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    align-items: center;
+    gap: 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
   }
 
-  .filter-chip:active {
-    transform: translateY(1px);
+  .filter-chip {
+    height: 2.75rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 2px solid transparent;
+    padding-inline: 0.625rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
   }
 
   .filter-chip-active {
     border-color: var(--color-accent);
-    background: var(--color-accent);
-    color: white;
-  }
-
-  .dark .filter-chip-active {
-    color: #10141b;
+    background: var(--color-accent-subtle);
+    color: var(--color-accent);
   }
 
   .filter-chip-idle {
-    border-color: var(--color-border);
-    background: var(--color-surface);
     color: var(--color-text-secondary);
   }
 
   .filter-chip-idle:hover {
-    border-color: var(--color-text-tertiary);
+    background: var(--color-surface-muted);
     color: var(--color-text-primary);
   }
 
-  .search-panel {
-    border-radius: 0.5rem;
-    border: 1px solid transparent;
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
-    transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, padding 150ms ease;
-  }
-
-  .search-panel-expanded {
-    border-color: var(--color-border);
-    background: rgba(255, 255, 255, 0.95);
-    padding: 0.75rem;
-    box-shadow: 0 6px 18px rgb(15 23 42 / 0.06);
-  }
-
-  .dark .search-panel-expanded {
-    background: rgba(21, 26, 34, 0.95);
-    box-shadow: 0 8px 22px rgb(0 0 0 / 0.25);
+  .filter-chip:focus-visible,
+  .episode-link:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: -3px;
   }
 
   .search-field {
@@ -120,66 +135,45 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 2px;
     border: 1px solid var(--color-border);
     background: var(--color-surface);
     padding: 0.375rem 0.5rem 0.375rem 0.875rem;
-    transition: border-color 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+    transition: border-color 150ms ease;
   }
 
-  .search-field:focus-within,
-  .search-field-expanded {
-    border-color: #d8a29f;
-    box-shadow: 0 0 0 2px var(--color-accent-subtle);
-  }
-
-  .dark .search-field:focus-within,
-  .dark .search-field-expanded {
-    border-color: #8e4b48;
-  }
-
-  .search-token {
-    display: inline-flex;
-    height: 1.75rem;
-    align-items: center;
-    gap: 0.25rem;
-    border-radius: 0.375rem;
-    border: 1px solid var(--color-border);
-    background: var(--color-surface-elevated);
-    padding-inline: 0.5rem;
-    font-size: 0.8125rem;
-    font-weight: 500;
-    color: var(--color-text-secondary);
-    transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
-  }
-
-  .search-token:hover {
+  .search-field:focus-within {
     border-color: var(--color-accent);
-    background: var(--color-accent-subtle);
-    color: var(--color-accent);
   }
 
   .episode-link {
     display: inline-flex;
-    min-height: 1.625rem;
+    min-height: 1.75rem;
+    min-width: 1.75rem;
     align-items: center;
-    border-radius: 0.375rem;
-    border: 1px solid var(--color-border);
-    background: var(--color-surface);
-    padding-inline: 0.5rem;
-    font-weight: 500;
+    justify-content: center;
     color: var(--color-text-secondary);
-    transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 4px;
+    transition: color 150ms ease, text-decoration-color 150ms ease;
   }
 
   .episode-link:hover {
-    border-color: var(--color-accent);
-    background: var(--color-accent-subtle);
     color: var(--color-accent);
+    text-decoration-color: var(--color-accent);
   }
 
   .search-input::-webkit-search-cancel-button {
     appearance: none;
     -webkit-appearance: none;
   }
+}
+
+/* Theme colors must change together, including controls with hover transitions. */
+.theme-changing,
+.theme-changing *,
+.theme-changing *::before,
+.theme-changing *::after {
+  transition: none !important;
 }
