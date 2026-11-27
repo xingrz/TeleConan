@@ -108,7 +108,7 @@
     - kind: original
 - num: 14
   title_jp: 謎のメッセージ狙撃事件
-  title_cn: 谜之消息狙击事件
+  title_cn: 谜之讯息狙击事件
   aired_at: 1996-04-29
   duration: 30
   sources:
@@ -1099,7 +1099,7 @@
       ref: Vol.23
 - num: 140
   title_jp: SOS! 歩美からのメッセージ
-  title_cn: SOS！来自步美的消息
+  title_cn: SOS！来自步美的讯息
   aired_at: 1999-04-12
   duration: 30
   sources:
@@ -1349,7 +1349,7 @@
       ref: Vol.24
 - num: 172
   title_jp: よみがえる死の伝言（前編）
-  title_cn: 复活的死亡消息（上集）
+  title_cn: 复活的死亡讯息（上集）
   aired_at: 1999-12-13
   duration: 30
   sources:
@@ -1357,7 +1357,7 @@
       ref: Vol.25
 - num: 173
   title_jp: よみがえる死の伝言（後編）
-  title_cn: 复活的死亡消息（下集）
+  title_cn: 复活的死亡讯息（下集）
   aired_at: 1999-12-20
   duration: 30
   sources:
@@ -2166,7 +2166,7 @@
       ref: Vol.35
 - num: 276
   title_jp: 警察手帳紛失事件
-  title_cn: 警察手册丢失事件
+  title_cn: 警察手册遗失事件
   aired_at: 2002-05-06
   duration: 30
   sources:
@@ -3340,7 +3340,7 @@
     - kind: original
 - num: 424
   title_jp: ピエロからの写真メール
-  title_cn: 小丑传来的照片邮件
+  title_cn: 小丑传来的相片邮件
   aired_at: 2005-12-19
   duration: 30
   sources:
@@ -3810,7 +3810,7 @@
     - kind: original
 - num: 484
   title_jp: 黒い写真の行方（前編）
-  title_cn: 黑色照片的下落（上集）
+  title_cn: 黑色相片的下落（上集）
   aired_at: 2007-08-20
   duration: 30
   sources:
@@ -3818,7 +3818,7 @@
       ref: Vol.56
 - num: 485
   title_jp: 黒い写真の行方（後編）
-  title_cn: 黑色照片的下落（下集）
+  title_cn: 黑色相片的下落（下集）
   aired_at: 2007-08-27
   duration: 30
   sources:
@@ -5749,7 +5749,7 @@
       ref: Vol.79
 - num: 726
   title_jp: 幸福メールは不幸を呼ぶ
-  title_cn: 幸福消息招来不幸
+  title_cn: 幸福讯息招来不幸
   aired_at: 2014-01-18
   duration: 30
   sources:
@@ -7410,7 +7410,7 @@
     - kind: original
 - num: 941
   title_jp: マリアちゃんをさがせ!（前編）
-  title_cn: 查找玛莉亚！（上集）
+  title_cn: 寻找玛莉亚！（上集）
   aired_at: 2019-06-01
   duration: 30
   sources:
@@ -7418,7 +7418,7 @@
       ref: Vol.95
 - num: 942
   title_jp: マリアちゃんをさがせ!（後編）
-  title_cn: 查找玛莉亚！（下集）
+  title_cn: 寻找玛莉亚！（下集）
   aired_at: 2019-06-08
   duration: 30
   sources:
@@ -7919,7 +7919,7 @@
     - kind: original
 - num: 1009
   title_jp: 落とし物は事件のにおい
-  title_cn: 丢失物背后的事件
+  title_cn: 遗失物背后的事件
   aired_at: 2021-06-19
   duration: 30
   sources:
@@ -9178,7 +9178,7 @@
     - kind: original
 - num: 1177
   title_jp: 幻の大男を探せ
-  title_cn: 查找神秘的高大男子
+  title_cn: 寻找神秘的高大男子
   aired_at: 2025-09-27
   duration: 30
   sources:
